@@ -1,0 +1,730 @@
+#config_version=5
+
+#CobraPin Example Config
+
+hardware:
+  platform: opp
+  driverboards: gen2
+
+opp:
+  #Use the USB ports defined by your OS for the two STM32 boards
+    ports: /dev/ttyACM1, /dev/ttyACM2
+  #USING SERIAL NUMBERS INSTEAD OF CHAINS
+  #  Board 0 has serial number 0, Board 1 has serial number 1.
+  #  This is convenient if your OS tends to reassign the serial port.
+  #  MPF will automatically address the correct board even if the ports
+  #     are swapped.
+
+  #For multiple CobraPin boards in a game, you will either have to give
+  #  the STM32 boards on the second CobraPin board new serial numbers
+  #  (10 and 11 are suggested for the 2nd board since 2 is used by the
+  #  CobraPin Xpansion Board)
+  #  <OR> Use the chains section to assign a port to a board number.
+  #  Mixing these up could cause blown FETs, coils, and fuses. Proceed
+  #  with caution. Test without coil power and use the yellow coil LEDs
+  #  for feedback.
+  #chains:
+     #0: /dev/ttyACM0
+     #1: /dev/ttyACM1
+     #2: /dev/ttyACM2
+
+
+
+psus:
+  default:
+    #Gives the capacitors extra time to recharge after firing a coil
+    #  and eases the load on the power supply. Doesn't affect autofire
+    #  devices like flippers, pops, slings.
+    release_wait_ms: 50
+
+modes:
+  - base
+  - ball_save
+  - ball_one_champ_select
+  - mb_bs  
+  - base_led
+  - bottom_lanes
+  - champ_select
+#  - mode2
+  - attract
+  - jungle
+  - skillshot
+  - top_lanes
+  - left_orbit
+  - right_orbit
+  - left_ramp
+  - shooter_lane
+  - support_mode
+  - high_score
+#  - right_ramp
+#  - supermegadeathrocket
+
+#  - targetmode
+#  - start_selecton_on_ball_one
+#  - match
+
+#One giant config file can get difficult to manage. You can put any of
+#  these config sections in its own yaml file and link to it with the
+#  config section here
+config:
+  - config_lights.yaml  
+  - config_sound.yaml
+  - config_images.yaml
+
+switches:
+
+  s_start:
+    number: 0-0-27
+    tags: start
+
+  s_left_slingshot:
+    number: 0-0-1
+  s_right_slingshot:
+    number: 0-0-2
+  s_bottom_jet:
+    number: 0-0-9
+  s_left_jet:
+    number: 0-0-3
+  s_right_jet:
+    number: 0-0-8
+  s_bottom_popper:
+    number: 1-0-1
+  s_left_drop_lock:
+    number: 0-0-19
+  s_right_drop_lock_front:
+    number: 0-0-18
+  s_right_drop_lock_back:
+    number: 0-0-17
+  s_drop_front:
+    number: 0-0-25
+    type: "NC"
+    
+  s_drop_middle:
+    number: 0-0-24
+    type: "NC"
+    
+  s_drop_back:
+    number: 0-0-26
+    type: "NC"
+    
+  s_rear_sub:
+    number: 1-0-29
+    type: 'NC'
+
+  s_left_flipper:
+    number: 0-0-11
+    tags: left_flipper
+
+  s_right_flipper:
+    number: 0-0-10
+    tags: right_flipper
+
+  s_right_inlane:
+    number: 1-0-22
+
+  s_left_inlane:
+    number: 1-0-21
+    
+  s_ball_save:
+    number: 1-0-28
+
+  s_right_outlane:
+    number: 1-0-23
+
+  s_trough1:
+    number: 1-0-2
+    type: "NC"
+    
+  s_ball_jam:
+    number: 1-0-30
+    type: "NC"
+
+  s_trough2:
+    number: 1-0-3
+
+#  s_right_ramp:
+#    number: 1-0-25
+
+ # s_auto_launcher:
+ #  number: 0-0-26
+  s_trough3:
+    number: 1-0-8
+  s_trough4:
+    number: 1-0-9
+  s_trough5:
+    number: 1-0-10
+
+  s_plunger:
+    number: 0-0-16
+
+  s_drain:
+    number: 1-0-31
+
+  s_q:
+    number: 1-0-27
+  s_w:
+    number: 1-0-26
+  s_e:
+    number: 1-0-25
+  s_r:
+    number: 1-0-24
+
+  s_t3:
+    number: 1-0-19
+
+  s_t4:
+    number: 1-0-18
+
+  s_t5:
+    number: 1-0-17
+
+  s_t6:
+    number: 1-0-16
+ 
+
+  #s_t7:
+    #number: 1-0-22
+
+  #s_t8:
+    #number: 1-0-23
+
+  s_tward:
+    number: 1-0-20
+
+
+  #s_left_ramp:
+    #number: 3-0-1
+
+  #s_right_ramp:
+   # number: 3-0-3
+
+  #s_left_spinner:
+    #number: 3-0-2
+
+
+
+spinners:
+  #basic_spinner:
+   # switch: s_left_spinner
+    #active_ms: 500
+
+
+  #NEO1 output supports 256 LEDs numbered 1-0-0 to 1-0-255
+
+#! Config
+
+
+
+
+window:
+  width: 2560
+  height: 3120
+  title: MPF All Display Window
+  fullscreen: false
+  resizable: false
+  borderless: true
+  exit_on_escape: true
+  no_window: false
+  show_cursor: no 
+
+
+displays:
+
+  window:
+    width: 2560
+    height: 3120
+  display1:
+    width: 2560
+    height: 1440
+  display2:
+    width: 1920
+    height: 1080
+  display3:
+    width: 800
+    height: 480
+
+
+slides:
+  slide_layout:
+    target: window
+    background_color: black #white for test
+    widgets: 
+      - type: display
+        source_display: display1
+        width: 2560
+        height: 1440
+        x: right
+        y: 2400
+        anchor_x: right
+
+      - type: display
+        source_display: display2
+        width: 1920
+        height: 1080
+        x: left
+        y: 1140
+        anchor_x: left
+      - type: display
+        source_display: display3
+        width: 800
+        height: 480
+        x: left
+        y: 125
+        anchor_x: left
+        anchor_y: bottom 
+
+
+
+slide_player:
+  mc_ready:
+    slide_layout:
+      target: window 
+
+
+
+coils:
+  c_flipper_left_main:
+    number: 0-0-9
+    default_pulse_ms: 30
+    
+  c_flipper_left_hold:
+    number: 0-0-8
+    allow_enable: true   
+    default_hold_power: 1.0
+    
+  c_flipper_right_main:
+    number: 0-0-11
+    default_pulse_ms: 30
+    
+  c_flipper_right_hold:
+    number: 0-0-10
+    allow_enable: true   
+    default_hold_power: 1.0
+    
+  c_flipper_right_upper_hold:
+    number: 0-0-13
+    allow_enable: true   
+    default_hold_power: 1.0 
+    
+  c_flipper_right_upper_main:
+    number: 0-0-14
+    default_pulse_ms: 30
+
+    
+  c_trough_eject:
+    number: 1-0-2
+    default_pulse_ms: 35
+
+  c_shaker:
+    number: 1-0-6
+    default_pulse_ms: 50
+    default_hold_power: 0.125    # keep this low
+
+  c_left_slingshot:
+    number: 0-0-0
+    default_pulse_ms: 25
+    
+  c_right_slingshot:
+    number: 0-0-12
+    default_pulse_ms: 25
+    
+  c_bottom_jet_bumper:
+    number: 0-0-6
+    default_pulse_ms: 30
+    
+  c_left_jet_bumper:
+    number: 0-0-15
+    default_pulse_ms: 30
+    
+  c_right_jet_bumper:
+    number: 0-0-7
+    default_pulse_ms: 30
+
+  c_bottom_popper:
+    number: 1-0-1
+    default_pulse_ms: 25
+
+  c_back_subway:
+    number: 1-0-3
+    default_pulse_ms: 150
+
+
+  c_auto_launch:
+    number: 0-0-5
+    default_pulse_ms: 50
+    
+  c_drop_reset:
+    number: 0-0-4
+    default_pulse_ms: 100
+
+  c_drop_reset_left:
+    number: 0-0-3
+    default_pulse_ms: 35
+
+  c_drop_reset_right_back:
+    number: 0-0-1
+    default_pulse_ms: 35
+    
+  c_drop_reset_right_front:
+    number: 0-0-2
+    default_pulse_ms: 35
+
+
+  c_ball_save:
+    number: 1-0-4
+    default_pulse_ms: 30
+
+kickbacks:
+  left_kickback:
+    enable_events: s_plunger_active
+    coil: c_ball_save
+    switch: s_ball_save
+    coil_pulse_delay: 255
+
+
+
+flippers:
+  #Add your flipper config
+
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+    enable_events: s_plunger_inactive
+    
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper
+    enable_events: s_plunger_inactive
+    
+  right_top_flipper:
+    main_coil: c_flipper_right_upper_main
+    hold_coil: c_flipper_right_upper_hold    
+    activation_switch: s_right_flipper
+    enable_events: s_plunger_inactive
+    
+
+autofire_coils:
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+  right_slingshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+  bottom_jet:
+    coil: c_bottom_jet_bumper
+    switch: s_bottom_jet
+  left_jet:
+    coil: c_left_jet_bumper
+    switch: s_left_jet
+  right_jet:
+    coil: c_right_jet_bumper
+    switch: s_right_jet
+   
+
+ball_devices:
+  bd_trough:
+    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5
+    tags: trough, home, drain
+    eject_coil: c_trough_eject
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_plunger
+    eject_timeouts: 2s
+    jam_switch: s_ball_jam
+  bd_plunger:
+    ball_switches: s_plunger
+    eject_coil: c_auto_launch
+    mechanical_eject: true
+    eject_timeouts: 5s
+    player_controlled_eject_event: flipper_cancel
+#  bd_plunger_auto:
+ #   ball_switches: s_auto_launcher
+  #  eject_coil: c_auto_launch
+  bd_lower_vuk:
+    ball_switches: s_bottom_popper
+    eject_coil: c_bottom_popper
+    eject_timeouts: 3s
+  bd_rear_vuk:
+    ball_switches: s_rear_sub
+    eject_coil: c_back_subway
+    eject_timeouts: 3s
+
+  bd_ball_lock:
+    eject_coil: c_trough_eject
+    ball_switches: s_tward
+   
+combo_switches:
+  both_flippers:
+    tag_1: left_flipper
+    tag_2: right_flipper
+    events_when_both: flipper_cancel
+
+drop_targets:
+  left:
+    switch:  s_left_drop_lock
+  right_front:
+    switch:  s_right_drop_lock_front
+  right_back:
+    switch: s_right_drop_lock_back
+
+  front:
+    switch: s_drop_front
+  middle:
+    switch: s_drop_middle
+  back:
+    switch: s_drop_back
+  
+drop_target_banks:
+  vuk_bank:
+    drop_targets: front, middle, back
+    reset_coils: c_drop_reset
+    reset_on_complete: 10s
+    reset_events: 
+      ball_started.1: 0
+      ball_started.2: 1s
+      ball_started.3: 2s
+      machine_reset_phase_3: 0     
+
+  left_bank:
+    drop_targets: left
+    reset_coils:  c_drop_reset_left
+    reset_on_complete: 10s
+
+  right_bank:
+    drop_targets: right_front, right_back
+    reset_coils:  c_drop_reset_right_front
+    reset_on_complete: 10s
+  right_bank2:
+    drop_targets: right_front, right_back
+    reset_coils:  c_drop_reset_right_back
+    reset_on_complete: 10s
+
+
+
+playfields:
+  #Define your playfields
+
+  playfield:
+    default_source_device: bd_plunger
+    tags: default
+
+
+machine:
+  balls_installed: 5 #How many balls are physically in your game
+  min_balls: 2 #How few balls can be accounted for before you can start a game
+
+
+timed_switches:
+  game_cancel:
+    switch_tags: start
+    time: 5s
+    events_when_active: end_game
+
+game:
+  balls_per_game: 3
+  max_players: 4
+
+
+player_vars:
+  Shrooms:
+    initial_value: 0
+  CS:
+    initial_value: 0
+    
+  selected_champ: 
+    initial_value: garen
+    value_type: str
+    
+  is_selected_champ: 
+    initial_value: 0
+    value_type: int
+
+
+keyboard:
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  4:
+    switch: s_trough4
+    toggle: true
+  5:
+    switch: s_trough5
+    toggle: true
+  p:
+    switch: s_plunger
+    toggle: true
+  s:
+    switch: s_start
+  q:
+    switch: s_right_inlane  
+  t: 
+    switch:   s_rear_sub
+    toggle: true
+  8: 
+    switch: s_tward
+   
+ 
+virtual_platform_start_active_switches:
+  - s_trough1
+  - s_trough2
+  - s_trough3
+  - s_trough4
+  - s_trough5
+
+
+
+show_player:
+
+
+  skill_success:
+
+    skillshot_hit_show:
+      priority: 1000
+      speed: 20
+      loops: 0
+    skillshot_hit_show_led:
+      priority: 1000
+      speed: 20
+      loops: 0
+
+
+  skill_failed:
+
+    skillshot_unhit_show:
+      priority: 1000
+      speed: 20
+      loops: 0
+  mode_attract_started:
+    attract_backglass:
+      speed: 20
+
+sound_player:
+  mode_base_stopped:
+    music_bg1:
+      action: stop
+
+  mode_base_started:
+    music_bg1:
+      action: play
+
+  s_start_active:
+    sfx_welcome:
+      action: play
+
+  s_tl1_active:
+    gold:
+      action: play
+
+  s_tl2_active:
+    gold:
+      action: play
+  s_bottom_jet_active:
+    teemo:
+      action: play      
+  s_left_jet_active:
+    teemo:
+      action: play 
+  s_right_jet_active:
+    teemo:
+      action: play 
+  s_t3_active:
+    target1:
+      action: play 
+  s_t4_active:
+    target1:
+      action: play
+  s_t5_active:
+    target2:
+      action: play
+  s_t6_active:
+    target2:
+      action: play
+  s_t7_active:
+    target3:
+      action: play
+  s_t8_active:
+    target3:
+      action: play
+  s_tward_active:
+    sward:
+      action: play
+  s_bottom_popper_active:
+    smite:
+      action: play
+
+  #play_rr_1:
+    #jinxr1:
+      #action: play
+ # play_rr_2:
+    #jinxr2:
+      #action: play
+ # play_rr_3:
+    #jinxr3:
+      #action: play
+ # play_rr_4:
+    #jinxr4:
+      #action: play
+
+machine_vars:
+  master_volume:
+    initial_value: 0.70   # Set this to any value you want
+    value_type: float
+    persist: true         # If false, the volume will reset to default
+                          # each time the machine boots up
+
+widget_styles:
+  attract_mode_high_score_display_label:
+    font_size: 60
+    anchor_x: left
+    anchor_y: top
+    x: center - 800
+    bold: true
+  attract_mode_high_score_display_name:
+    font_size: 60
+    anchor_x: center
+    anchor_y: top
+    x: center
+  attract_mode_high_score_display_score:
+    font_size: 60
+    anchor_x: left
+    anchor_y: top
+    x: center+450
+    number_grouping: true
+    min_digits: 1
+
+
+
+    
+coil_player:
+
+
+  s_right_jet_active:
+    c_shaker: enable
+
+  s_right_jet_inactive:
+    c_shaker: disable
+
+  s_left_jet_active:
+    c_shaker: enable
+
+  s_left_jet_inactive:
+    c_shaker: disable
+
+  s_bottom_jet_active:
+    c_shaker: enable
+
+  s_bottom_jet_inactive:
+    c_shaker: disable
+
+  enable_shaker_event:
+    c_shaker: enable
+  disable_shaker_event:
+    c_shaker: disable
+    

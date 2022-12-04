@@ -1,0 +1,123 @@
+#config_version=5
+
+sound_system:
+  tracks: #not music tracks, more like channels in audio mixer
+    music:
+      type: standard
+      simultaneous_sounds: 1
+      volume: 1.0
+    voice:
+      type: standard
+      simultaneous_sounds: 1
+      volume: 0.7
+    sfx:
+      type: standard
+      simultaneous_sounds: 8
+      volume: 1.0
+      
+assets:
+  sounds:
+    default:
+      load: on_demand
+    music:
+      track: music
+    sfx:
+      track: sfx
+    voice:
+      track: voice      
+      
+      
+sounds:
+  music_bg1:  
+    file: worlds.wav
+    volume: 1.0
+    priority: 100
+    about_to_finish_time: 2s
+    events_when_about_to_finish: music_bg1_about_to_finish
+  sfx_welcome:  
+    file: Welcome.wav 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+  gold:  
+    file: gold.wav 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+  teemo:  
+    file: teemo.ogg 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+  target1:  
+    file: target1.wav 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+  target2:  
+    file: target2.wav 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+  target3:  
+    file: target3.wav 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+  sward:  
+    file: sward.wav 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+  smite:  
+    file: smite.wav 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+  jinxr1:  
+    file: jinxr1.ogg 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+  jinxr2:  
+    file: jinxr2.ogg  
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+  jinxr3:  
+    file: jinxr3.ogg 
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+
+  jinxr4:  
+    file: jinxr4.ogg  
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish
+
+  smdr:  
+    file: jinx5.ogg  
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish

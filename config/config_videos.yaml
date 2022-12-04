@@ -1,0 +1,71 @@
+#config_version=5
+
+videos: 
+
+  thecall:
+    width: 2560
+    height: 1440
+    file: thecall.mkv
+    
+  rise:
+    width: 2560
+    height: 1440
+    file: rise.mkv
+
+  awaken:
+    width: 2560
+    height: 1440
+    file: awaken.mkv
+
+  warriors:
+    width: 2560
+    height: 1440
+    file: warriors.mkv
+
+  ignite:
+    width: 2560
+    height: 1440
+    file: ignite.mkv
+
+  legends:
+    width: 2560
+    height: 1440
+    file: legends.mkv
+
+  smdr:
+    width: 2560
+    height: 1440
+    file: smdr.mkv
+    
+  fuse:
+    width: 2560
+    height: 1440
+    file: fuse.mp4
+    
+  star:
+    width: 2560
+    height: 1440
+    file: star.mp4
+    
+  penta:
+    width: 2560
+    height: 1440
+    file: penta.mp4   
+
+  lolin:
+    width: 2560
+    height: 1440
+    file: lolin.mp4 
+     
+  thresh2:
+    width: 2560
+    height: 1440
+    file: thresh2.mp4               
+  threshmb2:
+    width: 800
+    height: 480
+    file: threshmb2.mp4          
+  rebith:
+    width: 2560
+    height: 1440
+    file: rebith.mp4               

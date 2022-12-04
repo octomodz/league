@@ -1,0 +1,48 @@
+#config_version=5
+
+images: 
+
+  baron_bg:
+    file: baron.jpg
+    load: preload
+
+  league:
+    file: league.jpg
+    load: preload
+
+  canuprintthis:
+    file: LogoSticker.png
+    load: preload
+
+  trident:
+    file: trident.png
+    load: preload
+
+  ohmbrew:
+    file: ohmbrew.png
+    load: preload
+
+
+  thanks:
+    file: thanks.png
+    load: preload
+
+  zen:
+    file: zen.png
+    load: preload
+    
+  scorebg1:
+    file: scorebg1.png
+    load: preload    
+  garen:
+    file: garen.png
+    load: preload  
+  jinx:
+    file: jinx.png
+    load: preload  
+  vi:
+    file: vi.png
+    load: preload  
+  sivir:
+    file: sivir.png
+    load: preload      
