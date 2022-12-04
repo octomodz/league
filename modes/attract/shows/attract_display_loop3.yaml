@@ -1,0 +1,167 @@
+#show_version=5
+
+
+- duration: 968s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: lolin
+      transition:
+        type: wipe
+        duration: 1s
+        
+- duration: 968s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: star
+      transition:
+        type: wipe
+        duration: 1s
+        
+- duration: 968s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: enemy
+      transition:
+        type: wipe
+        duration: 1s
+        
+- duration: 968s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: fuse
+      transition:
+        type: wipe
+        duration: 1s        
+
+- duration: 968s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: thecall
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 90s
+  slides:
+    backglass:
+      target: display1
+      widgets:
+      - type: image
+        image: baron_bg
+        x: right - 50%
+        y: top - 50%
+      transition:
+        type: wipe
+        duration: 1s
+        
+- duration: 968s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: burn
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 90s
+  slides:
+    backglass:
+      target: display1
+      widgets:
+      - type: image
+        image: baron_bg
+        x: right - 50%
+        y: top - 50%
+      transition:
+        type: wipe
+        duration: 1s
+        
+- duration: 824s
+  slides:
+    rise_song:
+      target: display1
+      widgets:
+      - type: video
+        video: rise
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 90s
+  slides:
+    backglass:
+      target: display1
+      widgets:
+      - type: image
+        image: baron_bg
+        x: right - 50%
+        y: top - 50%
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 832s
+  slides:
+    awaken_song:
+      target: display1
+      widgets:
+      - type: video
+        video: awaken
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 90s
+  slides:
+    backglass:
+      target: display1
+      widgets:
+      - type: image
+        image: baron_bg
+        x: right - 50%
+        y: top - 50%
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 712s
+  slides:
+    legends_song:
+      target: display1
+      widgets:
+      - type: video
+        video: legends
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 90s
+  slides:
+    backglass:
+      target: display1
+      widgets:
+      - type: image
+        image: baron_bg
+        x: right - 50%
+        y: top - 50%
+      transition:
+        type: wipe
+        duration: 1s
+

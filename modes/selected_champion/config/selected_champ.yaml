@@ -1,0 +1,42 @@
+#config_version=5
+
+
+##! mode: skill_shot
+mode:
+  start_events: mode_champ_select_stopped
+  stop_events: player_turned_ended
+
+    
+  priority: 6000
+  
+widgets: 
+
+  garen: 
+    type: image
+    image: garen  
+       
+  jinx: 
+    type: image
+    image: jinx  
+       
+  vi: 
+    type: image
+    image: vi     
+                  
+  sivir: 
+    type: image
+    image: sivir   
+    
+    slides: 
+
+  base_slide_main:
+    # priority: 5000
+     widgets:
+
+        
+      - widget: (selected_champ)
+        x: center
+        y: center + 200
+
+       
+ 

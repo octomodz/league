@@ -1,0 +1,20 @@
+#config_version=5
+
+show_player:
+  mode_attract_started:
+    
+    attract_light_show:
+      speed: 35
+
+    attract_display_loop:
+      speed: 4
+    attract_display_loop2:
+      speed: 4
+    attract_display_loop3:
+      speed: 4
+
+sound_player:
+  mode_attract_stopped:
+    sfx_welcome:
+      action: play
+      loops: 0

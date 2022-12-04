@@ -1,0 +1,14 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  stop_events: mode_base_started
+
+  priority: 200
+  # game_mode: false 
+
+event_player:
+  mode_ball_one_champ_select_started{current_player.is_selected_champ == 0}:
+    start_champ_select
+  mode_ball_one_champ_select_started{current_player.is_selected_champ != 0}:
+    start_base

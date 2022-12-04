@@ -1,0 +1,28 @@
+#show_version=5
+
+- duration: 30s
+  slides:
+    select_skillshot:
+      target: display3
+      widgets:
+      - type: Text
+        font_size: 100
+        text: Select Skillshot
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: true
+        x: center
+        y: center
+      - type: Text
+        text: Use Left or Right Flipper
+        font_size: 50
+        color: green
+        x: center
+        y: bottom + 20%
+

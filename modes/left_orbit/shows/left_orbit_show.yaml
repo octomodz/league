@@ -1,0 +1,56 @@
+#show_version=5
+- time: 0
+  lights:
+    0_led60: 'EB00D8'
+    
+- time: '+1'
+  lights:
+    0_led60: 'D600DB'
+    
+- time: '+1'
+  lights:
+    0_led60: '000000'
+    
+- time: '+1'
+  lights:
+    0_led61: 'B000E1'
+    
+- time: '+1'
+  lights:
+    0_led61: '470068'
+    0_led62: '8700C6'
+    
+- time: '+1'
+  lights:
+    0_led61: '000000'
+    0_led62: '8900E7'
+    
+- time: '+1'
+  lights:
+    0_led62: '000000'
+    
+- time: '+1'
+  lights:
+    0_led63: '6200ED'
+    
+- time: '+1'
+  lights:
+    0_led63: '4E00F0'
+    
+- time: '+1'
+  lights:
+    0_led63: '000000'
+    0_led64: '3A00F3'
+    
+- time: '+1'
+  lights:
+    0_led64: '2700F6'
+    
+- time: '+1'
+  lights:
+    0_led64: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    

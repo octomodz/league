@@ -1,0 +1,34 @@
+#config_version=5
+
+
+##! mode: mb_ball_save
+mode:
+  start_events: logicblock_mb_counter_complete
+
+ball_saves:
+  ball_save_mb:
+    active_time: 10s
+    hurry_up_time: 3s
+    timer_start_events: logicblock_mb_counter_complete
+    auto_launch: true
+    balls_to_save: 3
+show_player:
+  ball_save_mb_timer_start:
+    flash_color:
+      key: mb_bs
+      speed: 2
+      show_tokens:
+        lights: 0_led0
+        color: yellow
+  ball_save_mb_hurry_up:
+    flash_color:
+      key: mb_bs
+      speed: 4
+      show_tokens:
+        lights: 0_led0
+        color: green
+  ball_save_mb_disabled:
+    ball_save_mb: stop
+
+
+    

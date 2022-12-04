@@ -1,0 +1,400 @@
+#config_version=5
+
+mode:
+  start_events: start_base
+  stop_events: game_ended, service_mode_entered
+  priority: 600
+
+#!Base Slide_player
+
+slide_player: 
+  single_player_ball_started:
+    base_slide_main:
+      target: display2
+      action: play
+    base_slide_mini:
+      target: display3
+      action: play
+
+  multi_player_ball_started:
+    base_slide_main_4p:
+      target: display2
+      action: play
+    base_slide_mini:
+      target: display3
+      action: play
+
+  multiplayer_game{'<Player 2>'}:
+    base_slide_main:
+      action: remove
+    base_slide_main_2p:
+      target: display2
+      action: play
+
+  multiplayer_game{'<Player 2>' and '<Player 3>'}:
+    base_slide_main_2p:
+      action: remove
+    base_slide_main_3p:
+      target: display2
+      action: play
+
+  multiplayer_game{'<Player 2>' and '<Player 3>' and '<Player 4>'}:
+    base_slide_main_3p:
+      action: remove
+    base_slide_main_4p:
+      target: display2
+      action: play
+      
+widgets: 
+
+  garen: 
+    type: image
+    image: garen  
+       
+  jinx: 
+    type: image
+    image: jinx  
+       
+  vi: 
+    type: image
+    image: vi     
+                  
+  sivir: 
+    type: image
+    image: sivir     
+      
+slides: 
+
+  base_slide_main:
+    # priority: 5000
+     widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 300
+        x: center
+        y: center
+        color: gold
+        font_name: absender1
+      #- type: rectangle
+      #  x: center
+       # y: center
+       # width: 1500
+       # height: 300
+       # color: black
+       # opacity: .75
+      - type: text
+        text: PLAYER (number)
+        color: black
+        y: 45
+        x: center + 53
+        font_size: 100
+        anchor_x: center
+        anchor_y: bottom
+      - type: text
+        text: (ball)
+        color: black
+        y: 35
+        x: center - 318
+        anchor_x: center
+        anchor_y: bottom
+        font_size: 100
+
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50
+
+        
+
+
+
+  base_slide_main_2p:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 300
+        x: center
+        y: center
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: center - 275
+        font_size: 100
+        anchor_x: center
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: center + 275
+        anchor_x: center
+        anchor_y: bottom
+        font_size: 100
+
+      - type: text
+        text: (player1|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250
+        y: top - 110
+
+      - type: text
+        text: (player2|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: right - 250 
+        y: top - 110
+
+
+      - type: text
+        text: (player3|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250 
+        y: bottom - 80
+        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 40      
+
+
+  base_slide_main_3p:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 300
+        x: center
+        y: center
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: center - 275
+        font_size: 100
+        anchor_x: center
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: center + 275
+        anchor_x: center
+        anchor_y: bottom
+        font_size: 100
+
+      - type: text
+        text: (player1|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250
+        y: top - 110
+
+      - type: text
+        text: (player2|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: right - 250 
+        y: top - 110
+
+
+      - type: text
+        text: (player3|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250
+        y: bottom + 250
+        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 40
+        
+  base_slide_main_4p:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 300
+        x: center
+        y: center
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: center - 275
+        font_size: 100
+        anchor_x: center
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: center + 275
+        anchor_x: center
+        anchor_y: bottom
+        font_size: 100
+
+      - type: text
+        text: (player1|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250
+        y: top - 110
+
+      - type: text
+        text: (player2|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: right - 250 
+        y: top - 110
+
+
+      - type: text
+        text: (player3|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250
+        y: bottom + 250
+
+      - type: text
+        text: (player4|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: right - 250
+        y: bottom + 250
+        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 40        
+
+  base_slide_mini:
+     priority: 1
+     widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: center
+        y: top - 100
+      - type: text
+        y: bottom
+        x: left
+        anchor_x: left - 50
+        anchor_y: bottom
+        font_size: 35
+        text: Teemo's Shrooms - (Shrooms)
+      - type: text
+        y: bottom
+        x: right - 150
+        anchor_x: right + 50
+        anchor_y: bottom
+        font_size: 35
+        text: CS - (CS)
+
+coil_player:
+  enable_shaker_event:
+    c_shaker: enable
+  disable_shaker_event:
+    c_shaker: disable
+
+variable_player:
+  s_drop_front_active:
+    score: 1000
+  s_drop_middle_active:
+    score: 1000
+  s_drop_back_active:
+    score: 1000
+  s_bottom_jet_active:
+    score: 5000
+    Shrooms: 1
+  s_left_jet_active:
+    score: 5000
+    Shrooms: 1
+    c_shaker: enable
+    
+  s_right_jet_active:
+    score: 5000
+    Shrooms: 1
+  s_right_slingshot_active:
+    score: 1000
+  s_left_slingshot_active:
+    score: 1000
+
+  s_t11_active:
+    score: 10000
+    CS: 1
+  s_t12_active:
+    score: 10000
+    CS: 1
+  s_t3_active:
+    score: 5000
+    CS: 1
+  s_t4_active:
+    score: 5000
+    CS: 1  
+  s_t5_active:
+    score: 5000
+    CS: 1
+  s_t6_active:
+    score: 5000
+    CS: 1
+  s_t7_active:
+    score: 5000
+    CS: 1
+  s_t8_active:
+    score: 5000
+    CS: 1
+  s_tward_active:
+    score: 25000
+    CS: 1
+
+  s_right_ramp_active:
+    score: 10000
+
+
+shows:
+  rainbow:
+    - lights:
+        (leds): red
+    - lights:
+        (leds): orange
+    - lights:
+        (leds): yellow
+    - lights:
+        (leds): green
+    - lights:
+        (leds): blue
+    - lights:
+        (leds): purple
+      duration: 3s
+
+show_player:
+
+  mode_base_started: 
+
+    base_backglass:
+      speed: 4
+
+  s_tward_active:
+    
+    ward_light:
+      speed: 4
+event_player:
+
+  mode_base_started: start_skillshot

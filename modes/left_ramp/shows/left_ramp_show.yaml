@@ -1,0 +1,58 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led46: 'FF0000'
+    
+- time: '+1'
+  lights:
+    0_led46: 'D50000'
+    
+- time: '+1'
+  lights:
+    0_led46: '000000'
+    0_led49: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led47: 'FF0000'
+    0_led49: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led47: '5C0000'
+    0_led48: 'E10000'
+    
+- time: '+1'
+  lights:
+    0_led47: '000000'
+    0_led48: 'FF0000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led48: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    

@@ -1,0 +1,29 @@
+#config_version=5
+
+
+##! mode: shooter_lane
+mode:
+  start_events: ball_started
+  stop_events:
+    - ball_will_end
+  priority: 900
+
+
+show_player: 
+
+  s_plunger_active: 
+
+    shooter_show: 
+      priority: 900
+      speed: 40
+
+  s_plunger_inactive: 
+
+    shooter_ina_show: 
+      priority: 900
+      speed: 13
+
+
+
+
+    

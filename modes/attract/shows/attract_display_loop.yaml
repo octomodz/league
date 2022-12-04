@@ -1,0 +1,342 @@
+#show_version=5
+
+- duration: 30s
+  slides:
+    awesome_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: league
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 30s
+  slides:
+    press_start:
+      target: display2
+      widgets:
+      - type: Text
+        font_size: 150
+        font_name: Friz3
+        text: PRESS START
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: true
+        x: center
+        y: center
+      - type: Text
+        text: FREE PLAY
+        font_name: Friz3
+        font_size: 100
+        color: green
+        x: center
+        y: bottom + 20%
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 30s
+  slides:
+    spons1_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: trident
+        x: center
+        y: center - 80
+      transition:
+        type: wipe
+        duration: 1s
+        
+- duration: 150s
+  slides:
+    show_high_scores:
+      target: display2    
+      widgets:
+      - type: Text
+        text: HIGH SCORES
+        font_size: 100
+        bold: true
+        anchor_x: center
+        anchor_y: center
+        x: center
+        y: top-100
+      - type: Text
+        text: (machine|score1_label)
+        style: attract_mode_high_score_display_label
+        y: top-200
+      - type: Text
+        text: (machine|score1_name)
+        style: attract_mode_high_score_display_name
+        y: top-200
+      - type: Text
+        text: (machine|score1_value)
+        style: attract_mode_high_score_display_score
+        y: top-200
+      - type: Text
+        text: (machine|score2_label)
+        style: attract_mode_high_score_display_label
+        y: top-300
+      - type: Text
+        text: (machine|score2_name)
+        style: attract_mode_high_score_display_name
+        y: top-300
+      - type: Text
+        text: (machine|score2_value)
+        style: attract_mode_high_score_display_score
+        y: top-300
+      - type: Text
+        text: (machine|score3_label)
+        style: attract_mode_high_score_display_label
+        y: top-400
+      - type: Text
+        text: (machine|score3_name)
+        style: attract_mode_high_score_display_name
+        y: top-400
+      - type: Text
+        text: (machine|score3_value)
+        style: attract_mode_high_score_display_score
+        y: top-400
+      - type: Text
+        text: (machine|score4_label)
+        style: attract_mode_high_score_display_label
+        y: top-500
+      - type: Text
+        text: (machine|score4_name)
+        style: attract_mode_high_score_display_name
+        y: top-500
+      - type: Text
+        text: (machine|score4_value)
+        style: attract_mode_high_score_display_score 
+        y: top-500              
+      - type: Text
+        text: (machine|score5_label)
+        style: attract_mode_high_score_display_label
+        y: top-600
+      - type: Text
+        text: (machine|score5_name)
+        style: attract_mode_high_score_display_name
+        y: top-600
+      - type: Text
+        text: (machine|score5_value)
+        style: attract_mode_high_score_display_score
+        y: top-600        
+      - type: Text
+        text: (machine|score6_label)
+        style: attract_mode_high_score_display_label
+        y: top-700
+      - type: Text
+        text: (machine|score6_name)
+        style: attract_mode_high_score_display_name
+        y: top-700
+      - type: Text
+        text: (machine|score6_value)
+        style: attract_mode_high_score_display_score
+        y: top-700      
+      - type: Text
+        text: (machine|score7_label)
+        style: attract_mode_high_score_display_label
+        y: top-800
+      - type: Text
+        text: (machine|score7_name)
+        style: attract_mode_high_score_display_name
+        y: top-800
+      - type: Text
+        text: (machine|score7_value)
+        style: attract_mode_high_score_display_score
+        y: top-800     
+      - type: Text
+        text: (machine|score8_label)
+        style: attract_mode_high_score_display_label
+        y: top-900
+      - type: Text
+        text: (machine|score8_name)
+        style: attract_mode_high_score_display_name
+        y: top-900
+      - type: Text
+        text: (machine|score8_value)
+        style: attract_mode_high_score_display_score
+        y: top-900
+        
+             
+      #- type: Text
+        #text: LOOP CHAMPION
+       # font_size: 100
+        #bold: true
+       # anchor_x: center
+        #anchor_y: center
+       # x: center
+        #y: top-900
+     # - type: Text
+      #  text: (machine|loops1_label)
+      #  style: attract_mode_high_score_display_label
+      #  y: top-1000
+      #- type: Text
+      #  text: (machine|loops1_name)
+      #  style: attract_mode_high_score_display_name
+      #  y: top-1000
+      #- type: Text
+      #  text: (machine|loops1_value)
+      #  style: attract_mode_high_score_display_score
+      #  y: top-1000
+
+
+- duration: 10s
+  slides:
+    mission_pinball:
+      target: display2
+      widgets:
+      - type: Text
+        font_name: Friz3
+        font_size: 200
+        text: "Powered by:"
+        color: teal
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 20s
+  slides:
+    spons1_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: cobrapin
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 20s
+  slides:
+    spons2_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: mpf
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 10s
+  slides:
+    baron_pinball:
+      target: display2
+      widgets:
+      - type: Text
+        font_name: Friz3
+        text: "Special Thanks to: "
+        font_size: 200
+        color: teal
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 30s
+  slides:
+    spons1_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: canuprintthis
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 30s
+  slides:
+    spons8_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: zen
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 30s
+  slides:
+    spons3_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: ohmbrew
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 10s
+  slides:
+    last_game_score_slide:
+      target: display2
+      widgets:
+      - type: text
+        text: LAST GAME
+        font_size: 200
+        x: center
+        y: center + 100
+      - type: text
+        text: (machine|player1_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 200
+        x: center
+        y: bottom + 40%
+
+
+
+- duration: 30s
+  slides:
+    press_start_bottom:
+      target: display3
+      widgets:
+      - type: Text
+        font_size: 150
+        text: PRESS START
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: true
+        x: center
+        y: center
+      - type: Text
+        text: FREE PLAY
+        font_size: 100
+        color: green
+        x: center
+        y: bottom + 20%
+      transition:
+        type: wipe
+        duration: 1s
+
+
+      
+
+    

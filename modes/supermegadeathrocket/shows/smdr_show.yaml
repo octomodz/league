@@ -1,0 +1,15 @@
+#show_version=5
+
+
+
+- duration: 130s
+  slides:
+    smdr_video:
+      target: display1
+      widgets:
+      - type: video
+        video: smdr
+      transition:
+        type: wipe
+        duration: 1s
+

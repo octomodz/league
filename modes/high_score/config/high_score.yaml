@@ -1,0 +1,105 @@
+#config_version=5
+##! mode: high_score
+# modes/high_score/config/high_score.yaml
+mode:
+  priority: 500
+  start_events: game_ending, start_high_score
+  use_wait_queue: true
+high_score:
+  _overwrite: true
+  enter_initials_timeout: 60
+  award_slide_display_time: 4s
+  # define your high score categories and the awards
+  categories: !!omap
+    - score:
+        - GRAND CHAMPION
+        - HIGH SCORE 1
+        - HIGH SCORE 2
+        - HIGH SCORE 3
+        - HIGH SCORE 4
+        - HIGH SCORE 5
+        - HIGH SCORE 6
+        - HIGH SCORE 7
+        - HIGH SCORE 8
+    - loops:
+        - LOOP CHAMP
+  # set the defaults
+  defaults:
+    score:
+      - MPF: 1000000
+      - BRI: 900000
+      - JAN: 800000
+      - QUI: 700000
+      - MAR: 6000
+      - JOH: 5000
+      - ELI: 4000
+      - MIK: 3000
+      - ANT: 500
+    loops:
+      - JAN: 42
+# optional: change the slides (you can omit all the following)
+slide_player:
+  _overwrite: true   
+  mode_high_score_started:  
+    high_score_enter_initials:
+      target: display2
+
+
+slides:
+  _overwrite: true   
+  high_score_enter_initials:
+
+    - type: text
+
+      font_size: 150
+      text: PLAYER (number)
+      color: white
+      x: center
+      y: center + 200
+    - type: text
+
+      font_size: 150
+      text: (score)
+      color: white
+      x: center
+      y: center + 100
+      
+    - type: text_input
+      initial_char: A
+      dynamic_x: false
+      key: high_score
+      font_size: 150
+      max_chars: 8
+      x: center
+      y: center - 150
+      shift_left_event: s_left_flipper_active
+      shift_right_event: s_right_flipper_active
+      select_event: s_start_active
+      color: white
+    - type: text
+
+      text: '<          >'
+      font_size: 150
+      x: center
+      y: center
+      color: white
+      
+    - type: text
+      text: ''
+      key: high_score
+      font_size: 150
+      x: center
+      y: center
+      color: white
+      animations:
+        show_slide:
+          - property: opacity
+            value: 1
+            duration: 0.3s
+            easing: in_out_quint
+          - property: opacity
+            value: 0
+            duration: 0.3s
+            repeat: true
+            easing: in_out_quint
+ 

@@ -1,0 +1,128 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led34: '00FDFD'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led33: '00F1F1'
+    0_led34: '000000'
+    
+- time: '+1'
+  lights:
+    0_led33: '00FDFD'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led32: '00FDFD'
+    
+- time: '+1'
+  lights:
+    0_led33: '003131'
+    
+- time: '+1'
+  lights:
+    0_led33: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led32: '00FAFA'
+    
+- time: '+1'
+  lights:
+    0_led32: '000000'
+    
+- time: '+1'
+  lights:
+    0_led31: '005050'
+    
+- time: '+1'
+  lights:
+    0_led31: '00FDFD'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led30: '00B8B8'
+    
+- time: '+1'
+  lights:
+    0_led30: '00FDFD'
+    0_led31: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led30: '00DDDD'
+    
+- time: '+1'
+  lights:
+    0_led30: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    

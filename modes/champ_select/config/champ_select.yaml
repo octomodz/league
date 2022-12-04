@@ -1,0 +1,145 @@
+#config_version=5
+##! mode: champ_select
+
+
+mode:
+  start_events: start_champ_select
+  stop_events: champ_select_item_selected
+  events_when_stopped: start_base
+  code: mpf.modes.carousel.code.carousel.Carousel
+  priority: 501
+
+    
+mode_settings:
+  selectable_items: garen, jinx, vi, sivir
+  select_item_events: s_tward_active
+  next_item_events: s_left_flipper_inactive
+  previous_item_events: s_right_flipper_inactive
+  
+slide_player:
+
+  mode_champ_select_started:
+    background:
+      target: display2
+
+  champ_select_garen_highlighted:  
+    select_garen:
+      target: display2
+  champ_select_jinx_highlighted:   
+    select_jinx:
+      target: display2   
+  champ_select_vi_highlighted:  
+    select_vi:
+      target: display2
+  champ_select_sivir_highlighted:        
+    select_sivir:
+      target: display2
+                  
+  #my_carousel_garen_highlighted: select_garen
+  #my_carousel_jinx_highlighted: select_jinx
+  #my_carousel_vi_highlighted: select_vi
+  #my_carousel_sivir_highlighted: select_sivir
+  
+slides: 
+
+  background: 
+    widgets:
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50   
+
+  select_garen:
+    widgets:
+      - type: image
+        image: garen
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50 
+    transition:
+      type: fade
+    
+  select_jinx:
+    widgets:
+      - type: image
+        image: jinx
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50 
+    transition:
+      type: fade
+
+      
+  select_vi:
+    widgets:
+      - type: image
+        image: vi
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50 
+    transition:
+      type: fade
+
+      
+  select_sivir:
+    widgets:
+      - type: image
+        image: sivir
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50 
+    transition:
+      type: fade
+      
+  
+  
+
+
+      
+variable_player:
+  champ_select_garen_selected: 
+    selected_champ: 
+      string: "garen"
+      action: set
+  champ_select_jinx_selected:
+    selected_champ:
+      string: "jinx"
+      action: set      
+  champ_select_vi_selected:
+    selected_champ:
+      string: "vi"
+      action: set      
+  champ_select_sivir_selected:
+    selected_champ:
+      string: "sivir"   
+      action: set 
+      
+  champ_select_item_selected:
+    is_selected_champ: 1  
+
+
+  

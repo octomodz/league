@@ -1,0 +1,18 @@
+#show_version=5
+##! show: flash_red
+- time: 0
+  lights:
+    0_led1: red
+- time: +250ms
+  lights:
+    0_led1: off
+- time: +250ms
+  lights:
+    0_led1: red
+- time: +250ms
+  lights:
+    0_led1: off
+- time: +250ms
+  lights:
+    0_led1: red
+  duration: -1

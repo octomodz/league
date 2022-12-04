@@ -1,0 +1,23 @@
+#config_version=5
+
+
+##! mode: left_orbit
+mode:
+  start_events: mode_skillshot_stopped
+  stop_events:
+    - orbit_success
+    - ball_will_end
+  priority: 600
+
+
+show_player: 
+
+  mode_left_orbit_started: 
+
+    left_orbit_show: 
+      priority: 900
+      speed: 13
+
+
+
+    

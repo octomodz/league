@@ -1,0 +1,52 @@
+#config_version=5
+
+
+##! mode: supermegadeathrocket
+mode:
+  start_events: start_supermegadeathrocket
+  stop_events:
+    - right_ramp_success
+    - ball_will_end
+    - smdr_group_hit_complete
+  priority: 600
+
+shots:
+
+  right_ramp:
+    switch: s_right_ramp
+    show_tokens:
+      led: 0_led35, 0_led36, 0_led39, 0_led40
+      color: pink 
+
+shot_groups:
+  smdr_group:
+    shots: right_ramp
+    reset_events: smdr_success, ball_will_end
+
+
+variable_player: 
+
+  smdr_group_complete: 
+    score: 250000
+
+
+show_player: 
+
+  smdr_group_complete:
+    smdr_show: 
+      priority: 900
+      speed: 13
+      loops: 0
+
+  mode_supermegadeathrocket_started:
+    smdr_start:
+      priority: 900
+      speed: 13
+      loops: 2
+
+sound_player: 
+
+  smdr_group_complete:
+    smdr:
+      action: play
+

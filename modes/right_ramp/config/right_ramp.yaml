@@ -1,0 +1,67 @@
+#config_version=5
+
+
+##! mode: right_ramp
+mode:
+  start_events: mode_skillshot_stopped
+  stop_events:
+    - right_ramp_success
+    - ball_will_end
+    - count_right_ramp_complete
+  priority: 600
+
+shots:
+
+  right_ramp_hit:
+    switch: s_right_ramp
+
+counters: 
+
+  count_right_ramp:
+    count_events: right_ramp_hit_hit
+    count_complete_value: 4
+    events_when_hit: shot_hit
+    events_when_complete: start_supermegadeathrocket, stop_mode_right_ramp
+    reset_on_complete: false
+  
+random_event_player:
+
+  shot_hit:
+    events:
+      - play_rr_1
+      - play_rr_2
+      - play_rr_3
+      - play_rr_4
+
+show_player: 
+
+  mode_right_ramp_started: 
+
+    right_ramp_show: 
+      priority: 900
+      speed: 13
+
+
+
+  s_right_ramp_active:
+    
+    right_ramp_hit:
+      priority: 800
+      speed: 13
+      loops: 0
+
+sound_player:
+
+  play_rr_1:
+    jinxr1:
+      action: play
+  play_rr_2:
+    jinxr2:
+      action: play
+  play_rr_3:
+    jinxr3:
+      action: play
+  play_rr_4:
+    jinxr4:
+      action: play
+    

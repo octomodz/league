@@ -1,0 +1,23 @@
+#config_version=5
+
+
+##! mode: support_mode
+mode:
+  start_events: ball_started
+  reset_events: player_turn_started
+  stop_events: multiball_3balls_multiball_ended
+  
+multiballs:
+  3balls_multiball:
+    ball_count: 3
+    ball_count_type: total
+    shoot_again: 0s
+    start_events: logicblock_mb_counter_complete
+   
+
+
+counters:
+  mb_counter:
+    count_events: s_tward_active
+    count_complete_value: 3
+    reset_events: multiball_3balls_multiball_ended, ball_ended, player_turn_started

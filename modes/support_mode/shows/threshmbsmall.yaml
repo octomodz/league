@@ -1,0 +1,15 @@
+#show_version=5
+
+- duration: 120s
+  slides:
+    call_song:
+      target: display3
+
+      widgets:
+      - type: video
+        video: threshmb2
+        width: 800
+        height: 480
+      transition:
+        type: wipe
+        duration: 1s

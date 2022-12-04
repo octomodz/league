@@ -1,0 +1,22 @@
+#config_version=5
+
+
+##! mode: base_led
+mode:
+  start_events: ball_started
+  stop_events:
+    - ball_ended
+  priority: 100
+
+
+show_player: 
+
+  mode_base_led_started: 
+
+    base_led_show: 
+      priority: 100
+      speed: 13
+
+
+
+    
