@@ -4,15 +4,15 @@
 
 mode:
   start_events: start_champ_select
-  stop_events: champ_select_item_selected
-  events_when_stopped: start_base
+  stop_events: champ_select_item_selected, playfield_active, base_mode_started
+  events_when_stopped: start_base, champ_select_item_selected
   code: mpf.modes.carousel.code.carousel.Carousel
   priority: 501
 
     
 mode_settings:
-  selectable_items: garen, jinx, vi, sivir
-  select_item_events: s_tward_active
+  selectable_items: garen, jinx, vi, thresh, kindred
+  select_item_events: s_ab_active
   next_item_events: s_left_flipper_inactive
   previous_item_events: s_right_flipper_inactive
   
@@ -25,15 +25,33 @@ slide_player:
   champ_select_garen_highlighted:  
     select_garen:
       target: display2
+    garen_video: 
+      target: display1
+      
   champ_select_jinx_highlighted:   
     select_jinx:
-      target: display2   
+      target: display2  
+    jinx_video:
+      target: display1
+      
+  champ_select_thresh_highlighted:   
+    select_thresh:
+      target: display2  
+    thresh_video:
+      target: display1
+      
+  champ_select_kindred_highlighted:   
+    select_kindred:
+      target: display2  
+    kindred_video:
+      target: display1
+                   
   champ_select_vi_highlighted:  
     select_vi:
       target: display2
-  champ_select_sivir_highlighted:        
-    select_sivir:
-      target: display2
+    vi_video:
+      target: display1      
+
                   
   #my_carousel_garen_highlighted: select_garen
   #my_carousel_jinx_highlighted: select_jinx
@@ -57,6 +75,14 @@ slides:
     widgets:
       - type: image
         image: garen
+        
+      - type: video
+        video: garenbonus
+        x: center
+        y: center + 300
+        height: 300
+        width: 300
+                
       - type: image
         image: dmdborder
         x: center -10
@@ -65,9 +91,24 @@ slides:
         image: scorebg3
         x: center
         y: center - 50 
+
     transition:
       type: fade
-    
+      
+  garen_video: 
+    widgets:
+      - type: video
+        video: garen
+        x: center
+        y: center
+        control_events: 
+          - event: champ_select_jinx_highlighted
+            action: stop
+          - event: champ_select_kindred_highlighted
+            action: stop        
+          - event: champ_select_item_selected
+            action: stop  
+            
   select_jinx:
     widgets:
       - type: image
@@ -82,6 +123,20 @@ slides:
         y: center - 50 
     transition:
       type: fade
+      
+  jinx_video: 
+    widgets:
+      - type: video
+        video: jinx
+        x: center
+        y: center      
+        control_events: 
+          - event: champ_select_garen_highlighted
+            action: stop
+          - event: champ_select_vi_highlighted
+            action: stop        
+          - event: champ_select_item_selected
+            action: stop
 
       
   select_vi:
@@ -99,11 +154,25 @@ slides:
     transition:
       type: fade
 
+  vi_video: 
+    widgets:
+      - type: video
+        video: vi
+        x: center
+        y: center      
+        control_events: 
+          - event: champ_select_jinx_highlighted
+            action: stop
+          - event: champ_select_thresh_highlighted
+            action: stop        
+          - event: champ_select_item_selected
+            action: stop
+
       
-  select_sivir:
+  select_thresh:
     widgets:
       - type: image
-        image: sivir
+        image: thresh
       - type: image
         image: dmdborder
         x: center -10
@@ -114,32 +183,87 @@ slides:
         y: center - 50 
     transition:
       type: fade
-      
-  
-  
 
+  thresh_video: 
+    widgets:
+      - type: video
+        video: threshvideo
+        x: center
+        y: center      
+        control_events: 
+          - event: champ_select_vi_highlighted
+            action: stop
+          - event: champ_select_kindred_highlighted
+            action: stop        
+          - event: champ_select_item_selected
+            action: stop
+  
+  select_kindred:
+    widgets:
+      - type: image
+        image: kindred
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50 
+    transition:
+      type: fade
+
+  kindred_video: 
+    widgets:
+      - type: video
+        video: kindred
+        x: center
+        y: center      
+        control_events: 
+          - event: champ_select_thresh_highlighted
+            action: stop
+          - event: champ_select_garen_highlighted
+            action: stop        
+          - event: champ_select_item_selected
+            action: stop
 
       
 variable_player:
   champ_select_garen_selected: 
     selected_champ: 
-      string: "garen"
+      string: garen
       action: set
+
   champ_select_jinx_selected:
     selected_champ:
-      string: "jinx"
+      string: jinx
       action: set      
   champ_select_vi_selected:
     selected_champ:
-      string: "vi"
+      string: vi
       action: set      
-  champ_select_sivir_selected:
+  champ_select_thresh_selected:
     selected_champ:
-      string: "sivir"   
+      string: thresh   
+      action: set 
+  champ_select_kindred_selected:
+    selected_champ:
+      string: kindred   
+      action: set 
+  champ_select_item_selected:
+    is_selected_champ: 
+      int: 1
+      action: set     
+  mode_champ_select_will_end:
+    is_selected_champ: 
+      int: 1
       action: set 
       
-  champ_select_item_selected:
-    is_selected_champ: 1  
+show_player: 
 
+  mode_champ_select_started: 
 
+    backwall3: 
+      priority: 6000
+      speed: 13
   

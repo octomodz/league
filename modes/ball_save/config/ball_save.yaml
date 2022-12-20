@@ -8,7 +8,7 @@ mode:
 ball_saves:
   ball_save_ball_save:
     active_time: 10s
-    hurry_up_time: 3s
+    hurry_up_time: 5s
     timer_start_events: balldevice_bd_plunger_ball_eject_success
     auto_launch: true
     balls_to_save: 1
@@ -23,10 +23,10 @@ show_player:
   ball_save_ball_save_ball_save_hurry_up:
     flash_color:
       key: ball_save
-      speed: 4
+      speed: 6
       show_tokens:
         lights: 0_led0
-        color: green
+        color: red
   ball_save_ball_save_ball_save_disabled:
     ball_save: stop
     

@@ -11,20 +11,19 @@ shots:
     profile: bot_lane_profile
     show_tokens:
       led: 0_led13
-      color: pink
-
+      color: purple
   bottom_lane_f:
     switch: s_right_inlane
     profile: bot_lane_profile
     show_tokens:
       led: 0_led36
-      color: pink
+      color: purple
   bottom_lane_b:
     switch: s_right_outlane
     profile: bot_lane_profile  
     show_tokens:
       led: 0_led37
-      color: pink
+      color: purple
 
 
 

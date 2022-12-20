@@ -1,0 +1,119 @@
+#config_version=5
+
+
+mode:
+  start_events: mode_skillshot_stopped
+  stop_events: mode_support_mode_started
+  events_when_stopped: start_base, champ_select_item_selected
+  code: mpf.modes.carousel.code.carousel.Carousel
+  priority: 501
+
+event_player:
+  dragon_pit_lock_completed: enable_modes_selection
+
+  modes_selection_item_selected:
+    s_lock:
+      action: disable
+      priority: 5000     
+
+  
+mode_settings:
+  selectable_items: bottom, top, jungle, mid
+  select_item_events: s_ab_active
+  next_item_events: s_left_flipper_inactive
+  previous_item_events: s_right_flipper_inactive
+
+
+ball_holds:
+  dragon_pit_lock:
+    balls_to_hold: 1
+    hold_devices: bd_ball_lock
+    enable_events: mode_modes_selection_started
+    disable_events: end_modes_selection_show, multiball_active
+    release_one_events: modes_selection_item_selected
+    
+coil_player: 
+  s_lock_active: 
+    c_drop_reset_left:
+      max_wait_ms: 100
+      
+  modes_selection_item_selected:
+    c_drop_reset_left:
+      action: disable
+      priority: 5000        
+
+      
+slides: 
+
+  background: 
+    widgets:
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50 
+        
+  select_top:
+    widgets:
+      - type: image
+        image: garen
+                
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50 
+
+    transition:
+      type: fade
+      
+  garen_video: 
+    widgets:
+      - type: video
+        video: garen
+        x: center
+        y: center
+        control_events:     
+          - event: champ_select_item_selected
+            action: stop
+                    
+
+slide_player:
+       
+  enable_modes_selection:
+    background:
+      target: display2
+
+  modes_selection_top_highlighted:  
+    select_garen:
+      target: display2
+    garen_video: 
+      target: display1
+      
+queue_relay_player:
+
+  balldevice_bd_ball_lock_ball_eject_attempt:
+    post: start_bottom_show
+    wait_for: bottom_show_ended 
+      
+variable_player:
+  modes_selection_top_selected: 
+    selected_modes: 
+      string: top
+      action: set
+      
+show_player:
+
+  start_bottom_show:
+   bottom_show_modes:
+     priority: 900
+     speed: 13
+     loops: 0 
+     events_when_stopped: bottom_show_ended      
+      

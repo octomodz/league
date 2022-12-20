@@ -5,15 +5,15 @@ sound_system:
     music:
       type: standard
       simultaneous_sounds: 1
-      volume: 1.0
+      volume: .80
     voice:
       type: standard
       simultaneous_sounds: 1
-      volume: 0.7
+      volume: 1.0
     sfx:
       type: standard
       simultaneous_sounds: 8
-      volume: 1.0
+      volume: 1.5
       
 assets:
   sounds:
@@ -91,21 +91,21 @@ sounds:
     volume: 1.0
     priority: 300
     about_to_finish_time: 2s
-    events_when_about_to_finish: sfx_welcome_about_to_finish
+
 
   jinxr2:  
     file: jinxr2.ogg  
     volume: 1.0
     priority: 300
     about_to_finish_time: 2s
-    events_when_about_to_finish: sfx_welcome_about_to_finish
+
 
   jinxr3:  
     file: jinxr3.ogg 
     volume: 1.0
     priority: 300
     about_to_finish_time: 2s
-    events_when_about_to_finish: sfx_welcome_about_to_finish
+
 
 
   jinxr4:  
@@ -113,7 +113,7 @@ sounds:
     volume: 1.0
     priority: 300
     about_to_finish_time: 2s
-    events_when_about_to_finish: sfx_welcome_about_to_finish
+
 
   smdr:  
     file: jinx5.ogg  
@@ -121,3 +121,17 @@ sounds:
     priority: 300
     about_to_finish_time: 2s
     events_when_about_to_finish: sfx_welcome_about_to_finish
+    
+  garenvox:  
+    file: garenvox.ogg  
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish 
+    
+  jinxvox:  
+    file: jinxvox.ogg  
+    volume: 1.0
+    priority: 300
+    about_to_finish_time: 2s
+    events_when_about_to_finish: sfx_welcome_about_to_finish    

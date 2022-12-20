@@ -46,3 +46,6 @@ images:
   sivir:
     file: sivir.png
     load: preload      
+  singlescore:
+    file: singlescore.png
+    load: preload      

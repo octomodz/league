@@ -6,7 +6,7 @@ mode:
   start_events: ball_started
   reset_events: player_turn_started
   stop_events: multiball_3balls_multiball_ended
-  
+ 
 multiballs:
   3balls_multiball:
     ball_count: 3

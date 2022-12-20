@@ -1,32 +1,64 @@
 #config_version=5
 
-
-##! mode: ball_save
 mode:
-  start_events: ball_started
-  stop_events: multiball_3balls_multiball_ended, player_turn_stopped
+  start_events: start_thresh_mb
+  stop_events: multiball_3balls_multiball_ended, player_turn_stopped, player_turn_ended, end_of_thresh, mode_support_mode_stopped, ball_starting
+  events_when_stopped: end_of_thresh
   
 multiballs:
   3balls_multiball:
-    ball_count: 3
-    ball_count_type: total
-    shoot_again: 0s
-    start_events: logicblock_mb_counter_complete
+    ball_count: 2
+    ball_locks: bd_ball_lock
+    shoot_again: 20s
+    start_events: multiball_lock_threshlock_full
+    stop_events: 
 
-counters:
-  mb_counter:
-    count_events: s_tward_active
-    count_complete_value: 3
-    reset_events: multiball_3balls_multiball_ended, ball_ended, player_turn_started
+    
     
 show_player:
 
-  logicblock_mb_counter_complete:
+  start_thresh_mb_show:
     threshmb:
       priority: 900
       speed: 13
-      loops: 0    
+      loops: 0 
+      events_when_stopped: thresh_show_ended
+      
+  start_thresh_mb_show1:         
     threshmbsmall:
       priority: 900
       speed: 13
-      loops: 0       
+      loops: 0 
+      events_when_stopped: thresh_show_ended 
+      
+  mode_support_mode_started:
+    threshmbs:
+      priority: 900
+      speed: 13
+      loops: 0 
+
+     
+      
+coil_player:
+  s_ab_active: 
+    c_drop_reset_left:
+      max_wait_ms: 100
+      
+queue_relay_player:
+
+  balldevice_bd_ball_lock_ball_eject_attempt:
+    post: start_thresh_mb_show
+    wait_for: thresh_show_ended 
+    
+  balldevice_bd_trough_ball_eject_attempt:   
+    post: start_thresh_mb_show1
+    wait_for: thresh_show_ended   
+      
+multiball_locks:
+  threshlock:
+    debug: false
+    balls_to_lock: 1
+    lock_devices: bd_ball_lock
+    reset_count_for_current_player_events: mode_support_mode_ended, player_turn_stopped
+  #  enable_events: mode_support_mode_started
+

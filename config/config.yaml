@@ -8,7 +8,7 @@ hardware:
 
 opp:
   #Use the USB ports defined by your OS for the two STM32 boards
-    ports: /dev/ttyACM1, /dev/ttyACM2
+    ports: /dev/ttyACM1, /dev/ttyACM2, /dev/ttyACM3
   #USING SERIAL NUMBERS INSTEAD OF CHAINS
   #  Board 0 has serial number 0, Board 1 has serial number 1.
   #  This is convenient if your OS tends to reassign the serial port.
@@ -41,7 +41,7 @@ modes:
   - base
   - ball_save
   - ball_one_champ_select
-  - mb_bs  
+  #- mb_bs  
   - base_led
   - bottom_lanes
   - champ_select
@@ -51,13 +51,15 @@ modes:
   - skillshot
   - top_lanes
   - left_orbit
+  - modes_selection 
   - right_orbit
   - left_ramp
   - shooter_lane
   - support_mode
   - high_score
-#  - right_ramp
-#  - supermegadeathrocket
+  - right_ramp
+  - supermegadeathrocket
+  - thresh_counter
 
 #  - targetmode
 #  - start_selecton_on_ball_one
@@ -81,12 +83,16 @@ switches:
     number: 0-0-1
   s_right_slingshot:
     number: 0-0-2
+    
   s_bottom_jet:
-    number: 0-0-9
-  s_left_jet:
     number: 0-0-3
+    
+  s_left_jet:
+    number: 0-0-9
+    
   s_right_jet:
     number: 0-0-8
+    
   s_bottom_popper:
     number: 1-0-1
   s_left_drop_lock:
@@ -156,6 +162,7 @@ switches:
 
   s_plunger:
     number: 0-0-16
+    debug: true
 
   s_drain:
     number: 1-0-31
@@ -198,21 +205,48 @@ switches:
   #s_right_ramp:
    # number: 3-0-3
 
-  #s_left_spinner:
-    #number: 3-0-2
+  s_left_spinner:
+    number: 3-0-1
+    
+  s_right_spinner:
+    number: 3-0-2
+    
+  s_left_target:
+    number: 3-0-8
+    
+  s_right_target:
+    number: 3-0-3
+    
+  s_red_buff:
+    number: 3-0-9
+    type: 'NC'
+    
+  s_lock:
+    number: 3-0-11
 
+  s_ab:
+    number: 3-0-10
+    tags: action_button
 
-
+  s_left_ramp:
+    number: 3-0-30
+    
+  s_right_ramp:
+    number: 3-0-31
+    
 spinners:
-  #basic_spinner:
-   # switch: s_left_spinner
-    #active_ms: 500
-
-
-  #NEO1 output supports 256 LEDs numbered 1-0-0 to 1-0-255
-
-#! Config
-
+  left_spinner:
+    switch: s_left_spinner
+    active_ms: 500
+    
+  right_spinner:
+    switch: s_right_spinner
+    active_ms: 500
+  dual_spinner:
+    switches: s_left_spinner, s_right_spinner
+    labels: left, right
+    active_ms: 1200
+    idle_ms: 2400
 
 
 
@@ -313,11 +347,11 @@ coils:
     
   c_trough_eject:
     number: 1-0-2
-    default_pulse_ms: 35
+    default_pulse_ms: 45
 
   c_shaker:
     number: 1-0-6
-    default_pulse_ms: 50
+    default_pulse_ms: 40
     default_hold_power: 0.125    # keep this low
 
   c_left_slingshot:
@@ -329,7 +363,7 @@ coils:
     default_pulse_ms: 25
     
   c_bottom_jet_bumper:
-    number: 0-0-6
+    number: 0-0-7
     default_pulse_ms: 30
     
   c_left_jet_bumper:
@@ -337,7 +371,7 @@ coils:
     default_pulse_ms: 30
     
   c_right_jet_bumper:
-    number: 0-0-7
+    number: 0-0-6
     default_pulse_ms: 30
 
   c_bottom_popper:
@@ -369,7 +403,10 @@ coils:
     number: 0-0-2
     default_pulse_ms: 35
 
-
+  c_drop_left_down_coil:
+    number: 3-0-2
+    default_pulse_ms: 35
+    
   c_ball_save:
     number: 1-0-4
     default_pulse_ms: 30
@@ -379,7 +416,7 @@ kickbacks:
     enable_events: s_plunger_active
     coil: c_ball_save
     switch: s_ball_save
-    coil_pulse_delay: 255
+    coil_pulse_delay: 30
 
 
 
@@ -421,8 +458,9 @@ autofire_coils:
   right_jet:
     coil: c_right_jet_bumper
     switch: s_right_jet
-   
 
+    
+    
 ball_devices:
   bd_trough:
     ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5
@@ -451,8 +489,15 @@ ball_devices:
     eject_timeouts: 3s
 
   bd_ball_lock:
-    eject_coil: c_trough_eject
-    ball_switches: s_tward
+    eject_coil: c_drop_left_down_coil
+    ball_switches:   s_lock
+    
+
+      
+#ball_holds:
+#  thresh_hold:
+#    balls_to_hold: 1
+#    hold_devices: bd_ball_lock   
    
 combo_switches:
   both_flippers:
@@ -463,6 +508,9 @@ combo_switches:
 drop_targets:
   left:
     switch:  s_left_drop_lock
+    knockdown_coil: c_drop_left_down_coil
+    disable_keep_up_events: dragon_pit_lock_completed
+    debug: true
   right_front:
     switch:  s_right_drop_lock_front
   right_back:
@@ -489,7 +537,7 @@ drop_target_banks:
   left_bank:
     drop_targets: left
     reset_coils:  c_drop_reset_left
-    reset_on_complete: 10s
+    reset_on_complete: 30s
 
   right_bank:
     drop_targets: right_front, right_back
@@ -512,7 +560,7 @@ playfields:
 
 machine:
   balls_installed: 5 #How many balls are physically in your game
-  min_balls: 2 #How few balls can be accounted for before you can start a game
+  min_balls: 5 #How few balls can be accounted for before you can start a game
 
 
 timed_switches:
@@ -523,24 +571,30 @@ timed_switches:
 
 game:
   balls_per_game: 3
-  max_players: 4
+  max_players: 5
 
 
 player_vars:
   Shrooms:
     initial_value: 0
-  CS:
+  Gold:
     initial_value: 0
     
   selected_champ: 
     initial_value: garen
     value_type: str
     
+  selected_mods: 
+    initial_value: top
+    value_type: str    
+    
   is_selected_champ: 
     initial_value: 0
     value_type: int
-
-
+  count_complete_value:
+    initial_value: 0
+    value_type: int
+    
 keyboard:
   1:
     switch: s_trough1
@@ -625,6 +679,16 @@ sound_player:
   s_tl2_active:
     gold:
       action: play
+  s_left_target_active:
+    gold:
+      action: play
+
+  s_right_target_active:
+    gold:
+      action: play      
+      
+      
+      
   s_bottom_jet_active:
     teemo:
       action: play      
@@ -659,18 +723,7 @@ sound_player:
     smite:
       action: play
 
-  #play_rr_1:
-    #jinxr1:
-      #action: play
- # play_rr_2:
-    #jinxr2:
-      #action: play
- # play_rr_3:
-    #jinxr3:
-      #action: play
- # play_rr_4:
-    #jinxr4:
-      #action: play
+
 
 machine_vars:
   master_volume:
@@ -722,7 +775,19 @@ coil_player:
 
   s_bottom_jet_inactive:
     c_shaker: disable
+    
+  #s_left_spinner_active:
+    #c_shaker: enable
 
+  #s_left_spinner_inactive:
+    #c_shaker: disable    
+ 
+  #s_right_spinner_active:
+    #c_shaker: enable
+
+  #s_right_spinner_inactive:
+    #c_shaker: disable   
+    
   enable_shaker_event:
     c_shaker: enable
   disable_shaker_event:

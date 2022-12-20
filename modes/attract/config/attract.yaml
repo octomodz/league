@@ -5,6 +5,8 @@ show_player:
     
     attract_light_show:
       speed: 35
+    attract_top:
+      speed: 35      
 
     attract_display_loop:
       speed: 4

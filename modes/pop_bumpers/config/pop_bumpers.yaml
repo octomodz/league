@@ -6,40 +6,32 @@ mode:
   stop_events: stop_mode_top_lanes, ball_will_end, ball_ended, smdr_group_hit_complete
 
 shots:
-  top_lane_q:
-    switch: s_q
+  left_pop_bumper:
+    switch: s_left_jet
     profile: top_lane_profile
     show_tokens:
       led: 0_led116
-      color: purple
+      color: pink
 
-  top_lane_w:
-    switch: s_w
+  right_pop_bumper:
+    switch: s_right_jet
     profile: top_lane_profile
     show_tokens:
       led: 0_led117
-      color: purple
-  top_lane_e:
-    switch: s_e
+      color: pink
+      
+  center_pop_bumper:
+    switch: s_bottom_jet
     profile: top_lane_profile  
     show_tokens:
       led: 0_led118
-      color: purple
-  top_lane_r:
-    switch: s_r
-    profile: top_lane_profile  
-    show_tokens:
-      led: 0_led119
-      color: purple
+      color: pink
 
 
 shot_groups:
   top_lane_group:
     shots: top_lane_q, top_lane_w, top_lane_e, top_lane_r
     reset_events: top_lane_group_hit_complete, ball_will_end
-    rotate_left_events: s_flipper_left_active
-    rotate_right_events: s_flipper_right_active
-
 
 
 shot_profiles:

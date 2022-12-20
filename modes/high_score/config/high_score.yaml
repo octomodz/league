@@ -56,6 +56,16 @@ slides:
       color: white
       x: center
       y: center + 200
+      
+    - type: text
+
+      font_size: 150
+      text: (award)
+      color: white
+      x: center
+      y: center + 600
+      
+            
     - type: text
 
       font_size: 150

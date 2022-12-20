@@ -8,7 +8,9 @@ mode:
 #!Base Slide_player
 
 slide_player: 
-  single_player_ball_started:
+
+     
+  single_player_ball_starting:
     base_slide_main:
       target: display2
       action: play
@@ -49,20 +51,29 @@ widgets:
 
   garen: 
     type: image
-    image: garen  
+    image: smallgaren 
+    x: center - 200 
+    y: center - 450
+
        
   jinx: 
     type: image
-    image: jinx  
-       
+    image: smalljinx  
+    x: center - 200 
+    y: center - 450 
+        
   vi: 
     type: image
-    image: vi     
-                  
-  sivir: 
+    image: smallvi     
+    x: center - 200 
+    y: center - 450 
+                   
+  thresh: 
     type: image
-    image: sivir     
-      
+    image: smallthresh    
+    x: center - 200 
+    y: center - 450
+          
 slides: 
 
   base_slide_main:
@@ -76,7 +87,7 @@ slides:
         x: center
         y: center
         color: gold
-        font_name: absender1
+
       #- type: rectangle
       #  x: center
        # y: center
@@ -86,20 +97,30 @@ slides:
        # opacity: .75
       - type: text
         text: PLAYER (number)
-        color: black
-        y: 45
-        x: center + 53
-        font_size: 100
+        color: white
+        y: 60
+        x: center + 80
+        font_size: 80
         anchor_x: center
         anchor_y: bottom
+        
       - type: text
         text: (ball)
-        color: black
-        y: 35
-        x: center - 318
+        color: white
+        y: 55
+        x: center - 195
         anchor_x: center
         anchor_y: bottom
-        font_size: 100
+        font_size: 80
+        
+      - widget: (current_player.selected_champ)
+        height: 50
+        width: 50
+
+      - type: image
+        image: singlescore
+        x: center
+        y: center - 40
 
       - type: image
         image: dmdborder
@@ -115,6 +136,7 @@ slides:
 
 
   base_slide_main_2p:
+    widgets:
       - type: text
         text: (score)
         number_grouping: true
@@ -122,20 +144,39 @@ slides:
         font_size: 300
         x: center
         y: center
+        color: gold
+
+      #- type: rectangle
+      #  x: center
+       # y: center
+       # width: 1500
+       # height: 300
+       # color: black
+       # opacity: .75
       - type: text
         text: PLAYER (number)
-        y: 10
-        x: center - 275
-        font_size: 100
+        color: white
+        y: 60
+        x: center + 80
+        font_size: 80
         anchor_x: center
         anchor_y: bottom
+        
       - type: text
-        text: BALL (ball)
-        y: 10
-        x: center + 275
+        text: (ball)
+        color: white
+        y: 55
+        x: center - 195
         anchor_x: center
         anchor_y: bottom
-        font_size: 100
+        font_size: 80
+        
+        
+      - widget: (current_player.selected_champ)
+        height: 50
+        width: 50
+
+
 
       - type: text
         text: (player1|score)
@@ -162,13 +203,27 @@ slides:
         x: left + 250 
         y: bottom - 80
         
+  
+      - widget: (current_player.selected_champ)
+        height: 50
+        width: 50
+
+      - type: image
+        image: singlescore
+        x: center
+        y: center - 40
+
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
       - type: image
         image: scorebg3
         x: center
-        y: center - 40      
-
+        y: center - 50
 
   base_slide_main_3p:
+    widgets:  
       - type: text
         text: (score)
         number_grouping: true
@@ -176,20 +231,38 @@ slides:
         font_size: 300
         x: center
         y: center
+        color: gold
+
+      #- type: rectangle
+      #  x: center
+       # y: center
+       # width: 1500
+       # height: 300
+       # color: black
+       # opacity: .75
       - type: text
         text: PLAYER (number)
-        y: 10
-        x: center - 275
-        font_size: 100
+        color: white
+        y: 60
+        x: center + 80
+        font_size: 80
         anchor_x: center
         anchor_y: bottom
+        
       - type: text
-        text: BALL (ball)
-        y: 10
-        x: center + 275
+        text: (ball)
+        color: white
+        y: 55
+        x: center - 195
         anchor_x: center
         anchor_y: bottom
-        font_size: 100
+        font_size: 80
+        
+                
+      - widget: (current_player.selected_champ)
+        height: 50
+        width: 50
+
 
       - type: text
         text: (player1|score)
@@ -217,11 +290,21 @@ slides:
         y: bottom + 250
         
       - type: image
-        image: scorebg3
+        image: singlescore
         x: center
         y: center - 40
+
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50
         
   base_slide_main_4p:
+    widgets:  
       - type: text
         text: (score)
         number_grouping: true
@@ -229,21 +312,39 @@ slides:
         font_size: 300
         x: center
         y: center
+        color: gold
+
+      #- type: rectangle
+      #  x: center
+       # y: center
+       # width: 1500
+       # height: 300
+       # color: black
+       # opacity: .75
       - type: text
         text: PLAYER (number)
-        y: 10
-        x: center - 275
-        font_size: 100
+        color: white
+        y: 60
+        x: center + 80
+        font_size: 80
         anchor_x: center
         anchor_y: bottom
+        
       - type: text
-        text: BALL (ball)
-        y: 10
-        x: center + 275
+        text: (ball)
+        color: white
+        y: 55
+        x: center - 195
         anchor_x: center
         anchor_y: bottom
-        font_size: 100
-
+        font_size: 80
+        
+        
+      - widget: (current_player.selected_champ)
+        height: 50
+        width: 50
+        
+        
       - type: text
         text: (player1|score)
         number_grouping: true
@@ -278,9 +379,18 @@ slides:
         y: bottom + 250
         
       - type: image
+        image: singlescore
+        x: center
+        y: center - 40
+
+      - type: image
+        image: dmdborder
+        x: center -10
+        y: center - 30        
+      - type: image
         image: scorebg3
         x: center
-        y: center - 40        
+        y: center - 50     
 
   base_slide_mini:
      priority: 1
@@ -354,6 +464,12 @@ variable_player:
   s_t6_active:
     score: 5000
     CS: 1
+  s_left_target_active:
+    score: 5000
+    CS: 1
+  s_right_target_active:
+    score: 5000
+    CS: 1
   s_t7_active:
     score: 5000
     CS: 1
@@ -366,6 +482,12 @@ variable_player:
 
   s_right_ramp_active:
     score: 10000
+    
+  s_left_spinner_active:
+    score: 1000
+    
+  s_right_spinner_active:
+    score: 1000    
 
 
 shows:
@@ -398,3 +520,25 @@ show_player:
 event_player:
 
   mode_base_started: start_skillshot
+  mode_base_started{game.num_players==1}: single_player_ball_starting
+  mode_base_started{game.num_players==2}: multiplayer_game{'<Player 2>'} 
+  mode_base_started{game.num_players==3}: multiplayer_game{'<Player 2>' and '<Player 3>'}
+  mode_base_started{game.num_players==4}: multiplayer_game{'<Player 2>' and '<Player 3>' and '<Player 4>'} 
+  
+sound_player: 
+
+  spinner_right_spinner_active:
+    jinxr2:
+      action: play
+  
+  spinner_left_spinner_active:
+    jusitce:
+      action: play 
+      
+  s_right_ramp_active:
+    jinxr1:
+      action: play
+      
+  s_left_ramp_active:
+    kat3:
+      action: play                

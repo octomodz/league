@@ -69,7 +69,7 @@
         anchor_x: center
         anchor_y: center
         x: center
-        y: top-150
+        y: top-100
       - type: Text
         text: (machine|score1_label)
         style: attract_mode_high_score_display_label
@@ -232,19 +232,60 @@
         type: wipe
         duration: 1s
 
-- duration: 30s
+- duration: 10s
   slides:
-    spons1_slide:
+    baron_pinball:
       target: display2
       widgets:
-      - type: video
-        video: thanks
+      - type: Text
+        font_name: Friz3
+        text: "Special Thanks to: "
+        font_size: 200
+        color: teal
         x: center
         y: center
       transition:
         type: wipe
         duration: 1s
 
+- duration: 30s
+  slides:
+    spons1_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: canuprintthis
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 30s
+  slides:
+    spons8_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: zen
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
+
+- duration: 30s
+  slides:
+    spons3_slide:
+      target: display2
+      widgets:
+      - type: image
+        image: ohmbrew
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
 
 - duration: 10s
   slides:

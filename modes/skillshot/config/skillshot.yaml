@@ -16,6 +16,7 @@ mode:
    # - s_t5_active
     #- s_t6_active
     #- s_t7_active
+  events_when_stopped: start_base
     
   priority: 500
 shots:
@@ -45,6 +46,8 @@ shot_groups:
     shots: skill_q, skill_w, skill_e, skill_r
     rotate_left_events: s_left_flipper_active
     rotate_right_events: s_right_flipper_active
+    disable_rotation_events: s_plunger_inactive
+    
 shot_profiles:
   skill_shot_profile:
     states:
@@ -97,7 +100,9 @@ show_player:
     skillshot_show: 
       priority: 900
       speed: 4
-
+    backwall4:
+      priority: 900
+      speed: 4    
 
 
     

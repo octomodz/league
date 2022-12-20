@@ -1,0 +1,21 @@
+#config_version=5
+
+mode:
+  start_events: ball_started
+  stop_events: player_turn_stopped, logicblock_mb_counter_complete, player_turn_ended
+
+  
+  
+
+counters:
+
+  mb_counter:
+    count_events: s_tward_active
+    count_complete_value: 3
+    reset_events: ball_ended, player_turn_started
+
+
+  
+event_player:
+
+  logicblock_mb_counter_complete: start_thresh_mb

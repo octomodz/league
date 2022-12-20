@@ -1,128 +1,51 @@
 #show_version=5
-- time: 0
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
+
 - time: '+1'
   lights:
-    0_led34: '00FDFD'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-- time: '+1'
-  lights:
-    0_led33: '00F1F1'
-    0_led34: '000000'
-    
-- time: '+1'
-  lights:
-    0_led33: '00FDFD'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-- time: '+1'
-  lights:
-    0_led32: '00FDFD'
-    
-- time: '+1'
-  lights:
-    0_led33: '003131'
-    
-- time: '+1'
-  lights:
-    0_led33: '000000'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-- time: '+1'
-  lights:
-    0_led32: '00FAFA'
-    
-- time: '+1'
-  lights:
-    0_led32: '000000'
-    
-- time: '+1'
-  lights:
-    0_led31: '005050'
-    
-- time: '+1'
-  lights:
-    0_led31: '00FDFD'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-- time: '+1'
-  lights:
-    0_led30: '00B8B8'
-    
-- time: '+1'
-  lights:
-    0_led30: '00FDFD'
-    0_led31: '000000'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-- time: '+1'
-  lights:
-    0_led30: '00DDDD'
-    
-- time: '+1'
-  lights:
-    0_led30: '000000'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
-#No change this frame - take another step
-#  lights:
-- time: '+1'
-    
+    1_led1: teal
+    1_led2: teal
+    1_led3: teal
+    1_led4: teal    
+    1_led5: teal
+    1_led6: teal
+    1_led7: teal
+    1_led8: teal
+    1_led9: teal
+    1_led10: teal    
+    1_led11: teal
+    1_led12: teal    
+    1_led13: teal
+    1_led14: teal    
+    1_led15: teal
+    1_led16: teal    
+    1_led17: teal
+    1_led18: teal    
+    1_led19: teal
+    1_led20: teal    
+    1_led21: teal
+    1_led22: teal    
+    1_led23: teal
+    1_led24: teal    
+    1_led25: teal
+    1_led26: teal
+    1_led27: teal
+    1_led28: teal        
+    1_led29: teal
+    1_led30: teal
+    1_led31: teal
+    1_led32: teal    
+    1_led33: teal
+    1_led34: teal    
+    1_led35: teal
+    1_led36: teal    
+    1_led37: teal
+    1_led38: teal    
+    1_led39: teal
+    1_led40: teal    
+    1_led41: teal
+    1_led42: teal    
+    1_led43: teal
+    1_led44: teal    
+    1_led45: teal
+    1_led46: teal    
+        

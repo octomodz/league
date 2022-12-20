@@ -20,14 +20,13 @@ shots:
     profile: jungle_profile
     show_tokens:
       led: 0_led15, 0_led147, 0_led148, 0_led149
-      color: 'FE0101'
+      color: green
   wolves:
     switch: s_drop_front
     profile: jungle_profile  
     show_tokens:
       led: 0_led14, 0_led150, 0_led151, 0_led152
-      color: 'FE1120'
-
+      color: purple
 
 
 shot_groups:
