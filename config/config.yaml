@@ -8,7 +8,7 @@ hardware:
 
 opp:
   #Use the USB ports defined by your OS for the two STM32 boards
-    ports: /dev/ttyACM1, /dev/ttyACM2, /dev/ttyACM3
+    ports: /dev/ttyACM3, /dev/ttyACM1, /dev/ttyACM2 
   #USING SERIAL NUMBERS INSTEAD OF CHAINS
   #  Board 0 has serial number 0, Board 1 has serial number 1.
   #  This is convenient if your OS tends to reassign the serial port.
@@ -38,6 +38,7 @@ psus:
     release_wait_ms: 50
 
 modes:
+  - bonus
   - base
   - ball_save
   - ball_one_champ_select
@@ -48,10 +49,12 @@ modes:
 #  - mode2
   - attract
   - jungle
+  - jungle_selected  
   - skillshot
   - top_lanes
   - left_orbit
   - modes_selection 
+  - modes_selection_lock  
   - right_orbit
   - left_ramp
   - shooter_lane
@@ -60,6 +63,7 @@ modes:
   - right_ramp
   - supermegadeathrocket
   - thresh_counter
+  - zombie_ball_save
 
 #  - targetmode
 #  - start_selecton_on_ball_one
@@ -319,38 +323,53 @@ slide_player:
 coils:
   c_flipper_left_main:
     number: 0-0-9
-    default_pulse_ms: 30
+    default_pulse_ms: 35
     
   c_flipper_left_hold:
     number: 0-0-8
     allow_enable: true   
-    default_hold_power: 1.0
+    default_hold_power: 1
     
   c_flipper_right_main:
     number: 0-0-11
-    default_pulse_ms: 30
+    default_pulse_ms: 35
     
   c_flipper_right_hold:
     number: 0-0-10
     allow_enable: true   
-    default_hold_power: 1.0
+    default_hold_power: 1
     
-  c_flipper_right_upper_hold:
-    number: 0-0-13
-    allow_enable: true   
-    default_hold_power: 1.0 
+  #c_flipper_right_upper_hold:
+    #number: 0-0-13
+    #allow_enable: true   
+    #default_hold_power: 1.0 
+    
+  c_flipper_right_upper:
+    number: 0-0-5
+    default_pulse_ms: 35
+    allow_enable: true 
+    default_hold_power: 1.0      
+    default_pulse_power: 0.60    
+
+  c_flipper_left_upper:
+    number: 0-0-4
+    default_pulse_ms: 35
+    allow_enable: true 
+    default_hold_power: 1.0      
+    default_pulse_power: 0.45  
     
   c_flipper_right_upper_main:
-    number: 0-0-14
-    default_pulse_ms: 30
-
+    number: 0-0-13
+    default_pulse_ms: 40
+    allow_enable: true   
+    default_hold_power: 1.0      
     
   c_trough_eject:
     number: 1-0-2
     default_pulse_ms: 45
 
   c_shaker:
-    number: 1-0-6
+    number: 1-0-7
     default_pulse_ms: 40
     default_hold_power: 0.125    # keep this low
 
@@ -363,7 +382,7 @@ coils:
     default_pulse_ms: 25
     
   c_bottom_jet_bumper:
-    number: 0-0-7
+    number: 0-0-6
     default_pulse_ms: 30
     
   c_left_jet_bumper:
@@ -371,7 +390,7 @@ coils:
     default_pulse_ms: 30
     
   c_right_jet_bumper:
-    number: 0-0-6
+    number: 0-0-7
     default_pulse_ms: 30
 
   c_bottom_popper:
@@ -384,11 +403,11 @@ coils:
 
 
   c_auto_launch:
-    number: 0-0-5
+    number: 3-0-4
     default_pulse_ms: 50
     
   c_drop_reset:
-    number: 0-0-4
+    number: 3-0-1
     default_pulse_ms: 100
 
   c_drop_reset_left:
@@ -413,7 +432,8 @@ coils:
 
 kickbacks:
   left_kickback:
-    enable_events: s_plunger_active
+    enable_events: zombie_kick_enabled
+    disable_events: zombie_kick_disabled
     coil: c_ball_save
     switch: s_ball_save
     coil_pulse_delay: 30
@@ -437,11 +457,19 @@ flippers:
     
   right_top_flipper:
     main_coil: c_flipper_right_upper_main
-    hold_coil: c_flipper_right_upper_hold    
     activation_switch: s_right_flipper
     enable_events: s_plunger_inactive
     
-
+  right_upper_flipper:
+    main_coil: c_flipper_right_upper                    
+    activation_switch: s_right_flipper
+    enable_events: s_plunger_inactive
+    
+  left_upper_flipper:
+    main_coil: c_flipper_left_upper
+    activation_switch: s_left_flipper
+    enable_events: s_plunger_inactive
+    
 autofire_coils:
   left_slingshot:
     coil: c_left_slingshot
@@ -559,7 +587,7 @@ playfields:
 
 
 machine:
-  balls_installed: 5 #How many balls are physically in your game
+  balls_installed: 6 #How many balls are physically in your game
   min_balls: 5 #How few balls can be accounted for before you can start a game
 
 
@@ -579,12 +607,15 @@ player_vars:
     initial_value: 0
   Gold:
     initial_value: 0
-    
+  CS:
+    initial_value: 0    
+  Shrooms_turn:
+    initial_value: 0    
   selected_champ: 
     initial_value: garen
     value_type: str
     
-  selected_mods: 
+  selected_modes: 
     initial_value: top
     value_type: str    
     

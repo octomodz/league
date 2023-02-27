@@ -6,6 +6,9 @@ light_settings:
   color_correction_profiles:
     correction_profile_less_red:
       whitepoint: [0.9, 1.0, 1.0]
+      gamma: 2.5
+      linear_slope: 1.0
+      linear_cutoff: 0.0
 
     correction_profile_less_blue:
       whitepoint: [1.0, 1.0, 0.9]
@@ -1309,5 +1312,647 @@ lights:
     tags: seq9   
     
     
-        
+  3_led0:
+    number: 3-0-0
+    tags: seq0
+    type: grb
+  3_led1:
+    number: 3-0-1
+    tags: seq1
+    type: grb
+  3_led2:
+    number: 3-0-2
+    tags: seq2
+    type: grb
+  3_led3:
+    number: 3-0-3
+    tags: seq3
+    type: grb
+  3_led4:
+    number: 3-0-4
+    tags: seq4
+    type: grb
+  3_led5:
+    number: 3-0-5
+    tags: seq5
+    type: grb
+  3_led6:
+    number: 3-0-6
+    tags: seq6
+    type: grb
+  3_led7:
+    number: 3-0-7
+    tags: seq7
+    type: grb
+  3_led8:
+    number: 3-0-8
+    tags: seq8
+    type: grb
+  3_led9:
+    number: 3-0-9
+    tags: seq9
+    type: grb
+    
+   
+  3_led10:
+    number: 3-0-10
+    tags: seq0
+    type: grb
+  3_led11:
+    number: 3-0-11
+    tags: seq1
+    type: grb
+  3_led12:
+    number: 3-0-12
+    tags: seq2
+    type: grb
+  3_led13:
+    number: 3-0-13
+    tags: seq3
+    type: grb
+  3_led14:
+    number: 3-0-14
+    tags: seq4
+    type: grb
+  3_led15:
+    number: 3-0-15
+    tags: seq5
+    type: grb
+  3_led16:
+    number: 3-0-16
+    tags: seq6
+    type: grb
+  3_led17:
+    number: 3-0-17
+    tags: seq7
+    type: grb
+  3_led18:
+    number: 3-0-18
+    tags: seq8
+    type: grb
+  3_led19:
+    number: 3-0-19
+    tags: seq9
+    type: grb
+
+
+  3_led20:
+    number: 3-0-20
+    tags: seq0
+    type: grb
+  3_led21:
+    number: 3-0-21
+    tags: seq1
+    type: grb
+  3_led22:
+    number: 3-0-22
+    tags: seq2
+    type: grb
+  3_led23:
+    number: 3-0-23
+    tags: seq3
+    type: grb
+  3_led24:
+    number: 3-0-24
+    tags: seq4
+    type: grb
+  3_led25:
+    number: 3-0-25
+    tags: seq5
+    type: grb
+  3_led26:
+    number: 3-0-26
+    tags: seq6
+    type: grb
+  3_led27:
+    number: 3-0-27
+    tags: seq7
+    type: grb
+  3_led28:
+    number: 3-0-28
+    tags: seq8
+    type: grb
+  3_led29:
+    number: 3-0-29
+    tags: seq9    
+    type: grb   
+
+  3_led30:
+    number: 3-0-30
+    tags: seq0
+    type: grb
+  3_led31:
+    number: 3-0-31
+    tags: seq1
+    type: grb
+  3_led32:
+    number: 3-0-32
+    tags: seq2
+    type: grb
+  3_led33:
+    number: 3-0-33
+    tags: seq3
+    type: grb
+  3_led34:
+    number: 3-0-34
+    tags: seq4
+    type: grb
+  3_led35:
+    number: 3-0-35
+    tags: seq5
+    type: grb
+  3_led36:
+    number: 3-0-36
+    tags: seq6
+    type: grb
+  3_led37:
+    number: 3-0-37
+    tags: seq7
+    type: grb
+  3_led38:
+    number: 3-0-38
+    tags: seq8
+    type: grb
+  3_led39:
+    number: 3-0-39
+    tags: seq9       
+    type: grb
+    
+
+  3_led40:
+    number: 3-0-40
+    tags: seq0
+    type: grb
+  3_led41:
+    number: 3-0-41
+    tags: seq1
+    type: grb
+  3_led42:
+    number: 3-0-42
+    tags: seq2
+    type: grb
+  3_led43:
+    number: 3-0-43
+    tags: seq3
+    type: grb
+  3_led44:
+    number: 3-0-44
+    tags: seq4
+    type: grb
+  3_led45:
+    number: 3-0-45
+    tags: seq5
+    type: grb
+  3_led46:
+    number: 3-0-46
+    tags: seq6
+    type: grb
+  3_led47:
+    number: 3-0-47
+    tags: seq7
+    type: grb
+  3_led48:
+    number: 3-0-48
+    tags: seq8
+    type: grb
+  3_led49:
+    number: 3-0-49
+    tags: seq9
+    type: grb     
+  3_led50:
+    number: 3-0-50
+    tags: seq0
+    type: grb
+  3_led51:
+    number: 3-0-51
+    tags: seq1
+    type: grb
+  3_led52:
+    number: 3-0-52
+    tags: seq2
+    type: grb
+  3_led53:
+    number: 3-0-53
+    tags: seq3
+    type: grb
+  3_led54:
+    number: 3-0-54
+    tags: seq4
+    type: grb
+  3_led55:
+    number: 3-0-55
+    tags: seq5
+    type: grb
+  3_led56:
+    number: 3-0-56
+    tags: seq6
+    type: grb
+  3_led57:
+    number: 3-0-57
+    tags: seq7
+    type: grb
+  3_led58:
+    number: 3-0-58
+    tags: seq8
+    type: grb
+  3_led59:
+    number: 3-0-59
+    tags: seq9
+    type: grb     
+  3_led60:
+    number: 3-0-60
+  3_led61:
+    number: 3-0-61
+    tags: seq1
+    type: grb
+  3_led62:
+    number: 3-0-62
+    tags: seq2
+    type: grb
+  3_led63:
+    number: 3-0-63
+    tags: seq3
+    type: grb
+  3_led64:
+    number: 3-0-64
+    tags: seq4
+    type: grb
+  3_led65:
+    number: 3-0-65
+    tags: seq5
+    type: grb
+  3_led66:
+    number: 3-0-66
+    tags: seq6
+    type: grb
+  3_led67:
+    number: 3-0-67
+    tags: seq7
+    type: grb
+  3_led68:
+    number: 3-0-68
+    tags: seq8
+    type: grb
+  3_led69:
+    number: 3-0-69
+    tags: seq9
+    type: grb     
+  3_led70:
+    number: 3-0-70
+    tags: seq0
+    type: grb
+  3_led71:
+    number: 3-0-71
+    tags: seq1
+    type: grb
+  3_led72:
+    number: 3-0-72
+    tags: seq2
+    type: rgb
+  3_led73:
+    number: 3-0-73
+    tags: seq3
+    type: rgb
+  3_led74:
+    number: 3-0-74
+    tags: seq4
+    type: rgb
+  3_led75:
+    number: 3-0-75
+    tags: seq5
+    type: rgb
+  3_led76:
+    number: 3-0-76
+    tags: seq6
+    type: rgb
+  3_led77:
+    number: 3-0-77
+    tags: seq7
+    type: rgb
+  3_led78:
+    number: 3-0-78
+    tags: seq8
+    type: rgb
+  3_led79:
+    number: 3-0-79
+    tags: seq9
+    type: rgb    
+  3_led80:
+    number: 3-0-80
+    tags: seq0
+    type: rgb
+  3_led81:
+    number: 3-0-81
+    tags: seq1
+    type: rgb
+  3_led82:
+    number: 3-0-82
+    tags: seq2
+    type: rgb
+  3_led83:
+    number: 3-0-83
+    tags: seq3
+    type: rgb
+  3_led84:
+    number: 3-0-84
+    tags: seq4
+    type: rgb
+  3_led85:
+    number: 3-0-85
+    tags: seq5
+    type: rgb
+  3_led86:
+    number: 3-0-86
+    tags: seq6
+    type: rgb
+  3_led87:
+    number: 3-0-87
+    tags: seq7
+    type: rgb
+  3_led88:
+    number: 3-0-88
+    tags: seq8
+    type: rgb
+  3_led89:
+    number: 3-0-89
+    tags: seq9
+    type: rgb     
+  3_led90:
+    number: 3-0-90
+    tags: seq0
+    type: rgb
+  3_led91:
+    number: 3-0-91
+    tags: seq1
+    type: rgb
+  3_led92:
+    number: 3-0-92
+    tags: seq2
+    type: rgb
+  3_led93:
+    number: 3-0-93
+    tags: seq3
+    type: rgb
+  3_led94:
+    number: 3-0-94
+    tags: seq4
+    type: rgb
+  3_led95:
+    number: 3-0-95
+    tags: seq5
+    type: rgb
+  3_led96:
+    number: 3-0-96
+    tags: seq6
+    type: rgb
+  3_led97:
+    number: 3-0-97
+    tags: seq7
+    type: rgb
+  3_led98:
+    number: 3-0-98
+    tags: seq8
+    type: grb
+  3_led99:
+    number: 3-0-99
+    tags: seq9
+    type: grb     
+  3_led100:   
+    number: 3-0-100
+    tags: seq0
+    type: grb
+  3_led101:
+    number: 3-0-101
+    tags: seq1
+    type: rgb
+  3_led102:
+    number: 3-0-102
+    tags: seq2
+    type: rgb
+  3_led103:
+    number: 3-0-103
+    tags: seq3
+    type: rgb
+  3_led104:
+    number: 3-0-104
+    tags: seq4
+    type: rgb
+  3_led105:
+    number: 3-0-105
+    tags: seq5
+    type: rgb
+  3_led106:
+    number: 3-0-106
+    tags: seq6
+    type: rgb
+  3_led107:
+    number: 3-0-107
+    tags: seq7
+    type: rgb
+  3_led108:
+    number: 3-0-108
+    tags: seq8
+    type: rgb
+  3_led109:
+    number: 3-0-109
+    tags: seq9
+    type: rgb  
+  3_led110:   
+    number: 3-0-110
+    tags: seq0
+    type: rgb
+  3_led111:
+    number: 3-0-111
+    tags: seq1
+    type: rgb
+  3_led112:
+    number: 3-0-112
+    tags: seq2
+    type: grb
+  3_led113:
+    number: 3-0-113
+    tags: seq3
+    type: grb
+  3_led114:
+    number: 3-0-114
+    tags: seq4
+    type: grb
+  3_led115:
+    number: 3-0-115
+    tags: seq5
+    type: grb
+  3_led116:
+    number: 3-0-116
+    tags: seq6
+    type: grb
+  3_led117:
+    number: 3-0-117
+    tags: seq7
+    type: grb
+  3_led118:
+    number: 3-0-118
+    tags: seq8
+    type: grb
+  3_led119:
+    number: 3-0-119
+    tags: seq9
+    type: grb      
+  3_led120:   
+    number: 3-0-120
+    tags: seq0
+    type: grb
+  3_led121:
+    number: 3-0-121
+    tags: seq1
+    type: grb
+  3_led122:
+    number: 3-0-122
+    tags: seq2
+    type: grb
+  3_led123:
+    number: 3-0-123
+    tags: seq3
+    type: grb
+  3_led124:
+    number: 3-0-124
+    tags: seq4
+    type: grb
+  3_led125:
+    number: 3-0-125
+    tags: seq5
+    type: grb
+  3_led126:
+    number: 3-0-126
+    tags: seq6
+    type: grb
+  3_led127:
+    number: 3-0-127
+    tags: seq7
+    type: grb
+  3_led128:
+    number: 3-0-128
+    tags: seq8
+    type: grb
+  3_led129:
+    number: 3-0-129
+    tags: seq9
+    type: grb    
+  3_led130:   
+    number: 3-0-130
+    tags: seq0
+    type: rgb
+  3_led131:
+    number: 3-0-131
+    tags: seq1
+    type: rgb
+  3_led132:
+    number: 3-0-132
+    tags: seq2
+    type: rgb
+  3_led133:
+    number: 3-0-133
+    tags: seq3
+    type: rgb
+  3_led134:
+    number: 3-0-134
+    tags: seq4
+    type: rgb
+  3_led135:
+    number: 3-0-135
+    tags: seq5
+    type: rgb
+  3_led136:
+    number: 3-0-136
+    tags: seq6
+    type: rgb
+  3_led137:
+    number: 3-0-137
+    tags: seq7
+    type: rgb
+  3_led138:
+    number: 3-0-138
+    tags: seq8
+    type: grb
+  3_led139:
+    number: 3-0-139
+    tags: seq9
+    type: grb   
+  3_led140:   
+    number: 3-0-140
+    tags: seq0
+    type: grb
+  3_led141:
+    number: 3-0-141
+    tags: seq1
+    type: grb
+  3_led142:
+    number: 3-0-142
+    tags: seq2
+    type: grb
+  3_led143:
+    number: 3-0-143
+    tags: seq3
+    type: grb
+  3_led144:
+    number: 3-0-144
+    tags: seq4
+    type: grb
+  3_led145:
+    number: 3-0-145
+    tags: seq5
+    type: grb
+  3_led146:
+    number: 3-0-146
+    tags: seq6
+    type: grb
+  3_led147:
+    number: 3-0-147
+    tags: seq7
+    type: grb
+  3_led148:
+    number: 3-0-148
+    tags: seq8
+    type: grb
+  3_led149:
+    number: 3-0-149
+    tags: seq9
+    type: grb   
+  3_led150:   
+    number: 3-0-150
+    tags: seq0
+    type: grb
+  3_led151:
+    number: 3-0-151
+    tags: seq1
+    type: grb
+  3_led152:
+    number: 3-0-152
+    tags: seq2
+    type: grb
+  3_led153:
+    number: 3-0-153
+    tags: seq3
+    type: grb
+  3_led154:
+    number: 3-0-154
+    tags: seq4
+    type: grb
+  3_led155:
+    number: 3-0-155
+    tags: seq5
+    type: grb
+  3_led156:
+    number: 3-0-156
+    tags: seq6
+    type: grb
+  3_led157:
+    number: 3-0-157
+    tags: seq7
+  3_led158:
+    number: 3-0-158
+    tags: seq8
+  3_led159:
+    number: 3-0-159
+    tags: seq9   
+           
     
