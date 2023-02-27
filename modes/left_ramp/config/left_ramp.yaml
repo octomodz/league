@@ -12,11 +12,6 @@ mode:
 
 show_player: 
 
-  mode_left_ramp_started: 
-
-    left_ramp_show: 
-      priority: 900
-      speed: 13
 
 
 

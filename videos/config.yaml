@@ -1,0 +1,532 @@
+#config_version=5
+
+#CobraPin Example Config
+
+hardware:
+  platform: opp
+  driverboards: gen2
+
+opp:
+  #Use the USB ports defined by your OS for the two STM32 boards
+  ports: COM7, COM8
+  #USING SERIAL NUMBERS INSTEAD OF CHAINS
+  #  Board 0 has serial number 0, Board 1 has serial number 1.
+  #  This is convenient if your OS tends to reassign the serial port.
+  #  MPF will automatically address the correct board even if the ports
+  #     are swapped.
+
+  #For multiple CobraPin boards in a game, you will either have to give
+  #  the STM32 boards on the second CobraPin board new serial numbers
+  #  (10 and 11 are suggested for the 2nd board since 2 is used by the
+  #  CobraPin Xpansion Board)
+  #  <OR> Use the chains section to assign a port to a board number.
+  #  Mixing these up could cause blown FETs, coils, and fuses. Proceed
+  #  with caution. Test without coil power and use the yellow coil LEDs
+  #  for feedback.
+  #chains:
+     #0: /dev/ttyACM0
+
+     #1: /dev/ttyACM1
+    
+
+
+psus:
+  default:
+    #Gives the capacitors extra time to recharge after firing a coil
+    #  and eases the load on the power supply. Doesn't affect autofire
+    #  devices like flippers, pops, slings.
+    release_wait_ms: 50
+
+modes:
+  - base
+#  - mode2
+  - attract
+#  - skillshot
+#  - top_lanes
+#  - left_orbit
+# - right_orbit
+#  - left_ramp
+#  - right_ramp
+#  - supermegadeathrocket
+#  - base_led
+#  - targetmode
+#  - start_selecton_on_ball_one
+#  - match
+
+#One giant config file can get difficult to manage. You can put any of
+#  these config sections in its own yaml file and link to it with the
+#  config section here
+config:
+  - config_lights.yaml  
+  - config_sound.yaml
+  - config_images.yaml
+
+switches:
+
+  s_start:
+    number: 1-0-8
+    tags: start
+  s_left_slingshot:
+    number: 0-0-1
+  s_right_slingshot:
+    number: 0-0-2
+  s_bottom_jet:
+    number: 0-0-16
+  s_left_jet:
+    number: 0-0-17
+  s_right_jet:
+    number: 0-0-18
+ 
+  s_left_drop_lock:
+    number: 0-0-26
+  s_drop_front:
+    number: 1-0-2
+    type: 'NC'
+  s_drop_middle:
+    number: 1-0-3
+    type: 'NC'
+  s_drop_back:
+    number: 1-0-1
+    type: 'NC'
+
+  s_left_flipper:
+    number: 0-0-3
+    tags: left_flipper
+  s_right_flipper:
+    number: 0-0-8                           
+    tags: right_flipper
+  s_bottom_popper:
+    number: 0-0-24
+
+  s_right_ramp:
+    number: 0-0-19
+
+  s_trough3:
+    number: 0-0-25
+
+  s_plunger:
+    number: 0-0-9
+  s_drain:
+    number: 0-0-10
+
+
+
+  #NEO1 output supports 256 LEDs numbered 1-0-0 to 1-0-255
+
+#! Config
+
+
+
+
+window:
+  width: 2560
+  height: 4800
+  title: MPF All Display Window
+  fullscreen: true
+  resizable: true
+  borderless: true
+  exit_on_escape: true
+  no_window: false
+  show_cursor: no 
+
+
+displays:
+
+  window:
+    width: 2560
+    height: 4800
+  display1:
+    width: 2560
+    height: 1440
+  display2:
+    width: 1920
+    height: 1080
+  display3:
+    width: 800
+    height: 480
+
+
+slides:
+  slide_layout:
+    target: window
+    background_color: white #white for test
+    widgets: 
+      - type: display
+        source_display: display1
+        width: 2560
+        height: 1440
+        x: right
+        y: 2400
+        anchor_x: right
+
+      - type: display
+        source_display: display2
+        width: 1920
+        height: 1080
+        x: left
+        y: 1140
+        anchor_x: left
+      - type: display
+        source_display: display3
+        width: 800
+        height: 480
+        x: left
+        y: 125
+        anchor_x: left
+        anchor_y: bottom 
+
+
+
+slide_player:
+  mc_ready:
+    slide_layout:
+      target: window 
+
+
+
+coils:
+  c_flipper_left_main:
+    number: 0-0-9
+    allow_enable: true
+    default_hold_power: 0.125
+    default_pulse_ms: 30
+  c_flipper_right_main:
+    number: 0-0-11
+    default_pulse_ms: 25
+    allow_enable: true
+    default_hold_power: 0.125
+  c_flipper_right_top_main:
+    number: 0-0-10
+    default_pulse_ms: 35
+    allow_enable: true
+    default_hold_power: 0.125
+  c_trough_eject:
+    number: 0-0-7
+    default_pulse_ms: 15
+
+  c_drain_eject:
+    number: 1-0-0
+    default_pulse_ms: 25
+
+
+
+  c_left_slingshot:
+    number: 0-0-12
+    default_pulse_ms: 20
+  c_right_slingshot:
+    number: 0-0-13
+    default_pulse_ms: 20
+  c_bottom_jet_bumper:
+    number: 0-0-1
+    default_pulse_ms: 30
+  c_left_jet_bumper:
+    number: 0-0-3
+    default_pulse_ms: 30
+  c_right_jet_bumper:
+    number: 0-0-2
+    default_pulse_ms: 30
+  c_bottom_popper:
+    number: 0-0-15
+    default_pulse_ms: 10
+  c_drop_reset:
+    number: 1-0-2
+    default_pulse_ms: 80
+  c_ball_save:
+    number: 0-0-14
+    default_pulse_ms: 80
+
+
+flippers:
+  #Add your flipper config
+
+  left_flipper:
+    main_coil: c_flipper_left_main
+    activation_switch: s_left_flipper
+    
+  right_flipper:
+    main_coil: c_flipper_right_main
+    activation_switch: s_right_flipper
+    
+  right_top_flipper:
+    main_coil: c_flipper_right_top_main
+    activation_switch: s_right_flipper
+    
+
+autofire_coils:
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+  right_slingshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+  bottom_jet:
+    coil: c_bottom_jet_bumper
+    switch: s_bottom_jet
+  left_jet:
+    coil: c_left_jet_bumper
+    switch: s_left_jet
+  right_jet:
+    coil: c_right_jet_bumper
+    switch: s_right_jet
+ 
+
+
+ball_devices:
+  bd_trough:
+    ball_switches: s_trough3
+    tags: trough, home, drain
+    eject_coil: c_trough_eject
+    eject_coil_jam_pulse: 15ms
+    eject_targets: bd_plunger
+    eject_timeouts: 3s
+  bd_plunger:
+    ball_switches: s_plunger
+    mechanical_eject: true
+    eject_timeouts: 5s
+  
+  bd_drain:
+    ball_switches: s_drain
+    eject_coil: c_drain_eject
+    eject_timeouts: 3s
+  bd_lower_vuk:
+    ball_switches: s_bottom_popper
+    eject_coil: c_bottom_popper
+    eject_timeouts: 3s
+   
+
+drop_targets:
+  front:
+    switch: s_drop_front
+  middle:
+    switch: s_drop_middle
+  back:
+    switch: s_drop_back
+drop_target_banks:
+  vuk_bank:
+    drop_targets: front, middle, back
+    reset_coils: c_drop_reset
+    reset_on_complete: 10s
+
+
+playfields:
+  #Define your playfields
+
+  playfield:
+    default_source_device: bd_plunger
+    tags: default
+
+
+machine:
+  balls_installed: 1 #How many balls are physically in your game
+  min_balls: 1 #How few balls can be accounted for before you can start a game
+
+
+game:
+  balls_per_game: 3
+  max_players: 4
+
+
+player_vars:
+  Shrooms:
+    initial_value: 0
+  CS:
+    initial_value: 0
+
+
+keyboard:
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  4:
+    switch: s_trough4
+    toggle: true
+  5:
+    switch: s_trough5
+    toggle: true
+  p:
+    switch: s_plunger
+    toggle: true
+  s:
+    switch: s_start
+  q:
+    switch: s_right_inlane  
+ 
+virtual_platform_start_active_switches:
+  - s_trough1
+  - s_trough2
+  - s_trough3
+
+
+
+show_player:
+  ball_save_default_timer_start:
+    lighton:
+      action: play
+      loops: 3
+      speed: 1
+      priority: 701
+      show_tokens:
+        led: 0_led0         
+        color: blue  
+  ball_save_default_hurry_up:
+    light_blink:
+      action: play
+      loops: 5
+      speed: 10
+      priority: 701
+      show_tokens:
+        led: 0_led0         
+        color: blue 
+  ball_save_default_saving_ball:
+    light_blink:
+      action: play
+      loops: 10
+      speed: 10
+      priority: 701
+      show_tokens:
+        led: 0_led0         
+        color: blue
+
+  skill_success:
+
+    skillshot_hit_show:
+      priority: 1000
+      speed: 20
+      loops: 0
+    skillshot_hit_show_led:
+      priority: 1000
+      speed: 20
+      loops: 0
+
+
+  skill_failed:
+
+    skillshot_unhit_show:
+      priority: 1000
+      speed: 20
+      loops: 0
+  mode_attract_started:
+    attract_backglass:
+      speed: 20
+
+sound_player:
+  mode_base_stopped:
+    music_bg1:
+      action: stop
+
+  mode_base_started:
+    music_bg1:
+      action: play
+
+  s_start_active:
+    sfx_welcome:
+      action: play
+
+  s_tl1_active:
+    gold:
+      action: play
+
+  s_tl2_active:
+    gold:
+      action: play
+  s_bottom_jet_active:
+    teemo:
+      action: play      
+  s_left_jet_active:
+    teemo:
+      action: play 
+  s_right_jet_active:
+    teemo:
+      action: play 
+  s_t3_active:
+    target1:
+      action: play 
+  s_t4_active:
+    target1:
+      action: play
+  s_t5_active:
+    target2:
+      action: play
+  s_t6_active:
+    target2:
+      action: play
+  s_t7_active:
+    target3:
+      action: play
+  s_t8_active:
+    target3:
+      action: play
+  s_tward_active:
+    sward:
+      action: play
+  s_bottom_popper_active:
+    smite:
+      action: play
+
+  play_rr_1:
+    jinxr1:
+      action: play
+  play_rr_2:
+    jinxr2:
+      action: play
+  play_rr_3:
+    jinxr3:
+      action: play
+  play_rr_4:
+    jinxr4:
+      action: play
+
+machine_vars:
+  master_volume:
+    initial_value: 0.70   # Set this to any value you want
+    value_type: float
+    persist: true         # If false, the volume will reset to default
+                          # each time the machine boots up
+
+widget_styles:
+  attract_mode_high_score_display_label:
+    font_size: 30
+    anchor_x: right
+    anchor_y: top
+    x: center-10
+    bold: true
+  attract_mode_high_score_display_name:
+    font_size: 30
+    anchor_x: right
+    anchor_y: top
+    x: center+70
+  attract_mode_high_score_display_score:
+    font_size: 30
+    anchor_x: left
+    anchor_y: top
+    x: center+90
+    number_grouping: true
+    min_digits: 1
+
+
+##! mode: mb_mode
+
+  #reset_events: player_turn_started
+  #stop_events: multiball_3balls_multiball_ended, player_turn_stopped
+  
+multiballs:
+  3balls_multiball:
+    ball_count: 3
+    ball_count_type: total
+    shoot_again: 0s
+    start_events: logicblock_mb_counter_complete
+   
+
+
+counters:
+  mb_counter:
+    count_events: s_tward_active
+    count_complete_value: 3
+    reset_events: multiball_3balls_multiball_ended
+    

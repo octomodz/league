@@ -1,0 +1,5 @@
+2022-12-19 16:07:14,065 : INFO : root : Loading config.
+2022-12-19 16:07:14,072 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-12-19 16:07:14,072 : INFO : ConfigProcessor : Loading config from file /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/mpfconfig.yaml.
+2022-12-19 16:07:14,254 : INFO : ConfigProcessor : Loading config: /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/mpfconfig.yaml
+2022-12-19 16:07:14,256 : INFO : ConfigProcessor : Loading config from file /home/league/League/monitor/config/config.yaml.

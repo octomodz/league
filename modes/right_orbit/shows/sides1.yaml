@@ -1,0 +1,51 @@
+#show_version=5
+
+- time: '+1'
+  lights:
+    3_led1: white
+    3_led2: white
+    3_led3: white
+    3_led4: white    
+    3_led5: white
+    3_led6: white
+    3_led7: white
+    3_led8: white
+    3_led9: white
+    3_led10: white    
+    3_led11: white
+    3_led12: white    
+    3_led13: white
+    3_led14: white    
+    3_led15: white
+    3_led16: white    
+    3_led17: white
+    3_led18: white    
+    3_led19: white
+    3_led20: white    
+    3_led21: white
+    3_led22: white    
+    3_led23: white
+    3_led24: white    
+    3_led25: white
+    3_led26: white
+    3_led27: white
+    3_led28: white        
+    3_led29: white
+    3_led30: white
+    3_led31: white
+    3_led32: white    
+    3_led33: white
+    3_led34: white    
+    3_led35: white
+    3_led36: white    
+    3_led37: white
+    3_led38: white    
+    3_led39: white
+    3_led40: white    
+    3_led41: white
+    3_led42: white    
+    3_led43: white
+    3_led44: white    
+    3_led45: white
+    3_led46: white    
+        

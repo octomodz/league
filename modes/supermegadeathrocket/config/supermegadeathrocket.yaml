@@ -30,6 +30,7 @@ variable_player:
     score: 250000
 
 
+    
 show_player: 
 
   smdr_group_complete:
@@ -37,7 +38,12 @@ show_player:
       priority: 900
       speed: 13
       loops: 0
-
+      
+    smdr_shaker:
+      priority: 900
+      speed: 13
+      loops: 5
+      
   mode_supermegadeathrocket_started:
     smdr_start:
       priority: 900

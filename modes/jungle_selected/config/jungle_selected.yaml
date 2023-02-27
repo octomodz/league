@@ -1,0 +1,85 @@
+#config_version=5
+##! mode: jungle                  
+mode:
+  start_events: start_jungle_selected
+  priority: 600
+  stop_events: stop_mode_jungle_selected, ball_will_end, ball_ended, jungle_drop_group_hit_complete|3s
+
+
+
+shots:
+  gromp1:
+    switch: s_drop_back
+    profile: jungle_profile1
+    show_tokens:
+      led: 0_led16, 0_led144, 0_led145, 0_led146, 0_led143
+      color: blue
+
+  raptor1:
+    switch: s_drop_middle
+    profile: jungle_profile1
+    show_tokens:
+      led: 0_led15, 0_led147, 0_led148, 0_led149
+      color: green
+      
+  wolves1:
+    switch: s_drop_front
+    profile: jungle_profile1  
+    show_tokens:
+      led: 0_led14, 0_led150, 0_led151, 0_led152
+      color: purple
+      
+  red:
+    switch: s_bottom_popper
+    profile: jungle_profile1  
+    show_tokens:
+      led: 0_led18, 0_led19, 0_led20
+      color: purple
+      
+  blue:
+    switch: s_bottom_popper
+    profile: jungle_profile1  
+    show_tokens:
+      led: 0_led66, 0_led67, 0_led68
+      color: purple        
+
+
+shot_groups:
+
+
+
+  jungle_group:
+    shots: gromp1, raptor1, wolves1, red, blue
+    reset_events: drop_target_bank_vuk_bank_up, ball_started, ball_ended, ball_will_end
+    rotate_left_events: s_flipper_left_active
+    rotate_right_events: s_flipper_right_active
+
+shot_profiles:
+  jungle_profile1:
+    states:
+      - name:
+        show: off
+      - name: hit
+        show: lighton
+
+variable_player:
+  jungle_group_hit_complete:
+    score: 1000000
+    bonus_multiplier: 2
+
+    
+    
+show_player:
+
+  jungle_drop_group_hit_complete:
+    light_blink:
+      action: play
+      loops: 4
+      speed: 10
+      priority: 701
+      show_tokens:
+        led: 0_led14,0_led15,0_led16        
+        color: teal
+
+
+

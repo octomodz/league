@@ -17,7 +17,27 @@ show_player:
     right_orbit_show: 
       priority: 900
       speed: 13
+    sides1: 
+      priority: 900
+      speed: 13
 
 
+light_player:
 
-    
+  s_left_jet_active:
+    0_led70: '1b047c'
+
+  s_right_jet_active:
+    0_led71: '1b047c'
+
+  s_bottom_jet_active:
+    0_led69: '1b047c'
+
+  s_left_jet_inactive:
+    0_led70: green
+
+  s_right_jet_inactive:
+    0_led71: green
+  s_bottom_jet_inactive:
+    0_led69: green
+   

@@ -1,0 +1,33 @@
+#config_version=5
+
+
+mode:
+  start_events: mode_skillshot_stopped, mode_support_mode_stopped
+  stop_events: mode_modes_selection_stopped, mode_support_mode_started
+  priority: 6000
+
+event_player:
+  dragon_pit_lock_completed: enable_modes_selection_lock
+
+  modes_selection_lock_item_selected:
+    s_lock:
+      action: disable
+      priority: 5000 
+
+shots:
+
+  ball_lock_hit:
+    switch: s_lock
+          
+counters: 
+
+  count_ball_lock:
+    count_events: ball_lock_hit_hit
+    count_complete_value: 1
+    events_when_hit: ms_lock_hit, ms_mode_start
+    reset_on_complete: false
+  
+coil_player: 
+  ms_lock_hit: 
+    c_drop_reset_left:
+      max_wait_ms: 100

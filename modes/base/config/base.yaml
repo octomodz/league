@@ -9,6 +9,10 @@ mode:
 
 slide_player: 
 
+  player_turn_starting{ball==1}:
+    balls_slide:
+      target: display2
+      action: play
      
   single_player_ball_starting:
     base_slide_main:
@@ -47,6 +51,13 @@ slide_player:
       target: display2
       action: play
       
+  multiplayer_game{'<Player 2>' and '<Player 3>' and '<Player 4>' and '<Player 5>'}:
+    base_slide_main_4p:
+      action: remove
+    base_slide_main_5p:
+      target: display2
+      action: play
+      
 widgets: 
 
   garen: 
@@ -73,11 +84,43 @@ widgets:
     image: smallthresh    
     x: center - 200 
     y: center - 450
-          
+  kindred: 
+    type: image
+    image: smallthresh    
+    x: center - 200 
+    y: center - 450
+  ekko: 
+    type: image
+    image: smallthresh    
+    x: center - 200 
+    y: center - 450
+    
+  balls:
+    type: image
+    image: balls
+    x: center + 220
+    y: center - 355 
+
+
+widget_player:
+
+  ball_started{ball==1}:
+    balls:
+      slide: base_slide_main
+                   
 slides: 
 
+  balls_slide:
+     priority: 6000
+     widgets:
+      - type: image
+        image: balls
+        x: center + 220
+        y: center - 355   
+      
+        
   base_slide_main:
-    # priority: 5000
+     priority: 5000
      widgets:
       - type: text
         text: (score)
@@ -113,9 +156,17 @@ slides:
         anchor_y: bottom
         font_size: 80
         
+     
+        
       - widget: (current_player.selected_champ)
         height: 50
         width: 50
+        
+      - type: image
+        image: balls
+        x: center + 220
+        y: center - 355   
+        
 
       - type: image
         image: singlescore
@@ -392,6 +443,108 @@ slides:
         x: center
         y: center - 50     
 
+  base_slide_main_5p:
+    widgets:  
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 300
+        x: center
+        y: center
+        color: gold
+
+      #- type: rectangle
+      #  x: center
+       # y: center
+       # width: 1500
+       # height: 300
+       # color: black
+       # opacity: .75
+      - type: text
+        text: PLAYER (number)
+        color: white
+        y: 60
+        x: center + 80
+        font_size: 80
+        anchor_x: center
+        anchor_y: bottom
+        
+      - type: text
+        text: (ball)
+        color: white
+        y: 55
+        x: center - 195
+        anchor_x: center
+        anchor_y: bottom
+        font_size: 80
+        
+        
+      - widget: (current_player.selected_champ)
+        height: 50
+        width: 50
+        
+        
+      - type: text
+        text: (player1|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250
+        y: top - 110
+
+      - type: text
+        text: (player2|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: right - 250 
+        y: top - 110
+
+
+      - type: text
+        text: (player3|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: left + 250
+        y: bottom + 250
+
+      - type: text
+        text: (player4|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: right - 250
+        y: bottom + 250
+        
+      - type: text
+        text: (player5|score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        x: center - 250
+        y: center        
+        
+      - type: image
+        image: singlescore
+        x: center
+        y: center - 40
+
+      - type: image
+        image: dmdborder
+        x: center -10
+
+        y: center - 30        
+      - type: image
+        image: scorebg3
+        x: center
+        y: center - 50  
+        
+
+        
+          
+
   base_slide_mini:
      priority: 1
      widgets:
@@ -411,11 +564,11 @@ slides:
         text: Teemo's Shrooms - (Shrooms)
       - type: text
         y: bottom
-        x: right - 150
-        anchor_x: right + 50
+        x: right- 300
+        anchor_x: right - 50
         anchor_y: bottom
         font_size: 35
-        text: CS - (CS)
+        text: Minions Killed - (CS)
 
 coil_player:
   enable_shaker_event:
@@ -433,14 +586,16 @@ variable_player:
   s_bottom_jet_active:
     score: 5000
     Shrooms: 1
+    Shrooms_turn: 1    
   s_left_jet_active:
     score: 5000
     Shrooms: 1
     c_shaker: enable
-    
+    Shrooms_turn: 1    
   s_right_jet_active:
     score: 5000
     Shrooms: 1
+    Shrooms_turn: 1
   s_right_slingshot_active:
     score: 1000
   s_left_slingshot_active:
@@ -449,33 +604,43 @@ variable_player:
   s_t11_active:
     score: 10000
     CS: 1
+    CS_turn: 1
   s_t12_active:
     score: 10000
     CS: 1
+    CS_turn: 1    
   s_t3_active:
     score: 5000
     CS: 1
+    CS_turn: 1    
   s_t4_active:
     score: 5000
     CS: 1  
+    CS_turn: 1    
   s_t5_active:
     score: 5000
     CS: 1
+    CS_turn: 1    
   s_t6_active:
     score: 5000
     CS: 1
+    CS_turn: 1    
   s_left_target_active:
     score: 5000
     CS: 1
+    CS_turn: 1    
   s_right_target_active:
     score: 5000
     CS: 1
+    CS_turn: 1    
   s_t7_active:
     score: 5000
     CS: 1
+    CS_turn: 1    
   s_t8_active:
     score: 5000
     CS: 1
+    CS_turn: 1    
   s_tward_active:
     score: 25000
     CS: 1
@@ -489,6 +654,16 @@ variable_player:
   s_right_spinner_active:
     score: 1000    
 
+  s_lock_active:
+    score: 15000 
+
+  s_left_drop_lock_active:
+    score: 5000
+    
+  ball_started:
+    Shrooms_turn: 
+      int: 0
+      action: set    
 
 shows:
   rainbow:
@@ -512,6 +687,12 @@ show_player:
 
     base_backglass:
       speed: 4
+    drop_show: 
+      priority: 60
+      speed: 13
+#    sides: 
+#      priority: 60
+#      speed: 13
 
   s_tward_active:
     
@@ -524,6 +705,8 @@ event_player:
   mode_base_started{game.num_players==2}: multiplayer_game{'<Player 2>'} 
   mode_base_started{game.num_players==3}: multiplayer_game{'<Player 2>' and '<Player 3>'}
   mode_base_started{game.num_players==4}: multiplayer_game{'<Player 2>' and '<Player 3>' and '<Player 4>'} 
+  
+
   
 sound_player: 
 

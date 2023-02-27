@@ -3,7 +3,7 @@
 mode:
   start_events: ball_started
   priority: 600
-  stop_events: stop_mode_jungle, ball_will_end, ball_ended, smdr_group_hit_complete
+  stop_events: stop_mode_jungle, ball_will_end, ball_ended, mode_jungle_selected_started
 
 
 
@@ -21,16 +21,21 @@ shots:
     show_tokens:
       led: 0_led15, 0_led147, 0_led148, 0_led149
       color: green
+      
   wolves:
     switch: s_drop_front
     profile: jungle_profile  
     show_tokens:
       led: 0_led14, 0_led150, 0_led151, 0_led152
       color: purple
+           
 
 
 shot_groups:
-  jungle_group:
+
+
+
+  jungle_drop_group:
     shots: gromp, raptor, wolves
     reset_events: drop_target_bank_vuk_bank_up, ball_started, ball_ended, ball_will_end
     rotate_left_events: s_flipper_left_active
@@ -45,7 +50,7 @@ shot_profiles:
         show: lighton
 
 variable_player:
-  jungle_group_hit_complete:
+  jungle_drop_group_hit_complete:
     score: 500000
     bonus_multiplier: 2
 
@@ -53,7 +58,7 @@ variable_player:
     
 show_player:
 
-  jungle_group_hit_complete:
+  jungle_drop_group_hit_complete:
     light_blink:
       action: play
       loops: 4

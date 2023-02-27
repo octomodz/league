@@ -1,6 +1,18 @@
 #show_version=5
 
-
+- duration: 30s
+  slides:
+    backglass:
+      target: display1
+      widgets:
+      - type: image
+        image: baron_bg
+        x: right - 50%
+        y: top - 50%
+      transition:
+        type: wipe
+        duration: 1s
+        
 - duration: 968s
   slides:
     call_song:
@@ -11,6 +23,29 @@
       transition:
         type: wipe
         duration: 1s
+        
+- duration: 1332s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: newintro
+      transition:
+        type: wipe
+        duration: 1s    
+        
+- duration: 968s
+  slides:
+    call_song:
+      target: display1
+      widgets:
+      - type: video
+        video: thecall
+      transition:
+        type: wipe
+        duration: 1s        
+            
         
 - duration: 968s
   slides:
@@ -29,32 +64,12 @@
       target: display1
       widgets:
       - type: video
-        video: enemy
-      transition:
-        type: wipe
-        duration: 1s
-        
-- duration: 968s
-  slides:
-    call_song:
-      target: display1
-      widgets:
-      - type: video
         video: fuse
       transition:
         type: wipe
         duration: 1s        
 
-- duration: 968s
-  slides:
-    call_song:
-      target: display1
-      widgets:
-      - type: video
-        video: thecall
-      transition:
-        type: wipe
-        duration: 1s
+
 
 - duration: 90s
   slides:

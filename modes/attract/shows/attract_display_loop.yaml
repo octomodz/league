@@ -57,7 +57,7 @@
         type: wipe
         duration: 1s
         
-- duration: 150s
+- duration: 90s
   slides:
     show_high_scores:
       target: display2    
@@ -245,6 +245,18 @@
         type: wipe
         duration: 1s
 
+- duration: 45s
+  slides:
+    spons1_slide:
+      target: display2
+      widgets:
+      - type: video
+        video: fantastic
+        x: center
+        y: center
+      transition:
+        type: wipe
+        duration: 1s
 
 - duration: 10s
   slides:

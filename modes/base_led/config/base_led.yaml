@@ -19,6 +19,8 @@ show_player:
     backwall2: 
       priority: 100
       speed: 13
-
+   #drop_show: 
+     # priority: 60
+     # speed: 13
 
     

@@ -11,26 +11,26 @@ shots:
     profile: top_lane_profile
     show_tokens:
       led: 0_led116
-      color: purple
+      color: blue
 
   top_lane_w:
     switch: s_w
     profile: top_lane_profile
     show_tokens:
       led: 0_led117
-      color: purple
+      color: blue
   top_lane_e:
     switch: s_e
     profile: top_lane_profile  
     show_tokens:
       led: 0_led118
-      color: purple
+      color: blue
   top_lane_r:
     switch: s_r
     profile: top_lane_profile  
     show_tokens:
       led: 0_led119
-      color: purple
+      color: blue
 
 
 shot_groups:

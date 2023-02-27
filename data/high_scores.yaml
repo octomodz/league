@@ -1,0 +1,32 @@
+loops:
+- !!python/tuple
+  - JAN
+  - 42
+score:
+- !!python/tuple
+  - AAA
+  - 6712000
+- !!python/tuple
+  - ERNIE
+  - 6502000
+- !!python/tuple
+  - ERNIE
+  - 6270000
+- !!python/tuple
+  - AAA
+  - 5297000
+- !!python/tuple
+  - EAS
+  - 5051000
+- !!python/tuple
+  - AAA
+  - 4983000
+- !!python/tuple
+  - AAA
+  - 4655000
+- !!python/tuple
+  - EAS
+  - 4285000
+- !!python/tuple
+  - ENDA
+  - 3785000

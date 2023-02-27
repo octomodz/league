@@ -1,0 +1,97 @@
+#config_version=5
+mode:
+  priority: 6000
+
+mode_settings:
+  display_delay_ms: 2s
+  hurry_up_delay_ms: 0
+  bonus_entries:
+  
+    - event: bonus_ramps
+      score: 500 * (current_player.CS_turn + 0)
+      
+    - event: bonus_math
+      score: 1210 * (current_player.Shrooms_turn + 0)
+
+  
+slide_player:
+
+  mode_bonus_started: 
+    bonus_start_slide:
+      target: display2
+      action: play
+      
+  bonus_ramps: 
+    bonus_ramp_slide:
+      target: display2
+      action: play
+          
+  bonus_math: 
+    bonus_math_slide:
+      target: display2
+      action: play    
+    
+    
+  bonus_total: 
+    bonus_total_slide:
+      target: display2
+      action: play    
+  
+slides:
+  bonus_start_slide:
+    widgets:
+      - type: text
+        text: Bonus
+        x: center
+        y: center
+        
+  bonus_ramp_slide:
+    widgets:
+    - type: text
+      text: "Minions Killed (player|CS_turn)"
+      x: center
+      y: center
+      
+    - type: text
+      text: (score)
+      x: center
+      y: center - 100
+      
+  bonus_math_slide:
+    widgets:  
+    - type: text
+      text: "Shrooms (player|Shrooms_turn)"
+      x: center
+      y: center      
+      
+    - type: text
+      text: (score)
+      x: center
+      y: center - 100      
+      
+  bonus_multiplier_slide:
+    widgets:  
+    - type: text
+      text: "Multiplier"
+      x: center
+      y: center 
+   
+    - type: text
+      text: "(multiplier)X"
+      x: center
+      y: center - 100
+            
+  bonus_total_slide:
+    widgets:  
+    - type: text
+      text: "Total Bonus"
+      x: center
+      y: center       
+      
+    - type: text
+      text: (score)
+      x: center
+      y: center - 100  
+      
+      
+      

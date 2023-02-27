@@ -1,0 +1,125 @@
+#show_version=5
+- time: 0
+  lights:
+    0_led29: 'C84026'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C83D25'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C72E1C'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C70A07'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C60101'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C30001'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C60001'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C6010F'
+    
+- time: '+1'
+  lights:
+    0_led29: 'C20376'
+    
+- time: '+1'
+  lights:
+    0_led29: 'BF05BE'
+    
+- time: '+1'
+  lights:
+    0_led29: 'BD05C8'
+    
+- time: '+1'
+  lights:
+    0_led29: 'BC05C7'
+    
+- time: '+1'
+  lights:
+    0_led29: 'BC05C8'
+    
+- time: '+1'
+  lights:
+    0_led29: 'BD07CD'
+    
+- time: '+1'
+  lights:
+    0_led29: 'A512D7'
+    
+- time: '+1'
+  lights:
+    0_led29: '8523E6'
+    
+- time: '+1'
+  lights:
+    0_led29: '7B28EB'
+    
+- time: '+1'
+  lights:
+    0_led29: '7528EC'
+    
+- time: '+1'
+  lights:
+    0_led29: '4B1AF3'
+    
+- time: '+1'
+  lights:
+    0_led29: '0401FE'
+    
+- time: '+1'
+  lights:
+    0_led29: '0002FE'
+    
+- time: '+1'
+  lights:
+    0_led29: '0009FC'
+    
+- time: '+1'
+  lights:
+    0_led29: '0029F2'
+    
+- time: '+1'
+  lights:
+    0_led29: '004CE9'
+    
+- time: '+1'
+  lights:
+    0_led29: '0050E5'
+    
+- time: '+1'
+  lights:
+    0_led29: '004FE1'
+    
+- time: '+1'
+  lights:
+    0_led29: '004FE0'
+    
+- time: '+1'
+  lights:
+    0_led29: '014FDE'
+    
+- time: '+1'
+  lights:
+    0_led29: '0551C9'
+    
+- time: '+1'
+  lights:
+    0_led29: '135574'
+    

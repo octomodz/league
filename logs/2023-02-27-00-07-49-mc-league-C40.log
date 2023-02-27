@@ -1,0 +1,1016 @@
+2023-02-27 00:07:49,509 : kivy : Factory: 189 symbols loaded
+2023-02-27 00:07:49,511 : kivy : Cache: register <kv.resourcefind> with limit=None, timeout=60
+2023-02-27 00:07:49,512 : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2023-02-27 00:07:49,629 : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2023-02-27 00:07:49,629 : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2023-02-27 00:07:49,660 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.5
+2023-02-27 00:07:49,660 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2023-02-27 00:07:49,660 : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2023-02-27 00:07:49,660 : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2023-02-27 00:07:49,677 : kivy : Video: Ignored <ffmpeg> (import error)
+2023-02-27 00:07:49,681 : kivy : VideoFFPy: Using ffpyplayer 4.3.5
+2023-02-27 00:07:49,681 : kivy : Video: Provider: ffpyplayer(['video_ffmpeg'] ignored)
+2023-02-27 00:07:49,786 : kivy : Loading MPF-MC controller
+2023-02-27 00:07:49,788 : YamlMultifileConfigLoader : Machine config file #1: config
+2023-02-27 00:07:49,788 : ConfigProcessor : Config file in cache changed: /home/league/League/config/config
+2023-02-27 00:07:49,788 : ConfigProcessor : Loading config from file /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpfmc/mcconfig.yaml.
+2023-02-27 00:07:49,788 : YAML File Interface : Loading file: /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpfmc/mcconfig.yaml
+2023-02-27 00:07:49,829 : ConfigProcessor : Loading config: /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpfmc/mcconfig.yaml
+2023-02-27 00:07:49,829 : ConfigProcessor : Loading config from file /home/league/League/config/config.
+2023-02-27 00:07:49,829 : YAML File Interface : Loading file: /home/league/League/config/config.yaml
+2023-02-27 00:07:49,959 : ConfigProcessor : Loading config: /home/league/League/config/config
+2023-02-27 00:07:49,959 : YAML File Interface : Loading file: /home/league/League/config/config_lights.yaml
+2023-02-27 00:07:50,238 : ConfigProcessor : Loading config: /home/league/League/config/config_lights.yaml
+2023-02-27 00:07:50,242 : YAML File Interface : Loading file: /home/league/League/config/config_sound.yaml
+2023-02-27 00:07:50,260 : ConfigProcessor : Loading config: /home/league/League/config/config_sound.yaml
+2023-02-27 00:07:50,263 : YAML File Interface : Loading file: /home/league/League/config/config_images.yaml
+2023-02-27 00:07:50,270 : ConfigProcessor : Loading config: /home/league/League/config/config_images.yaml
+2023-02-27 00:07:50,279 : ConfigProcessor : Config file cache created: /tmp/a1b42c50cedc64a5c2494ecdb749c7c6.mpf_cache
+2023-02-27 00:07:50,279 : YamlMultifileConfigLoader : Loading mode attract from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/attract/config/attract.yaml
+2023-02-27 00:07:50,279 : YamlMultifileConfigLoader : Loading mode attract from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/attract/config/attract.yaml
+2023-02-27 00:07:50,280 : ConfigProcessor : Loading config from cache: /tmp/fa2f3dd53281ecd524ab068ae3b3d9fb.mpf_cache
+2023-02-27 00:07:50,280 : YamlMultifileConfigLoader : Loading mode game from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/game/config/game.yaml
+2023-02-27 00:07:50,280 : ConfigProcessor : Loading config from cache: /tmp/e74ff1df9aed80deeea9312b46d4f84a.mpf_cache
+2023-02-27 00:07:50,280 : YamlMultifileConfigLoader : Loading mode bonus from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/bonus/config/bonus.yaml
+2023-02-27 00:07:50,280 : YamlMultifileConfigLoader : Loading mode bonus from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/bonus/config/bonus.yaml
+2023-02-27 00:07:50,280 : ConfigProcessor : Loading config from cache: /tmp/cb1973e09711a639565bf23da6927a33.mpf_cache
+2023-02-27 00:07:50,280 : YamlMultifileConfigLoader : Loading mode base from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/base/config/base.yaml
+2023-02-27 00:07:50,280 : ConfigProcessor : Loading config from cache: /tmp/1daf57a07dc95bcb2a3150d9ea5b878c.mpf_cache
+2023-02-27 00:07:50,281 : YamlMultifileConfigLoader : Loading mode ball_save from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/ball_save/config/ball_save.yaml
+2023-02-27 00:07:50,281 : ConfigProcessor : Loading config from cache: /tmp/1c6479eb8332393947384ef352d0056d.mpf_cache
+2023-02-27 00:07:50,281 : YamlMultifileConfigLoader : Loading mode ball_one_champ_select from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/ball_one_champ_select/config/ball_one_champ_select.yaml
+2023-02-27 00:07:50,281 : ConfigProcessor : Loading config from cache: /tmp/7d80e0af08b9b11c1acd40759e2c6ab5.mpf_cache
+2023-02-27 00:07:50,281 : YamlMultifileConfigLoader : Loading mode base_led from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/base_led/config/base_led.yaml
+2023-02-27 00:07:50,281 : ConfigProcessor : Loading config from cache: /tmp/b405c489fafd74986b50fd456da0deec.mpf_cache
+2023-02-27 00:07:50,281 : YamlMultifileConfigLoader : Loading mode bottom_lanes from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/bottom_lanes/config/bottom_lanes.yaml
+2023-02-27 00:07:50,281 : ConfigProcessor : Loading config from cache: /tmp/46b0ba702861d67d7e8de643bcc97e2f.mpf_cache
+2023-02-27 00:07:50,281 : YamlMultifileConfigLoader : Loading mode champ_select from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/champ_select/config/champ_select.yaml
+2023-02-27 00:07:50,281 : ConfigProcessor : Loading config from cache: /tmp/34ec7389bea04d1f876b35e34cd62090.mpf_cache
+2023-02-27 00:07:50,282 : YamlMultifileConfigLoader : Loading mode attract from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/attract/config/attract.yaml
+2023-02-27 00:07:50,282 : YamlMultifileConfigLoader : Loading mode attract from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/attract/config/attract.yaml
+2023-02-27 00:07:50,282 : ConfigProcessor : Loading config from cache: /tmp/fa2f3dd53281ecd524ab068ae3b3d9fb.mpf_cache
+2023-02-27 00:07:50,282 : YamlMultifileConfigLoader : Loading mode jungle from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/jungle/config/jungle.yaml
+2023-02-27 00:07:50,282 : ConfigProcessor : Loading config from cache: /tmp/e56ab115d74b3ce641ec2e6a1dfbc461.mpf_cache
+2023-02-27 00:07:50,282 : YamlMultifileConfigLoader : Loading mode jungle_selected from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/jungle_selected/config/jungle_selected.yaml
+2023-02-27 00:07:50,282 : ConfigProcessor : Loading config from cache: /tmp/a1f4f483879331a9e6491c8abdbd93fa.mpf_cache
+2023-02-27 00:07:50,282 : YamlMultifileConfigLoader : Loading mode skillshot from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/skillshot/config/skillshot.yaml
+2023-02-27 00:07:50,282 : ConfigProcessor : Loading config from cache: /tmp/aba39803257fada85c5a29e16eef5fa3.mpf_cache
+2023-02-27 00:07:50,282 : YamlMultifileConfigLoader : Loading mode top_lanes from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/top_lanes/config/top_lanes.yaml
+2023-02-27 00:07:50,283 : ConfigProcessor : Loading config from cache: /tmp/45b843aa7006977bcf98db3783653c70.mpf_cache
+2023-02-27 00:07:50,283 : YamlMultifileConfigLoader : Loading mode left_orbit from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/left_orbit/config/left_orbit.yaml
+2023-02-27 00:07:50,283 : ConfigProcessor : Loading config from cache: /tmp/048667b990a8842bc338ddca27c8165f.mpf_cache
+2023-02-27 00:07:50,283 : YamlMultifileConfigLoader : Loading mode modes_selection from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/modes_selection/config/modes_selection.yaml
+2023-02-27 00:07:50,283 : ConfigProcessor : Loading config from cache: /tmp/b8a0e2ffcdcdaf2d7df92d83fc4b5edd.mpf_cache
+2023-02-27 00:07:50,283 : YamlMultifileConfigLoader : Loading mode modes_selection_lock from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/modes_selection_lock/config/modes_selection_lock.yaml
+2023-02-27 00:07:50,283 : ConfigProcessor : Loading config from cache: /tmp/95ee24d16b9a9464a66ab3791fc5ce64.mpf_cache
+2023-02-27 00:07:50,283 : YamlMultifileConfigLoader : Loading mode right_orbit from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/right_orbit/config/right_orbit.yaml
+2023-02-27 00:07:50,283 : ConfigProcessor : Loading config from cache: /tmp/bb94f9b67f1c6d473a2c7fbc5ddc1017.mpf_cache
+2023-02-27 00:07:50,284 : YamlMultifileConfigLoader : Loading mode left_ramp from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/left_ramp/config/left_ramp.yaml
+2023-02-27 00:07:50,284 : ConfigProcessor : Loading config from cache: /tmp/02701cee94ad9e816dee59116de6c872.mpf_cache
+2023-02-27 00:07:50,284 : YamlMultifileConfigLoader : Loading mode shooter_lane from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/shooter_lane/config/shooter_lane.yaml
+2023-02-27 00:07:50,284 : ConfigProcessor : Loading config from cache: /tmp/55c8a615d32363855be2b259de0f029f.mpf_cache
+2023-02-27 00:07:50,284 : YamlMultifileConfigLoader : Loading mode support_mode from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/support_mode/config/support_mode.yaml
+2023-02-27 00:07:50,284 : ConfigProcessor : Loading config from cache: /tmp/39c3d09190731dfa32218da063784288.mpf_cache
+2023-02-27 00:07:50,284 : YamlMultifileConfigLoader : Loading mode high_score from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/high_score/config/high_score.yaml
+2023-02-27 00:07:50,284 : YamlMultifileConfigLoader : Loading mode high_score from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/high_score/config/high_score.yaml
+2023-02-27 00:07:50,284 : ConfigProcessor : Loading config from cache: /tmp/25235a36adbce0491a355d529de34a27.mpf_cache
+2023-02-27 00:07:50,284 : YamlMultifileConfigLoader : Loading mode right_ramp from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/right_ramp/config/right_ramp.yaml
+2023-02-27 00:07:50,284 : ConfigProcessor : Loading config from cache: /tmp/c44030b7a2ed49705455847a5d952dae.mpf_cache
+2023-02-27 00:07:50,285 : YamlMultifileConfigLoader : Loading mode supermegadeathrocket from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/supermegadeathrocket/config/supermegadeathrocket.yaml
+2023-02-27 00:07:50,285 : ConfigProcessor : Loading config from cache: /tmp/d3ce913d3becb89febcfcaefd687894f.mpf_cache
+2023-02-27 00:07:50,285 : YamlMultifileConfigLoader : Loading mode thresh_counter from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/thresh_counter/config/thresh_counter.yaml
+2023-02-27 00:07:50,285 : ConfigProcessor : Loading config from cache: /tmp/00d63250df0762dffc34bedfa799de57.mpf_cache
+2023-02-27 00:07:50,285 : YamlMultifileConfigLoader : Loading mode zombie_ball_save from /home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/zombie_ball_save/config/zombie_ball_save.yaml
+2023-02-27 00:07:50,285 : ConfigProcessor : Loading config from cache: /tmp/e357c7a61ee1319875ddd2c0eec5f61b.mpf_cache
+2023-02-27 00:07:50,285 : mpfmc : Mission Pinball Framework Media Controller v0.56.0-dev33
+2023-02-27 00:07:50,285 : mpfmc : Mission Pinball Framework Game Engine v0.56.0-dev33
+2023-02-27 00:07:50,285 : mpfmc : Machine path: /home/league/League
+2023-02-27 00:07:50,286 : mpfmc : Starting clock at 60.0Hz
+2023-02-27 00:07:50,291 : kivy : Text: Provider: sdl2
+2023-02-27 00:07:50,311 : kivy : Window: Provider: sdl2
+2023-02-27 00:07:50,478 : kivy : GL: Using the "OpenGL" graphics system
+2023-02-27 00:07:50,479 : kivy : GL: Backend used <sdl2>
+2023-02-27 00:07:50,479 : kivy : GL: OpenGL version <b'4.6 (Compatibility Profile) Mesa 21.2.6'>
+2023-02-27 00:07:50,479 : kivy : GL: OpenGL vendor <b'AMD'>
+2023-02-27 00:07:50,479 : kivy : GL: OpenGL renderer <b'AMD Ryzen Embedded V1202B with Radeon Vega Gfx (RAVEN, DRM 3.42.0, 5.15.0-60-generic, LLVM 12.0.0)'>
+2023-02-27 00:07:50,479 : kivy : GL: OpenGL parsed version: 4, 6
+2023-02-27 00:07:50,480 : kivy : GL: Shading version <b'4.60'>
+2023-02-27 00:07:50,480 : kivy : GL: Texture max size <16384>
+2023-02-27 00:07:50,480 : kivy : GL: Texture max units <32>
+2023-02-27 00:07:50,508 : kivy : Shader: Fragment compiled successfully
+2023-02-27 00:07:50,508 : kivy : Shader: Vertex compiled successfully
+2023-02-27 00:07:50,509 : kivy : ImageSDL2: Load </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/kivy/data/glsl/default.png>
+2023-02-27 00:07:50,512 : kivy : Window: auto add sdl2 input provider
+2023-02-27 00:07:50,513 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2023-02-27 00:07:50,518 : mpfmc : Machine path: /home/league/League
+2023-02-27 00:07:50,518 : kivy : Resource: add </home/league/League/fonts> in path list
+2023-02-27 00:07:50,518 : kivy : Resource: add </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpfmc/fonts> in path list
+2023-02-27 00:07:50,518 : SoundSystem : Loading the Sound System
+2023-02-27 00:07:50,792 : AudioInterface : Initialized
+2023-02-27 00:07:50,792 : AudioInterface : Loaded SDL 2.0.14
+2023-02-27 00:07:50,792 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2023-02-27 00:07:50,792 : AudioInterface : Loaded GStreamer 1.10.4.0
+2023-02-27 00:07:50,792 : AudioInterface : Loaded GLib 2.64.6
+2023-02-27 00:07:50,793 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2023-02-27 00:07:50,793 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2023-02-27 00:07:50,793 : Track : Allocated track audio buffer (4096 bytes)
+2023-02-27 00:07:50,793 : Track.0.TrackStandard.music : Created Track 0 music with the following settings: simultaneous_sounds = 1, volume = 0.340000
+2023-02-27 00:07:50,793 : AudioInterface : The 'music' standard track has successfully been created.
+2023-02-27 00:07:50,793 : Track : Allocated track audio buffer (4096 bytes)
+2023-02-27 00:07:50,794 : Track.1.TrackStandard.voice : Created Track 1 voice with the following settings: simultaneous_sounds = 1, volume = 1.000000
+2023-02-27 00:07:50,794 : AudioInterface : The 'voice' standard track has successfully been created.
+2023-02-27 00:07:50,794 : Track : Allocated track audio buffer (4096 bytes)
+2023-02-27 00:07:50,794 : Track.2.TrackStandard.sfx : Created Track 2 sfx with the following settings: simultaneous_sounds = 8, volume = 1.000000
+2023-02-27 00:07:50,794 : AudioInterface : The 'sfx' standard track has successfully been created.
+2023-02-27 00:07:50,795 : SoundSystem : Setting master volume to 0.0
+2023-02-27 00:07:50,795 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2023-02-27 00:07:50,795 : AudioInterface : Enabling audio playback
+2023-02-27 00:07:50,798 : kivy : App: Loading kv </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpfmc/core/mpfmc.kv>
+2023-02-27 00:07:50,798 : kivy : App: kv </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpfmc/core/mpfmc.kv> not found
+2023-02-27 00:07:50,799 : kivy : Base: Create provider from mouse,multitouch_on_demand
+2023-02-27 00:07:50,799 : kivy : Base: Create provider from probesysfs
+2023-02-27 00:07:50,947 : kivy : ProbeSysfs: using probesysfs!
+2023-02-27 00:07:50,948 : kivy : Base: Start application main loop
+2023-02-27 00:07:50,949 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2023-02-27 00:07:50,949 : EventManager : Event: ======'display_display1_initialized'====== Args={}
+2023-02-27 00:07:50,949 : EventManager : Event: ======'display_display2_initialized'====== Args={}
+2023-02-27 00:07:50,949 : EventManager : Event: ======'display_display3_initialized'====== Args={}
+2023-02-27 00:07:50,957 : mpfmc : Display: Setting 'window' as default display
+2023-02-27 00:07:50,963 : EventManager : Event: ======'displays_initialized'====== Args={}
+2023-02-27 00:07:50,965 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2023-02-27 00:07:50,965 : EventManager : Event: ======'display_window_ready'====== Args={}
+2023-02-27 00:07:50,966 : EventManager : Event: ======'slide_display1_blank_created'====== Args={}
+2023-02-27 00:07:50,966 : EventManager : Event: ======'display_display1_ready'====== Args={}
+2023-02-27 00:07:50,967 : EventManager : Event: ======'slide_display2_blank_created'====== Args={}
+2023-02-27 00:07:50,967 : EventManager : Event: ======'display_display2_ready'====== Args={}
+2023-02-27 00:07:50,967 : EventManager : Event: ======'slide_display3_blank_created'====== Args={}
+2023-02-27 00:07:50,967 : EventManager : Event: ======'display_display3_ready'====== Args={}
+2023-02-27 00:07:50,972 : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-02-27 00:07:50,979 : EventManager : Event: ======'mc_ready'====== Args={}
+2023-02-27 00:07:50,979 : mpfmc : SlidePlayer: Play called with settings={'slides': {slide_layout-None-None: {'target': 'window', 'priority': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2023-02-27 00:07:50,980 : mpfmc : SlidePlayer: Playing slide 'slide_layout' on target 'window' (Args={'priority': 0, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None})
+2023-02-27 00:07:50,985 : EventManager : Event: ======'slide_slide_layout_created'====== Args={}
+2023-02-27 00:07:50,985 : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-02-27 00:07:50,986 : ModeController : Found MPF Mode folders: {'carousel': 'carousel', 'bonus': 'bonus', 'service_segment_display': 'service_segment_display', 'high_score': 'high_score', 'attract': 'attract', 'game': 'game', 'service': 'service', 'credits': 'credits', 'tilt': 'tilt', 'service_dmd': 'service_dmd', 'match': 'match'}
+2023-02-27 00:07:50,986 : ModeController : Found Machine-specific Mode folders: {'bonus': 'bonus', 'left_ramp': 'left_ramp', 'top_lanes': 'top_lanes', 'base_led': 'base_led', 'ball_save': 'ball_save', 'selected_champion': 'selected_champion', 'jungle': 'jungle', 'thresh_counter': 'thresh_counter', 'jungle_selected': 'jungle_selected', 'modes_selection_lock': 'modes_selection_lock', 'ball_one_champ_select': 'ball_one_champ_select', 'high_score': 'high_score', 'pop_bumpers': 'pop_bumpers', 'base': 'base', 'supermegadeathrocket': 'supermegadeathrocket', 'attract': 'attract', 'right_orbit': 'right_orbit', 'modes_selection': 'modes_selection', 'bottom_lanes': 'bottom_lanes', 'skillshot': 'skillshot', 'match': 'match', 'support_mode': 'support_mode', 'right_ramp': 'right_ramp', 'left_orbit': 'left_orbit', 'shooter_lane': 'shooter_lane', 'zombie_ball_save': 'zombie_ball_save', 'mb_bs': 'mb_bs', 'champ_select': 'champ_select'}
+2023-02-27 00:07:51,011 : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-02-27 00:07:51,020 : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-02-27 00:07:51,021 : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-02-27 00:07:51,021 : mpfmc : Clearing boot hold init. Holds remaining: {'assets'}
+2023-02-27 00:07:51,031 : EventManager : Event: ======'slide_slide_layout_active'====== Args={}
+2023-02-27 00:07:51,032 : kivy : ImageSDL2: Load </home/league/League/images/garen.png>
+2023-02-27 00:07:51,065 : kivy : ImageSDL2: Load </home/league/League/images/scorebg1.png>
+2023-02-27 00:07:51,147 : EventManager : Event: ======'loading_assets'====== Args={'total': 91, 'loaded': 1, 'remaining': 90, 'percent': 1}
+2023-02-27 00:07:51,147 : kivy : ImageSDL2: Load </home/league/League/images/zen.png>
+2023-02-27 00:07:51,147 : AssetManager : Loading assets: 1/91 (1%)
+2023-02-27 00:07:51,157 : kivy : GL: NPOT texture support is available
+2023-02-27 00:07:51,157 : kivy : ImageSDL2: Load </home/league/League/images/thanks.png>
+2023-02-27 00:07:51,174 : kivy : ImageSDL2: Load </home/league/League/images/ohmbrew.png>
+2023-02-27 00:07:51,194 : kivy : ImageSDL2: Load </home/league/League/images/SUPPORT.png>
+2023-02-27 00:07:51,195 : kivy : ImageSDL2: Load </home/league/League/images/trident.png>
+2023-02-27 00:07:51,236 : kivy : ImageSDL2: Load </home/league/League/images/mpf.png>
+2023-02-27 00:07:51,241 : kivy : ImageSDL2: Load </home/league/League/images/botmode.png>
+2023-02-27 00:07:51,279 : kivy : ImageSDL2: Load </home/league/League/images/JUNGLE.png>
+2023-02-27 00:07:51,280 : kivy : ImageSDL2: Load </home/league/League/images/kindred.png>
+2023-02-27 00:07:51,291 : kivy : ImageSDL2: Load </home/league/League/images/smalljinx.png>
+2023-02-27 00:07:51,294 : kivy : ImageSDL2: Load </home/league/League/images/ADC.png>
+2023-02-27 00:07:51,295 : kivy : ImageSDL2: Load </home/league/League/images/cobrapin.jpg>
+2023-02-27 00:07:51,297 : kivy : ImageSDL2: Load </home/league/League/images/scorebg5.jpeg>
+2023-02-27 00:07:51,318 : kivy : ImageSDL2: Load </home/league/League/images/smallvi.png>
+2023-02-27 00:07:51,320 : kivy : ImageSDL2: Load </home/league/League/images/scorebg.png>
+2023-02-27 00:07:51,400 : kivy : ImageSDL2: Load </home/league/League/images/LogoSticker.png>
+2023-02-27 00:07:51,410 : kivy : ImageSDL2: Load </home/league/League/images/ekko.png>
+2023-02-27 00:07:51,419 : kivy : ImageSDL2: Load </home/league/League/images/smallthresh.png>
+2023-02-27 00:07:51,422 : kivy : ImageSDL2: Load </home/league/League/images/midmode.png>
+2023-02-27 00:07:51,456 : kivy : ImageSDL2: Load </home/league/League/images/TOP.png>
+2023-02-27 00:07:51,458 : kivy : ImageSDL2: Load </home/league/League/images/smallgaren.png>
+2023-02-27 00:07:51,459 : kivy : ImageSDL2: Load </home/league/League/images/junglemode.png>
+2023-02-27 00:07:51,493 : kivy : ImageSDL2: Load </home/league/League/images/topmode.png>
+2023-02-27 00:07:51,527 : kivy : ImageSDL2: Load </home/league/League/images/MID.png>
+2023-02-27 00:07:51,528 : kivy : ImageSDL2: Load </home/league/League/images/scorebg4.jpg>
+2023-02-27 00:07:51,590 : kivy : ImageSDL2: Load </home/league/League/images/supportmode.png>
+2023-02-27 00:07:51,629 : kivy : ImageSDL2: Load </home/league/League/images/league.jpg>
+2023-02-27 00:07:51,684 : kivy : ImageSDL2: Load </home/league/League/images/smallahri.png>
+2023-02-27 00:07:51,686 : kivy : ImageSDL2: Load </home/league/League/images/thresh.png>
+2023-02-27 00:07:51,694 : kivy : ImageSDL2: Load </home/league/League/images/balls.png>
+2023-02-27 00:07:51,695 : kivy : ImageSDL2: Load </home/league/League/images/dmdborder2.png>
+2023-02-27 00:07:51,740 : kivy : ImageSDL2: Load </home/league/League/images/dmdborder.png>
+2023-02-27 00:07:51,785 : kivy : ImageSDL2: Load </home/league/League/images/scorebg3.jpg>
+2023-02-27 00:07:51,798 : kivy : ImageSDL2: Load </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/high_score/images/end_11x7_selected.png>
+2023-02-27 00:07:51,799 : kivy : ImageSDL2: Load </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/high_score/images/end_11x7.png>
+2023-02-27 00:07:51,799 : kivy : ImageSDL2: Load </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/high_score/images/back_arrow_7x7_selected.png>
+2023-02-27 00:07:51,800 : kivy : ImageSDL2: Load </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/mpf/modes/high_score/images/back_arrow_7x7.png>
+2023-02-27 00:07:51,800 : kivy : ImageSDL2: Load </home/league/League/images/singlescore.png>
+2023-02-27 00:07:51,835 : kivy : ImageSDL2: Load </home/league/League/images/sivir.png>
+2023-02-27 00:07:51,847 : kivy : ImageSDL2: Load </home/league/League/images/vi.png>
+2023-02-27 00:07:51,861 : kivy : ImageSDL2: Load </home/league/League/images/jinx.png>
+2023-02-27 00:07:51,872 : kivy : ImageSDL2: Load </home/league/League/images/baron.jpg>
+2023-02-27 00:07:52,105 : EventManager : Event: ======'loading_assets'====== Args={'total': 91, 'loaded': 91, 'remaining': 0, 'percent': 100}
+2023-02-27 00:07:52,105 : AssetManager : Asset loading took: 1.3088533878326416
+2023-02-27 00:07:52,105 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2023-02-27 00:07:52,105 : AssetManager : Loading assets: 91/91 (100%)
+2023-02-27 00:07:52,105 : mpfmc : Clearing boot hold assets. Holds remaining: set()
+2023-02-27 00:07:52,105 : EventManager : Event: ======'init_done'====== Args={}
+2023-02-27 00:07:52,106 : MPF-MC BCP Server : Starting up on localhost port 5050
+2023-02-27 00:07:52,106 : MPF-MC BCP Server : Waiting for a connection...
+2023-02-27 00:07:52,108 : MPF-MC BCP Server : Received connection from: 127.0.0.1:47972
+2023-02-27 00:07:52,109 : MPF-MC BCP Server : Received "hello?version=1.1&controller_name=Mission%20Pinball%20Framework&controller_version=0.56.0-dev33"
+2023-02-27 00:07:52,120 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2023-02-27 00:07:52,120 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 47972}
+2023-02-27 00:07:55,443 : MPF-MC BCP Server : Received "settings?json={"settings": [["brightness", "Brightness", 100, "brightness", 1.0, {"0.25": "25%", "0.5": "50%", "0.75": "75%", "1.0": "100% (default)"}, "standard"], ["flipper_power", "Flipper power", 1000, "flipper_power", 1.0, {"0.8": "Weak", "1.0": "Normal (default)", "1.2": "Strong"}, "standard"]]}"
+2023-02-27 00:07:55,443 : MPF-MC BCP Server : Received "machine_variable?name=credits_string&value=FREE%20PLAY"
+2023-02-27 00:07:55,444 : MPF-MC BCP Server : Received "machine_variable?name=master_volume&value=float:0.7"
+2023-02-27 00:07:55,444 : MPF-MC BCP Server : Received "machine_variable?name=player1_score&value=int:832940"
+2023-02-27 00:07:55,444 : MPF-MC BCP Server : Received "machine_variable?name=mpf_version&value=MPF%20v0.56.0-dev33"
+2023-02-27 00:07:55,445 : MPF-MC BCP Server : Received "machine_variable?name=mpf_extended_version&value=MPF%20v0.56.0-dev33%2C%20Config%20version%3A5%2C%20Show%20version%3A%205%2C%20BCP%20version%3A1.1"
+2023-02-27 00:07:55,445 : MPF-MC BCP Server : Received "machine_variable?name=python_version&value=3.8.10"
+2023-02-27 00:07:55,445 : MPF-MC BCP Server : Received "machine_variable?name=platform&value=Linux-5.15.0-60-generic-x86_64-with-glibc2.29"
+2023-02-27 00:07:55,445 : MPF-MC BCP Server : Received "machine_variable?name=platform_system&value=Linux"
+2023-02-27 00:07:55,446 : MPF-MC BCP Server : Received "machine_variable?name=platform_release&value=5.15.0-60-generic"
+2023-02-27 00:07:55,446 : MPF-MC BCP Server : Received "machine_variable?name=platform_version&value=%2366~20.04.1-Ubuntu%20SMP%20Wed%20Jan%2025%2009%3A41%3A30%20UTC%202023"
+2023-02-27 00:07:55,446 : MPF-MC BCP Server : Received "machine_variable?name=platform_machine&value=x86_64"
+2023-02-27 00:07:55,446 : mpfmc : Setting machine_var 'credits_string' to: FREE PLAY, (prior: None, change: True)
+2023-02-27 00:07:55,447 : MPF-MC BCP Server : Received "machine_variable?name=score1_label&value=GRAND%20CHAMPION"
+2023-02-27 00:07:55,447 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,447 : MPF-MC BCP Server : Received "machine_variable?name=score1_name&value=AAA"
+2023-02-27 00:07:55,447 : mpfmc : Setting machine_var 'master_volume' to: 0.7, (prior: None, change: True)
+2023-02-27 00:07:55,447 : MPF-MC BCP Server : Received "machine_variable?name=score1_value&value=int:6712000"
+2023-02-27 00:07:55,447 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.7, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,448 : MPF-MC BCP Server : Received "machine_variable?name=score2_label&value=HIGH%20SCORE%201"
+2023-02-27 00:07:55,448 : mpfmc : Setting machine_var 'player1_score' to: 832940, (prior: None, change: True)
+2023-02-27 00:07:55,448 : MPF-MC BCP Server : Received "machine_variable?name=score2_name&value=ERNIE"
+2023-02-27 00:07:55,448 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 832940, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,448 : MPF-MC BCP Server : Received "machine_variable?name=score2_value&value=int:6502000"
+2023-02-27 00:07:55,449 : mpfmc : Setting machine_var 'mpf_version' to: MPF v0.56.0-dev33, (prior: None, change: True)
+2023-02-27 00:07:55,449 : MPF-MC BCP Server : Received "machine_variable?name=score3_label&value=HIGH%20SCORE%202"
+2023-02-27 00:07:55,449 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.0-dev33', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,449 : MPF-MC BCP Server : Received "machine_variable?name=score3_name&value=ERNIE"
+2023-02-27 00:07:55,449 : mpfmc : Setting machine_var 'mpf_extended_version' to: MPF v0.56.0-dev33, Config version:5, Show version: 5, BCP version:1.1, (prior: None, change: True)
+2023-02-27 00:07:55,449 : MPF-MC BCP Server : Received "machine_variable?name=score3_value&value=int:6270000"
+2023-02-27 00:07:55,450 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.0-dev33, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,450 : MPF-MC BCP Server : Received "machine_variable?name=score4_label&value=HIGH%20SCORE%203"
+2023-02-27 00:07:55,450 : mpfmc : Setting machine_var 'python_version' to: 3.8.10, (prior: None, change: True)
+2023-02-27 00:07:55,450 : MPF-MC BCP Server : Received "machine_variable?name=score4_name&value=AAA"
+2023-02-27 00:07:55,450 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.8.10', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,451 : MPF-MC BCP Server : Received "machine_variable?name=score4_value&value=int:5297000"
+2023-02-27 00:07:55,451 : mpfmc : Setting machine_var 'platform' to: Linux-5.15.0-60-generic-x86_64-with-glibc2.29, (prior: None, change: True)
+2023-02-27 00:07:55,451 : MPF-MC BCP Server : Received "machine_variable?name=score5_label&value=HIGH%20SCORE%204"
+2023-02-27 00:07:55,451 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-5.15.0-60-generic-x86_64-with-glibc2.29', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,452 : MPF-MC BCP Server : Received "machine_variable?name=score5_name&value=EAS"
+2023-02-27 00:07:55,452 : mpfmc : Setting machine_var 'platform_system' to: Linux, (prior: None, change: True)
+2023-02-27 00:07:55,452 : MPF-MC BCP Server : Received "machine_variable?name=score5_value&value=int:5051000"
+2023-02-27 00:07:55,452 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,453 : mpfmc : Setting machine_var 'platform_release' to: 5.15.0-60-generic, (prior: None, change: True)
+2023-02-27 00:07:55,453 : MPF-MC BCP Server : Received "machine_variable?name=score6_label&value=HIGH%20SCORE%205"
+2023-02-27 00:07:55,453 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '5.15.0-60-generic', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,453 : MPF-MC BCP Server : Received "machine_variable?name=score6_name&value=AAA"
+2023-02-27 00:07:55,453 : mpfmc : Setting machine_var 'platform_version' to: #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023, (prior: None, change: True)
+2023-02-27 00:07:55,453 : MPF-MC BCP Server : Received "machine_variable?name=score6_value&value=int:4983000"
+2023-02-27 00:07:55,453 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,454 : MPF-MC BCP Server : Received "machine_variable?name=score7_label&value=HIGH%20SCORE%206"
+2023-02-27 00:07:55,454 : mpfmc : Setting machine_var 'platform_machine' to: x86_64, (prior: None, change: True)
+2023-02-27 00:07:55,454 : MPF-MC BCP Server : Received "machine_variable?name=score7_name&value=AAA"
+2023-02-27 00:07:55,454 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,454 : MPF-MC BCP Server : Received "machine_variable?name=score7_value&value=int:4655000"
+2023-02-27 00:07:55,454 : mpfmc : Setting machine_var 'score1_label' to: GRAND CHAMPION, (prior: None, change: True)
+2023-02-27 00:07:55,454 : MPF-MC BCP Server : Received "machine_variable?name=score8_label&value=HIGH%20SCORE%207"
+2023-02-27 00:07:55,454 : EventManager : Event: ======'machine_var_score1_label'====== Args={'value': 'GRAND CHAMPION', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,454 : MPF-MC BCP Server : Received "machine_variable?name=score8_name&value=EAS"
+2023-02-27 00:07:55,455 : mpfmc : Setting machine_var 'score1_name' to: AAA, (prior: None, change: True)
+2023-02-27 00:07:55,455 : MPF-MC BCP Server : Received "machine_variable?name=score8_value&value=int:4285000"
+2023-02-27 00:07:55,455 : EventManager : Event: ======'machine_var_score1_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,455 : MPF-MC BCP Server : Received "machine_variable?name=score9_label&value=HIGH%20SCORE%208"
+2023-02-27 00:07:55,455 : mpfmc : Setting machine_var 'score1_value' to: 6712000, (prior: None, change: True)
+2023-02-27 00:07:55,455 : MPF-MC BCP Server : Received "machine_variable?name=score9_name&value=ENDA"
+2023-02-27 00:07:55,455 : EventManager : Event: ======'machine_var_score1_value'====== Args={'value': 6712000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,456 : MPF-MC BCP Server : Received "machine_variable?name=score9_value&value=int:3785000"
+2023-02-27 00:07:55,456 : MPF-MC BCP Server : Received "machine_variable?name=loops1_label&value=LOOP%20CHAMP"
+2023-02-27 00:07:55,456 : mpfmc : Setting machine_var 'score2_label' to: HIGH SCORE 1, (prior: None, change: True)
+2023-02-27 00:07:55,456 : MPF-MC BCP Server : Received "machine_variable?name=loops1_name&value=JAN"
+2023-02-27 00:07:55,456 : EventManager : Event: ======'machine_var_score2_label'====== Args={'value': 'HIGH SCORE 1', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,456 : MPF-MC BCP Server : Received "machine_variable?name=loops1_value&value=int:42"
+2023-02-27 00:07:55,457 : mpfmc : Setting machine_var 'score2_name' to: ERNIE, (prior: None, change: True)
+2023-02-27 00:07:55,457 : MPF-MC BCP Server : Received "machine_variable?name=mc_version&value=MPF-MC%20v0.56.0-dev33"
+2023-02-27 00:07:55,457 : EventManager : Event: ======'machine_var_score2_name'====== Args={'value': 'ERNIE', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,457 : MPF-MC BCP Server : Received "machine_variable?name=mc_extended_version&value=MPF-MC%20v0.56.0-dev33%20%28config_version%3D5%2C%20BCP%20v1.1%2C%20Requires%20MPF%20v0.56.0-dev33%29"
+2023-02-27 00:07:55,457 : mpfmc : Setting machine_var 'score2_value' to: 6502000, (prior: None, change: True)
+2023-02-27 00:07:55,457 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": []}"
+2023-02-27 00:07:55,458 : EventManager : Event: ======'machine_var_score2_value'====== Args={'value': 6502000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,458 : MPF-MC BCP Server : Received "machine_variable?name=audits_events_game_ended&value=int:378&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,458 : mpfmc : Setting machine_var 'score3_label' to: HIGH SCORE 2, (prior: None, change: True)
+2023-02-27 00:07:55,458 : MPF-MC BCP Server : Received "machine_variable?name=audits_events_game_started&value=int:846&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,458 : EventManager : Event: ======'machine_var_score3_label'====== Args={'value': 'HIGH SCORE 2', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,458 : MPF-MC BCP Server : Received "machine_variable?json={"name": "audits_player_score", "value": {"average": 1002238.5965583178, "top": [10618000, 10292000, 6712000, 6502000, 6270000, 5297000, 5215000, 5051000, 4983000, 4655000], "total": 523}, "prev_value": null, "change": true}"
+2023-02-27 00:07:55,458 : mpfmc : Setting machine_var 'score3_name' to: ERNIE, (prior: None, change: True)
+2023-02-27 00:07:55,459 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ball_lock_hit&value=int:451&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,459 : EventManager : Event: ======'machine_var_score3_name'====== Args={'value': 'ERNIE', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,459 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_ball_lock_hit1&value=int:4&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,459 : mpfmc : Setting machine_var 'score3_value' to: 6270000, (prior: None, change: True)
+2023-02-27 00:07:55,459 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_blue&value=int:14&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,459 : EventManager : Event: ======'machine_var_score3_value'====== Args={'value': 6270000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,459 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_bottom_lane_b&value=int:454&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,459 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_bottom_lane_d&value=int:1042&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,460 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_bottom_lane_f&value=int:2371&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,460 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_gromp&value=int:615&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,460 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_gromp1&value=int:6&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,460 : mpfmc : Setting machine_var 'score4_label' to: HIGH SCORE 3, (prior: None, change: True)
+2023-02-27 00:07:55,460 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_raptor&value=int:1639&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,460 : EventManager : Event: ======'machine_var_score4_label'====== Args={'value': 'HIGH SCORE 3', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,460 : mpfmc : Setting machine_var 'score4_name' to: AAA, (prior: None, change: True)
+2023-02-27 00:07:55,460 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_raptor1&value=int:6&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,460 : EventManager : Event: ======'machine_var_score4_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,461 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_red&value=int:23&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,461 : mpfmc : Setting machine_var 'score4_value' to: 5297000, (prior: None, change: True)
+2023-02-27 00:07:55,461 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_right_ramp&value=int:441&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,461 : EventManager : Event: ======'machine_var_score4_value'====== Args={'value': 5297000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,461 : mpfmc : Setting machine_var 'score5_label' to: HIGH SCORE 4, (prior: None, change: True)
+2023-02-27 00:07:55,461 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_right_ramp_hit&value=int:713&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,461 : EventManager : Event: ======'machine_var_score5_label'====== Args={'value': 'HIGH SCORE 4', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,461 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_skill_e&value=int:153&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,462 : mpfmc : Setting machine_var 'score5_name' to: EAS, (prior: None, change: True)
+2023-02-27 00:07:55,462 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_skill_q&value=int:268&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,462 : EventManager : Event: ======'machine_var_score5_name'====== Args={'value': 'EAS', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,462 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_skill_r&value=int:172&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,462 : mpfmc : Setting machine_var 'score5_value' to: 5051000, (prior: None, change: True)
+2023-02-27 00:07:55,462 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_skill_w&value=int:331&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,463 : EventManager : Event: ======'machine_var_score5_value'====== Args={'value': 5051000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,463 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_top_lane_e&value=int:452&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,463 : mpfmc : Setting machine_var 'score6_label' to: HIGH SCORE 5, (prior: None, change: True)
+2023-02-27 00:07:55,463 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_top_lane_q&value=int:740&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,463 : EventManager : Event: ======'machine_var_score6_label'====== Args={'value': 'HIGH SCORE 5', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,463 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_top_lane_r&value=int:459&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,463 : mpfmc : Setting machine_var 'score6_name' to: AAA, (prior: None, change: True)
+2023-02-27 00:07:55,463 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_top_lane_w&value=int:795&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,464 : EventManager : Event: ======'machine_var_score6_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,464 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_wolves&value=int:601&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,464 : mpfmc : Setting machine_var 'score6_value' to: 4983000, (prior: None, change: True)
+2023-02-27 00:07:55,464 : MPF-MC BCP Server : Received "machine_variable?name=audits_shots_wolves1&value=int:6&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,464 : EventManager : Event: ======'machine_var_score6_value'====== Args={'value': 4983000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,464 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_ab&value=int:1564&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,464 : mpfmc : Setting machine_var 'score7_label' to: HIGH SCORE 6, (prior: None, change: True)
+2023-02-27 00:07:55,465 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_ball_jam&value=int:4578&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,465 : EventManager : Event: ======'machine_var_score7_label'====== Args={'value': 'HIGH SCORE 6', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,465 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_ball_save&value=int:785&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,465 : mpfmc : Setting machine_var 'score7_name' to: AAA, (prior: None, change: True)
+2023-02-27 00:07:55,465 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_bottom_jet&value=int:4333&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,465 : EventManager : Event: ======'machine_var_score7_name'====== Args={'value': 'AAA', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,465 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_bottom_popper&value=int:1307&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,466 : mpfmc : Setting machine_var 'score7_value' to: 4655000, (prior: None, change: True)
+2023-02-27 00:07:55,466 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_drain&value=int:2125&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,466 : EventManager : Event: ======'machine_var_score7_value'====== Args={'value': 4655000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,466 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_drop_back&value=int:621&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,466 : mpfmc : Setting machine_var 'score8_label' to: HIGH SCORE 7, (prior: None, change: True)
+2023-02-27 00:07:55,466 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_drop_front&value=int:607&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,466 : EventManager : Event: ======'machine_var_score8_label'====== Args={'value': 'HIGH SCORE 7', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,467 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_drop_middle&value=int:1652&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,467 : mpfmc : Setting machine_var 'score8_name' to: EAS, (prior: None, change: True)
+2023-02-27 00:07:55,467 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_e&value=int:621&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,467 : EventManager : Event: ======'machine_var_score8_name'====== Args={'value': 'EAS', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,467 : mpfmc : Setting machine_var 'score8_value' to: 4285000, (prior: None, change: True)
+2023-02-27 00:07:55,467 : EventManager : Event: ======'machine_var_score8_value'====== Args={'value': 4285000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,467 : mpfmc : Setting machine_var 'score9_label' to: HIGH SCORE 8, (prior: None, change: True)
+2023-02-27 00:07:55,467 : EventManager : Event: ======'machine_var_score9_label'====== Args={'value': 'HIGH SCORE 8', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,467 : mpfmc : Setting machine_var 'score9_name' to: ENDA, (prior: None, change: True)
+2023-02-27 00:07:55,467 : EventManager : Event: ======'machine_var_score9_name'====== Args={'value': 'ENDA', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,468 : mpfmc : Setting machine_var 'score9_value' to: 3785000, (prior: None, change: True)
+2023-02-27 00:07:55,468 : EventManager : Event: ======'machine_var_score9_value'====== Args={'value': 3785000, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,468 : mpfmc : Setting machine_var 'loops1_label' to: LOOP CHAMP, (prior: None, change: True)
+2023-02-27 00:07:55,468 : EventManager : Event: ======'machine_var_loops1_label'====== Args={'value': 'LOOP CHAMP', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,468 : mpfmc : Setting machine_var 'loops1_name' to: JAN, (prior: None, change: True)
+2023-02-27 00:07:55,468 : EventManager : Event: ======'machine_var_loops1_name'====== Args={'value': 'JAN', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,468 : mpfmc : Setting machine_var 'loops1_value' to: 42, (prior: None, change: True)
+2023-02-27 00:07:55,468 : EventManager : Event: ======'machine_var_loops1_value'====== Args={'value': 42, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,468 : mpfmc : Setting machine_var 'mc_version' to: MPF-MC v0.56.0-dev33, (prior: None, change: True)
+2023-02-27 00:07:55,468 : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.56.0-dev33', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,468 : mpfmc : Setting machine_var 'mc_extended_version' to: MPF-MC v0.56.0-dev33 (config_version=5, BCP v1.1, Requires MPF v0.56.0-dev33), (prior: None, change: True)
+2023-02-27 00:07:55,468 : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.56.0-dev33 (config_version=5, BCP v1.1, Requires MPF v0.56.0-dev33)', 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,469 : mpfmc : Setting machine_var 'audits_events_game_ended' to: 378, (prior: None, change: True)
+2023-02-27 00:07:55,469 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 378, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,469 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_drop_lock&value=int:1361&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,469 : mpfmc : Setting machine_var 'audits_events_game_started' to: 846, (prior: None, change: True)
+2023-02-27 00:07:55,469 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_flipper&value=int:20036&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,469 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 846, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,469 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_inlane&value=int:1143&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_jet&value=int:3829&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_ramp&value=int:157&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_slingshot&value=int:3216&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_spinner&value=int:10387&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_left_target&value=int:2854&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_lock&value=int:1623&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_plunger&value=int:6116&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_q&value=int:1031&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,470 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_r&value=int:642&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_rear_sub&value=int:501&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_red_buff&value=int:0&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_drop_lock_back&value=int:280&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_drop_lock_front&value=int:544&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_flipper&value=int:28245&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_inlane&value=int:2575&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_jet&value=int:1094&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_outlane&value=int:498&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,471 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_ramp&value=int:735&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,472 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_slingshot&value=int:1533&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,472 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_spinner&value=int:16812&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,472 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_right_target&value=int:286&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,472 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_start&value=int:368&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,472 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_t3&value=int:7341&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,472 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_t4&value=int:3538&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,469 : mpfmc : Setting machine_var 'audits_player_score' to: {'average': 1002238.5965583178, 'top': [10618000, 10292000, 6712000, 6502000, 6270000, 5297000, 5215000, 5051000, 4983000, 4655000], 'total': 523}, (prior: None, change: True)
+2023-02-27 00:07:55,472 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_t5&value=int:688&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,473 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 1002238.5965583178, 'top': [10618000, 10292000, 6712000, 6502000, 6270000, 5297000, 5215000, 5051000, 4983000, 4655000], 'total': 523}, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,473 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_t6&value=int:8188&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,473 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_t7&value=int:425&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,473 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_t8&value=int:1043&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,473 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough1&value=int:4369&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,473 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough2&value=int:4510&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,473 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough3&value=int:3784&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,474 : mpfmc : Setting machine_var 'audits_shots_ball_lock_hit' to: 451, (prior: None, change: True)
+2023-02-27 00:07:55,474 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough4&value=int:3686&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,474 : EventManager : Event: ======'machine_var_audits_shots_ball_lock_hit'====== Args={'value': 451, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,474 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough5&value=int:3394&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,474 : mpfmc : Setting machine_var 'audits_shots_ball_lock_hit1' to: 4, (prior: None, change: True)
+2023-02-27 00:07:55,474 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_tward&value=int:1815&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,474 : EventManager : Event: ======'machine_var_audits_shots_ball_lock_hit1'====== Args={'value': 4, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,475 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_w&value=int:1177&prev_value=NoneType:&change=bool:True"
+2023-02-27 00:07:55,475 : mpfmc : Setting machine_var 'audits_shots_blue' to: 14, (prior: None, change: True)
+2023-02-27 00:07:55,475 : EventManager : Event: ======'machine_var_audits_shots_blue'====== Args={'value': 14, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,475 : mpfmc : Setting machine_var 'audits_shots_bottom_lane_b' to: 454, (prior: None, change: True)
+2023-02-27 00:07:55,475 : EventManager : Event: ======'machine_var_audits_shots_bottom_lane_b'====== Args={'value': 454, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,475 : mpfmc : Setting machine_var 'audits_shots_bottom_lane_d' to: 1042, (prior: None, change: True)
+2023-02-27 00:07:55,475 : EventManager : Event: ======'machine_var_audits_shots_bottom_lane_d'====== Args={'value': 1042, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,475 : mpfmc : Setting machine_var 'audits_shots_bottom_lane_f' to: 2371, (prior: None, change: True)
+2023-02-27 00:07:55,475 : EventManager : Event: ======'machine_var_audits_shots_bottom_lane_f'====== Args={'value': 2371, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,475 : mpfmc : Setting machine_var 'audits_shots_gromp' to: 615, (prior: None, change: True)
+2023-02-27 00:07:55,475 : EventManager : Event: ======'machine_var_audits_shots_gromp'====== Args={'value': 615, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,475 : mpfmc : Setting machine_var 'audits_shots_gromp1' to: 6, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_gromp1'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_raptor' to: 1639, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_raptor'====== Args={'value': 1639, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_raptor1' to: 6, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_raptor1'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_red' to: 23, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_red'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_right_ramp' to: 441, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_right_ramp'====== Args={'value': 441, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_right_ramp_hit' to: 713, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_right_ramp_hit'====== Args={'value': 713, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_skill_e' to: 153, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_skill_e'====== Args={'value': 153, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_skill_q' to: 268, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_skill_q'====== Args={'value': 268, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_skill_r' to: 172, (prior: None, change: True)
+2023-02-27 00:07:55,476 : EventManager : Event: ======'machine_var_audits_shots_skill_r'====== Args={'value': 172, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,476 : mpfmc : Setting machine_var 'audits_shots_skill_w' to: 331, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_shots_skill_w'====== Args={'value': 331, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_shots_top_lane_e' to: 452, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_shots_top_lane_e'====== Args={'value': 452, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_shots_top_lane_q' to: 740, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_shots_top_lane_q'====== Args={'value': 740, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_shots_top_lane_r' to: 459, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_shots_top_lane_r'====== Args={'value': 459, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_shots_top_lane_w' to: 795, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_shots_top_lane_w'====== Args={'value': 795, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_shots_wolves' to: 601, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_shots_wolves'====== Args={'value': 601, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_shots_wolves1' to: 6, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_shots_wolves1'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_switches_s_ab' to: 1564, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_switches_s_ab'====== Args={'value': 1564, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,477 : mpfmc : Setting machine_var 'audits_switches_s_ball_jam' to: 4578, (prior: None, change: True)
+2023-02-27 00:07:55,477 : EventManager : Event: ======'machine_var_audits_switches_s_ball_jam'====== Args={'value': 4578, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_ball_save' to: 785, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_ball_save'====== Args={'value': 785, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_bottom_jet' to: 4333, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_bottom_jet'====== Args={'value': 4333, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_bottom_popper' to: 1307, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_bottom_popper'====== Args={'value': 1307, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_drain' to: 2125, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'value': 2125, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_drop_back' to: 621, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_drop_back'====== Args={'value': 621, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_drop_front' to: 607, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_drop_front'====== Args={'value': 607, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_drop_middle' to: 1652, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_drop_middle'====== Args={'value': 1652, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_e' to: 621, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_e'====== Args={'value': 621, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,478 : mpfmc : Setting machine_var 'audits_switches_s_left_drop_lock' to: 1361, (prior: None, change: True)
+2023-02-27 00:07:55,478 : EventManager : Event: ======'machine_var_audits_switches_s_left_drop_lock'====== Args={'value': 1361, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_left_flipper' to: 20036, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 20036, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_left_inlane' to: 1143, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 1143, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_left_jet' to: 3829, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_left_jet'====== Args={'value': 3829, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_left_ramp' to: 157, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_left_ramp'====== Args={'value': 157, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_left_slingshot' to: 3216, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 3216, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_left_spinner' to: 10387, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_left_spinner'====== Args={'value': 10387, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_left_target' to: 2854, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_left_target'====== Args={'value': 2854, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_lock' to: 1623, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_lock'====== Args={'value': 1623, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,479 : mpfmc : Setting machine_var 'audits_switches_s_plunger' to: 6116, (prior: None, change: True)
+2023-02-27 00:07:55,479 : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 6116, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_q' to: 1031, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_q'====== Args={'value': 1031, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_r' to: 642, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_r'====== Args={'value': 642, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_rear_sub' to: 501, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_rear_sub'====== Args={'value': 501, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_red_buff' to: 0, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_red_buff'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_right_drop_lock_back' to: 280, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_right_drop_lock_back'====== Args={'value': 280, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_right_drop_lock_front' to: 544, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_right_drop_lock_front'====== Args={'value': 544, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_right_flipper' to: 28245, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 28245, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_right_inlane' to: 2575, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 2575, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,480 : mpfmc : Setting machine_var 'audits_switches_s_right_jet' to: 1094, (prior: None, change: True)
+2023-02-27 00:07:55,480 : EventManager : Event: ======'machine_var_audits_switches_s_right_jet'====== Args={'value': 1094, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_right_outlane' to: 498, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_right_outlane'====== Args={'value': 498, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_right_ramp' to: 735, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_right_ramp'====== Args={'value': 735, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_right_slingshot' to: 1533, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 1533, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_right_spinner' to: 16812, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_right_spinner'====== Args={'value': 16812, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_right_target' to: 286, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_right_target'====== Args={'value': 286, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_start' to: 368, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 368, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_t3' to: 7341, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_t3'====== Args={'value': 7341, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,481 : mpfmc : Setting machine_var 'audits_switches_s_t4' to: 3538, (prior: None, change: True)
+2023-02-27 00:07:55,481 : EventManager : Event: ======'machine_var_audits_switches_s_t4'====== Args={'value': 3538, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,482 : mpfmc : Setting machine_var 'audits_switches_s_t5' to: 688, (prior: None, change: True)
+2023-02-27 00:07:55,482 : EventManager : Event: ======'machine_var_audits_switches_s_t5'====== Args={'value': 688, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,482 : mpfmc : Setting machine_var 'audits_switches_s_t6' to: 8188, (prior: None, change: True)
+2023-02-27 00:07:55,482 : EventManager : Event: ======'machine_var_audits_switches_s_t6'====== Args={'value': 8188, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,482 : mpfmc : Setting machine_var 'audits_switches_s_t7' to: 425, (prior: None, change: True)
+2023-02-27 00:07:55,482 : EventManager : Event: ======'machine_var_audits_switches_s_t7'====== Args={'value': 425, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,482 : mpfmc : Setting machine_var 'audits_switches_s_t8' to: 1043, (prior: None, change: True)
+2023-02-27 00:07:55,482 : EventManager : Event: ======'machine_var_audits_switches_s_t8'====== Args={'value': 1043, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,482 : MPF-MC BCP Server : Received "reset"
+2023-02-27 00:07:55,482 : mpfmc : Setting machine_var 'audits_switches_s_trough1' to: 4369, (prior: None, change: True)
+2023-02-27 00:07:55,482 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 4369, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,483 : mpfmc : Setting machine_var 'audits_switches_s_trough2' to: 4510, (prior: None, change: True)
+2023-02-27 00:07:55,483 : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 4510, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,483 : mpfmc : Setting machine_var 'audits_switches_s_trough3' to: 3784, (prior: None, change: True)
+2023-02-27 00:07:55,483 : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 3784, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,483 : mpfmc : Setting machine_var 'audits_switches_s_trough4' to: 3686, (prior: None, change: True)
+2023-02-27 00:07:55,483 : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 3686, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,483 : mpfmc : Setting machine_var 'audits_switches_s_trough5' to: 3394, (prior: None, change: True)
+2023-02-27 00:07:55,483 : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 3394, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,483 : mpfmc : Setting machine_var 'audits_switches_s_tward' to: 1815, (prior: None, change: True)
+2023-02-27 00:07:55,483 : EventManager : Event: ======'machine_var_audits_switches_s_tward'====== Args={'value': 1815, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,483 : mpfmc : Setting machine_var 'audits_switches_s_w' to: 1177, (prior: None, change: True)
+2023-02-27 00:07:55,483 : EventManager : Event: ======'machine_var_audits_switches_s_w'====== Args={'value': 1177, 'prev_value': None, 'change': True}
+2023-02-27 00:07:55,483 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2023-02-27 00:07:55,483 : SoundSystem : Setting master volume to 0.7
+2023-02-27 00:07:55,483 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2023-02-27 00:07:55,483 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2023-02-27 00:07:55,484 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2023-02-27 00:07:55,486 : MPF-MC BCP Server : Received "mode_start?name=attract&priority=int:10"
+2023-02-27 00:07:55,486 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["attract", 10]]}"
+2023-02-27 00:07:55,496 : Mode.attract : Mode Start. Priority: 10
+2023-02-27 00:07:55,518 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"awesome_slide": {"target": "display2", "widgets": [{"type": "image", "image": "league", "x": "center", "y": "center", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "transition": {"type": "wipe", "duration": 1.0}, "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_4", "calling_context": 0, "priority": 10, "show_tokens": {}, "start_time": 7096.501736829}"
+2023-02-27 00:07:55,518 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"press_start_bottom": {"target": "display3", "widgets": [{"type": "Text", "font_size": 100, "text": "PRESS START", "animations": {"pre_show_slide": [{"property": ["opacity"], "value": ["0"], "duration": 0.5, "relative": false, "timing": "after_previous", "repeat": false, "easing": "linear"}, {"property": ["opacity"], "value": ["1"], "duration": 0.5, "repeat": true, "relative": false, "timing": "after_previous", "easing": "linear"}]}, "x": "center", "y": "center", "_default_settings": ["type", "font_size", "text", "animations", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "bitmap_font": false, "font_kerning": true, "bold": false, "italic": false, "number_grouping": false, "min_digits": 0, "halign": "center", "valign": "middle", "rotation": 0, "scale": 1.0, "casing": null}, {"type": "Text", "text": "FREE PLAY", "font_name": "Friz3", "font_size": 50, "color": [0.0, 0.5019607843137255, 0.0, 1], "x": "center", "y": "bottom + 20%", "_default_settings": ["type", "text", "font_name", "font_size", "color", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "bitmap_font": false, "font_kerning": true, "bold": false, "italic": false, "number_grouping": false, "min_digits": 0, "halign": "center", "valign": "middle", "rotation": 0, "scale": 1.0, "casing": null, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_5", "calling_context": 0, "priority": 10, "show_tokens": {}, "start_time": 7096.501736829}"
+2023-02-27 00:07:55,519 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "transition": {"type": "wipe", "duration": 1.0}, "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_6", "calling_context": 0, "priority": 10, "show_tokens": {}, "start_time": 7096.501736829}"
+2023-02-27 00:07:55,519 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7096.533771045}"
+2023-02-27 00:07:55,521 : EventManager : Event: ======'slides_play'====== Args={'settings': {'awesome_slide': {'target': 'display2', 'widgets': [{'type': 'image', 'image': 'league', 'x': 'center', 'y': 'center', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'transition': {'type': 'wipe', 'duration': 1.0}, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_4', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 7096.501736829}
+2023-02-27 00:07:55,521 : EventManager : Event: ======'slides_play'====== Args={'settings': {'press_start_bottom': {'target': 'display3', 'widgets': [{'type': 'Text', 'font_size': 100, 'text': 'PRESS START', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, 'x': 'center', 'y': 'center', '_default_settings': ['type', 'font_size', 'text', 'animations', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'FREE PLAY', 'font_name': 'Friz3', 'font_size': 50, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'x': 'center', 'y': 'bottom + 20%', '_default_settings': ['type', 'text', 'font_name', 'font_size', 'color', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_5', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 7096.501736829}
+2023-02-27 00:07:55,521 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'transition': {'type': 'wipe', 'duration': 1.0}, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_6', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 7096.501736829}
+2023-02-27 00:07:55,522 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7096.533771045}
+2023-02-27 00:07:55,522 : mpfmc : SlidePlayer: Play called with settings={'awesome_slide': {'target': 'display2', 'widgets': [{'type': 'image', 'image': 'league', 'x': 'center', 'y': 'center', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'transition': {'type': 'wipe', 'duration': 1.0}, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:07:55,522 : mpfmc : SlidePlayer: Playing slide 'awesome_slide' on target 'display2' (Args={'widgets': [{'type': 'image', 'image': 'league', 'x': 'center', 'y': 'center', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'transition': {'type': 'wipe', 'duration': 1.0}, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 10, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7096.501736829})
+2023-02-27 00:07:55,525 : EventManager : Event: ======'slide_awesome_slide_created'====== Args={}
+2023-02-27 00:07:55,564 : kivy : Shader: Fragment compiled successfully
+2023-02-27 00:07:55,565 : mpfmc : SlidePlayer: Play called with settings={'press_start_bottom': {'target': 'display3', 'widgets': [{'type': 'Text', 'font_size': 100, 'text': 'PRESS START', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, 'x': 'center', 'y': 'center', '_default_settings': ['type', 'font_size', 'text', 'animations', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'FREE PLAY', 'font_name': 'Friz3', 'font_size': 50, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'x': 'center', 'y': 'bottom + 20%', '_default_settings': ['type', 'text', 'font_name', 'font_size', 'color', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:07:55,565 : mpfmc : SlidePlayer: Playing slide 'press_start_bottom' on target 'display3' (Args={'widgets': [{'type': 'Text', 'font_size': 100, 'text': 'PRESS START', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, 'x': 'center', 'y': 'center', '_default_settings': ['type', 'font_size', 'text', 'animations', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'FREE PLAY', 'font_name': 'Friz3', 'font_size': 50, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'x': 'center', 'y': 'bottom + 20%', '_default_settings': ['type', 'text', 'font_name', 'font_size', 'color', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 10, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7096.501736829})
+2023-02-27 00:07:55,568 : kivy : Resource: add </usr/share/fonts> in path list
+2023-02-27 00:07:55,568 : kivy : Resource: add </usr/share/fonts/X11> in path list
+2023-02-27 00:07:55,568 : kivy : Resource: add </usr/share/fonts/X11/Type1> in path list
+2023-02-27 00:07:55,568 : kivy : Resource: add </usr/share/fonts/X11/encodings> in path list
+2023-02-27 00:07:55,568 : kivy : Resource: add </usr/share/fonts/X11/encodings/large> in path list
+2023-02-27 00:07:55,569 : kivy : Resource: add </usr/share/fonts/X11/misc> in path list
+2023-02-27 00:07:55,569 : kivy : Resource: add </usr/share/fonts/X11/util> in path list
+2023-02-27 00:07:55,569 : kivy : Resource: add </usr/share/fonts/type1> in path list
+2023-02-27 00:07:55,569 : kivy : Resource: add </usr/share/fonts/type1/urw-base35> in path list
+2023-02-27 00:07:55,569 : kivy : Resource: add </usr/share/fonts/opentype> in path list
+2023-02-27 00:07:55,569 : kivy : Resource: add </usr/share/fonts/opentype/urw-base35> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/opentype/malayalam> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/opentype/noto> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/ttf-khmeros-core> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/padauk> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/sinhala> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/lohit-malayalam> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/fonts-guru-extra> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/openoffice> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/lohit-tamil-classical> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/samyak-fonts> in path list
+2023-02-27 00:07:55,570 : kivy : Resource: add </usr/share/fonts/truetype/fonts-beng-extra> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/dejavu> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/lohit-tamil> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/lohit-oriya> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/kacst-one> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/Gargi> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/fonts-deva-extra> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/Nakula> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/lohit-telugu> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/lohit-assamese> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/abyssinica> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/droid> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/samyak> in path list
+2023-02-27 00:07:55,571 : kivy : Resource: add </usr/share/fonts/truetype/Sahadeva> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/kacst> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/liberation2> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/fonts-orya-extra> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/fonts-kalapi> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/freefont> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/lohit-bengali> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/malayalam> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/tlwg> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/lohit-devanagari> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/Gubbi> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/lao> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/noto> in path list
+2023-02-27 00:07:55,572 : kivy : Resource: add </usr/share/fonts/truetype/liberation> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/fonts-telu-extra> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/Navilu> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/lohit-kannada> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/fonts-gujr-extra> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/arphic> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/lohit-punjabi> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/pagul> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/Sarai> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/tibetan-machine> in path list
+2023-02-27 00:07:55,573 : kivy : Resource: add </usr/share/fonts/truetype/ubuntu> in path list
+2023-02-27 00:07:55,574 : kivy : Resource: add </usr/share/fonts/truetype/fonts-yrsa-rasa> in path list
+2023-02-27 00:07:55,574 : kivy : Resource: add </usr/share/fonts/truetype/lohit-gujarati> in path list
+2023-02-27 00:07:55,574 : kivy : Resource: add </usr/share/fonts/cmap> in path list
+2023-02-27 00:07:55,574 : kivy : Resource: add </usr/share/fonts/cMap> in path list
+2023-02-27 00:07:55,574 : kivy : Resource: add </usr/local/share/fonts> in path list
+2023-02-27 00:07:55,574 : kivy : Resource: add </home/league/.local/pipx/venvs/mpf/lib/python3.8/site-packages/kivy/data/fonts> in path list
+2023-02-27 00:07:55,581 : EventManager : Event: ======'slide_press_start_bottom_created'====== Args={}
+2023-02-27 00:07:55,584 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'transition': {'type': 'wipe', 'duration': 1.0}, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:07:55,584 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'transition': {'type': 'wipe', 'duration': 1.0}, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 10, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7096.501736829})
+2023-02-27 00:07:55,587 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:07:55,692 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:07:55,692 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7096.533771045})
+2023-02-27 00:07:55,694 : EventManager : Event: ======'slide_awesome_slide_active'====== Args={}
+2023-02-27 00:07:55,696 : EventManager : Event: ======'slide_press_start_bottom_active'====== Args={}
+2023-02-27 00:07:55,697 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:07:57,030 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7098.033771045}"
+2023-02-27 00:07:57,047 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7098.033771045}
+2023-02-27 00:07:57,048 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:07:57,049 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:07:57,050 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7098.033771045})
+2023-02-27 00:07:57,053 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:07:57,054 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:07:58,545 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7099.533771045}"
+2023-02-27 00:07:58,548 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7099.533771045}
+2023-02-27 00:07:58,548 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:07:58,549 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:07:58,550 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7099.533771045})
+2023-02-27 00:07:58,554 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:07:58,554 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:00,029 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7101.033771045}"
+2023-02-27 00:08:00,031 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7101.033771045}
+2023-02-27 00:08:00,032 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:00,033 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:00,033 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7101.033771045})
+2023-02-27 00:08:00,036 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:00,038 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:01,529 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7102.533771045}"
+2023-02-27 00:08:01,547 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7102.533771045}
+2023-02-27 00:08:01,548 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:01,549 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:01,550 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7102.533771045})
+2023-02-27 00:08:01,553 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:01,554 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:01,646 : MPF-MC BCP Server : Received "trigger?json={"name": "sounds_play", "settings": {"sfx_welcome": {"action": "play", "priority": null, "block": false, "delay": null, "track": null, "volume": null, "pan": null, "loops": null, "start_at": null, "fade_in": null, "fade_out": null, "about_to_finish_time": -1.0, "max_queue_time": -1.0, "events_when_played": ["use_sound_setting"], "events_when_stopped": ["use_sound_setting"], "events_when_looping": ["use_sound_setting"], "events_when_about_to_finish": ["use_sound_setting"], "mode_end_action": "use_sound_setting", "key": "use_sound_setting"}}, "context": "_global", "calling_context": "s_start_active", "priority": 0}"
+2023-02-27 00:08:01,648 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'sfx_welcome': {'action': 'play', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 's_start_active', 'priority': 0}
+2023-02-27 00:08:01,648 : Track.2.TrackStandard.sfx : play_sound - Processing sound 'sfx_welcome' for playback.
+2023-02-27 00:08:01,649 : Track.2.TrackStandard.sfx : Queueing sound <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=False, Track=sfx>
+2023-02-27 00:08:01,649 : SoundAsset : Sound sfx_welcome loading to memory
+2023-02-27 00:08:01,649 : Track.2.TrackStandard.sfx : play_sound - Sound sfx_welcome was not loaded and therefore has been queued for playback.
+2023-02-27 00:08:01,664 : SoundMemoryFile : Loaded file: /home/league/League/sounds/sfx/Welcome.wav Sample duration: 4.407437641723356
+2023-02-27 00:08:01,666 : Track.2.TrackStandard.sfx : Next pending sound in queue is still loading, re-queueing sound <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=False, Track=sfx>
+2023-02-27 00:08:01,666 : SoundAsset : Loaded sfx_welcome (Track sfx)
+2023-02-27 00:08:01,667 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2023-02-27 00:08:01,667 : AssetManager : Asset loading took: 10.870327711105347
+2023-02-27 00:08:01,667 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2023-02-27 00:08:01,667 : AssetManager : Loading assets: 1/1 (100%)
+2023-02-27 00:08:01,680 : Track.2.TrackStandard.sfx : Retrieving next pending sound from queue <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=True, Track=sfx>
+2023-02-27 00:08:01,680 : Track.2.TrackStandard.sfx : Getting sound from queue <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=True, Track=sfx>
+2023-02-27 00:08:01,681 : Track.2.TrackStandard.sfx : _play_sound_on_sound_player: <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=True, Track=sfx>, 0, False
+2023-02-27 00:08:01,681 : Track.2.TrackStandard.sfx : Adding sound instance <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=True, Track=sfx> to active sound dictionary
+2023-02-27 00:08:01,681 : Track.2.TrackStandard.sfx : Sound sfx_welcome is set to begin playback on playlist track (loops=0)
+2023-02-27 00:08:01,681 : Track.2.TrackStandard.sfx : Sound sfx_welcome is set to begin playback on standard track (loops=0)
+2023-02-27 00:08:01,681 : Track.2.TrackStandard.sfx : Processing notification message 1 for sound instance (id: 139876344205376)
+2023-02-27 00:08:01,779 : MPF-MC BCP Server : Received "mode_start?name=game&priority=int:20"
+2023-02-27 00:08:01,781 : MPF-MC BCP Server : Received "trigger?name=slides_clear&context=show_4"
+2023-02-27 00:08:01,781 : MPF-MC BCP Server : Received "trigger?name=slides_clear&context=show_5"
+2023-02-27 00:08:01,781 : MPF-MC BCP Server : Received "trigger?name=slides_clear&context=show_6"
+2023-02-27 00:08:01,782 : MPF-MC BCP Server : Received "trigger?name=sounds_clear&context=attract"
+2023-02-27 00:08:01,782 : MPF-MC BCP Server : Received "mode_stop?name=attract"
+2023-02-27 00:08:01,782 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": []}"
+2023-02-27 00:08:01,783 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["game", 20]]}"
+2023-02-27 00:08:01,783 : MPF-MC BCP Server : Received "player_added?player_num=int:1"
+2023-02-27 00:08:01,783 : MPF-MC BCP Server : Received "player_variable?name=index&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,784 : MPF-MC BCP Server : Received "player_variable?name=number&value=int:1&prev_value=int:1&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,785 : EventManager : Event: ======'game_started'====== Args={}
+2023-02-27 00:08:01,785 : Mode.game : Mode Start. Priority: 20
+2023-02-27 00:08:01,785 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_4'}
+2023-02-27 00:08:01,785 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_5'}
+2023-02-27 00:08:01,786 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_6'}
+2023-02-27 00:08:01,786 : EventManager : Event: ======'sounds_clear'====== Args={'context': 'attract'}
+2023-02-27 00:08:01,786 : MPF-MC BCP Server : Received "player_variable?name=Shrooms&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,786 : Mode.attract : Mode Stop.
+2023-02-27 00:08:01,787 : MPF-MC BCP Server : Received "player_variable?name=Gold&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,787 : mpfmc : SoundPlayer: Clearing context - applying mode_end_action for all active sounds
+2023-02-27 00:08:01,787 : MPF-MC BCP Server : Received "player_variable?name=CS&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,787 : Track.0.TrackStandard.music : Clearing context attract
+2023-02-27 00:08:01,788 : MPF-MC BCP Server : Received "player_variable?name=Shrooms_turn&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,788 : Track.1.TrackStandard.voice : Clearing context attract
+2023-02-27 00:08:01,788 : Track.2.TrackStandard.sfx : Clearing context attract
+2023-02-27 00:08:01,788 : MPF-MC BCP Server : Received "player_variable?name=selected_champ&value=garen&prev_value=garen&change=bool:False&player_num=int:1"
+2023-02-27 00:08:01,788 : Player : Creating new player: Player 1. (player index '0')
+2023-02-27 00:08:01,788 : MPF-MC BCP Server : Received "player_variable?name=selected_modes&value=top&prev_value=top&change=bool:False&player_num=int:1"
+2023-02-27 00:08:01,789 : Player : Setting 'score' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:01,789 : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2023-02-27 00:08:01,789 : MPF-MC BCP Server : Received "player_variable?name=is_selected_champ&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,789 : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,789 : MPF-MC BCP Server : Received "player_variable?name=count_complete_value&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,789 : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,790 : MPF-MC BCP Server : Received "player_variable?name=score&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:01,790 : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,790 : Player : Setting 'Shrooms' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:01,790 : EventManager : Event: ======'player_Shrooms'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,790 : Player : Setting 'Gold' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:01,790 : EventManager : Event: ======'player_Gold'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,791 : Player : Setting 'CS' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:01,791 : EventManager : Event: ======'player_CS'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,791 : Player : Setting 'Shrooms_turn' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:01,791 : EventManager : Event: ======'player_Shrooms_turn'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,791 : Player : Setting 'selected_champ' to: garen, (prior: 0, change: True)
+2023-02-27 00:08:01,791 : EventManager : Event: ======'player_selected_champ'====== Args={'value': 'garen', 'prev_value': 0, 'change': True, 'player_num': 1}
+2023-02-27 00:08:01,791 : Player : Setting 'selected_modes' to: top, (prior: 0, change: True)
+2023-02-27 00:08:01,791 : EventManager : Event: ======'player_selected_modes'====== Args={'value': 'top', 'prev_value': 0, 'change': True, 'player_num': 1}
+2023-02-27 00:08:01,791 : Player : Setting 'is_selected_champ' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:01,791 : EventManager : Event: ======'player_is_selected_champ'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,791 : Player : Setting 'count_complete_value' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:01,791 : EventManager : Event: ======'player_count_complete_value'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:01,792 : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={}
+2023-02-27 00:08:01,793 : EventManager : Event: ======'slide_press_start_bottom_removed'====== Args={}
+2023-02-27 00:08:01,793 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:01,793 : mpfmc : SoundPlayer: Clearing context - applying mode_end_action for all active sounds
+2023-02-27 00:08:01,793 : Track.0.TrackStandard.music : Clearing context attract
+2023-02-27 00:08:01,793 : Track.1.TrackStandard.voice : Clearing context attract
+2023-02-27 00:08:01,793 : Track.2.TrackStandard.sfx : Clearing context attract
+2023-02-27 00:08:01,794 : EventManager : Event: ======'slide_display2_blank_active'====== Args={}
+2023-02-27 00:08:01,794 : EventManager : Event: ======'slide_display3_blank_active'====== Args={}
+2023-02-27 00:08:01,814 : MPF-MC BCP Server : Received "player_variable?name=ball&value=int:1&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:01,814 : MPF-MC BCP Server : Received "player_turn_start?player_num=int:1"
+2023-02-27 00:08:01,815 : MPF-MC BCP Server : Received "mode_start?name=ball_one_champ_select&priority=int:200"
+2023-02-27 00:08:01,815 : MPF-MC BCP Server : Received "mode_start?name=base_led&priority=int:100"
+2023-02-27 00:08:01,815 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["base_led", 100], ["game", 20]]}"
+2023-02-27 00:08:01,817 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["ball_one_champ_select", 200], ["base_led", 100], ["game", 20]]}"
+2023-02-27 00:08:01,820 : MPF-MC BCP Server : Received "mode_start?name=champ_select&priority=int:501"
+2023-02-27 00:08:01,821 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["champ_select", 501], ["ball_one_champ_select", 200], ["base_led", 100], ["game", 20]]}"
+2023-02-27 00:08:01,821 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"background": {"target": "display2", "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}, "SMALLhud": {"target": "display3", "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "champ_select", "calling_context": "mode_champ_select_started", "priority": 501}"
+2023-02-27 00:08:01,823 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"select_garen": {"target": "display2", "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}, "garen_video": {"target": "display1", "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "champ_select", "calling_context": "champ_select_garen_highlighted", "priority": 501, "direction": null}"
+2023-02-27 00:08:01,823 : MPF-MC BCP Server : Received "trigger?name=champ_select_garen_highlighted&direction=NoneType:"
+2023-02-27 00:08:01,824 : MPF-MC BCP Server : Received "mode_start?name=shooter_lane&priority=int:900"
+2023-02-27 00:08:01,825 : MPF-MC BCP Server : Received "player_variable?name=shot_gromp_enabled&value=bool:True&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:01,826 : Player : Setting 'ball' to: 1, (prior: 0, change: 1)
+2023-02-27 00:08:01,826 : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:01,826 : EventManager : Event: ======'player_turn_start'====== Args={'number': 1, 'player': <Player 1>}
+2023-02-27 00:08:01,826 : MPF-MC BCP Server : Received "player_variable?name=shot_raptor_enabled&value=bool:True&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:01,827 : Mode.ball_one_champ_select : Mode Start. Priority: 200
+2023-02-27 00:08:01,827 : Mode.base_led : Mode Start. Priority: 100
+2023-02-27 00:08:01,827 : Mode.champ_select : Mode Start. Priority: 501
+2023-02-27 00:08:01,828 : EventManager : Event: ======'slides_play'====== Args={'settings': {'background': {'target': 'display2', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'SMALLhud': {'target': 'display3', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'champ_select', 'calling_context': 'mode_champ_select_started', 'priority': 501}
+2023-02-27 00:08:01,829 : MPF-MC BCP Server : Received "player_variable?name=shot_wolves_enabled&value=bool:True&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:01,830 : EventManager : Event: ======'slides_play'====== Args={'settings': {'select_garen': {'target': 'display2', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'garen_video': {'target': 'display1', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'champ_select', 'calling_context': 'champ_select_garen_highlighted', 'priority': 501, 'direction': None}
+2023-02-27 00:08:01,830 : EventManager : Event: ======'champ_select_garen_highlighted'====== Args={'direction': None}
+2023-02-27 00:08:01,830 : Mode.shooter_lane : Mode Start. Priority: 900
+2023-02-27 00:08:01,830 : Player : Setting 'shot_gromp_enabled' to: True, (prior: 0, change: 1)
+2023-02-27 00:08:01,830 : EventManager : Event: ======'player_shot_gromp_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:01,830 : Player : Setting 'shot_raptor_enabled' to: True, (prior: 0, change: 1)
+2023-02-27 00:08:01,831 : EventManager : Event: ======'player_shot_raptor_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:01,831 : Player : Setting 'shot_wolves_enabled' to: True, (prior: 0, change: 1)
+2023-02-27 00:08:01,831 : EventManager : Event: ======'player_shot_wolves_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:01,831 : mpfmc : SlidePlayer: Play called with settings={'background': {'target': 'display2', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'SMALLhud': {'target': 'display3', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:01,831 : mpfmc : SlidePlayer: Playing slide 'background' on target 'display2' (Args={'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 501, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'})
+2023-02-27 00:08:01,833 : MPF-MC BCP Server : Received "mode_start?name=jungle&priority=int:600"
+2023-02-27 00:08:01,835 : EventManager : Event: ======'slide_background_created'====== Args={}
+2023-02-27 00:08:01,835 : MPF-MC BCP Server : Received "mode_start?name=ball_save&priority=int:100"
+2023-02-27 00:08:01,836 : mpfmc : SlidePlayer: Playing slide 'SMALLhud' on target 'display3' (Args={'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 501, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'})
+2023-02-27 00:08:01,836 : MPF-MC BCP Server : Received "mode_start?name=thresh_counter&priority=int:100"
+2023-02-27 00:08:01,845 : EventManager : Event: ======'slide_SMALLhud_created'====== Args={}
+2023-02-27 00:08:01,846 : MPF-MC BCP Server : Received "ball_start?player_num=int:1&ball=int:1"
+2023-02-27 00:08:01,847 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["champ_select", 501], ["ball_one_champ_select", 200], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:01,847 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["jungle", 600], ["champ_select", 501], ["ball_one_champ_select", 200], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:01,848 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["shooter_lane", 900], ["jungle", 600], ["champ_select", 501], ["ball_one_champ_select", 200], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:01,848 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["shooter_lane", 900], ["jungle", 600], ["champ_select", 501], ["ball_one_champ_select", 200], ["thresh_counter", 100], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:01,850 : mpfmc : SlidePlayer: Play called with settings={'select_garen': {'target': 'display2', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}, 'garen_video': {'target': 'display1', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:01,850 : mpfmc : SlidePlayer: Playing slide 'select_garen' on target 'display2' (Args={'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 501, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'direction': None})
+2023-02-27 00:08:01,855 : kivy : ffpyplayer: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f3754000cc0] Unknown cover type: 0x1.
+2023-02-27 00:08:01,857 : EventManager : Event: ======'slide_select_garen_created'====== Args={}
+2023-02-27 00:08:01,877 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_ball_jam&value=int:4579&prev_value=int:4578&change=int:1"
+2023-02-27 00:08:01,900 : kivy : ffpyplayer: [ffpyplayer_abuffersink @ 0x7f3740007b80] Removing channel layout 0x3, redundant with 2 channels
+2023-02-27 00:08:01,926 : kivy : Shader: Fragment compiled successfully
+2023-02-27 00:08:01,927 : mpfmc : SlidePlayer: Playing slide 'garen_video' on target 'display1' (Args={'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 501, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'direction': None})
+2023-02-27 00:08:01,931 : EventManager : Event: ======'slide_garen_video_created'====== Args={}
+2023-02-27 00:08:01,932 : mpfmc : SlidePlayer: Play called with settings={'slides': {select_garen-None-None: {'target': 'display2', 'priority': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}, garen_video-None-None: {'target': 'display1', 'priority': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None}}}
+2023-02-27 00:08:01,935 : kivy : ffpyplayer: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f371c000cc0] Unknown cover type: 0x1.
+2023-02-27 00:08:01,959 : kivy : ffpyplayer: [ffpyplayer_abuffersink @ 0x7f37540063c0] Removing channel layout 0x3, redundant with 2 channels
+2023-02-27 00:08:02,003 : EventManager : Event: ======'slide_select_garen_removed'====== Args={}
+2023-02-27 00:08:02,004 : mpfmc : SlidePlayer: Playing slide 'select_garen' on target 'display2' (Args={'priority': 501, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None, 'direction': None})
+2023-02-27 00:08:02,007 : kivy : ffpyplayer: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f3758001140] Unknown cover type: 0x1.
+2023-02-27 00:08:02,009 : EventManager : Event: ======'slide_select_garen_created'====== Args={}
+2023-02-27 00:08:02,028 : kivy : ffpyplayer: [ffpyplayer_abuffersink @ 0x7f3724007b80] Removing channel layout 0x3, redundant with 2 channels
+2023-02-27 00:08:02,084 : EventManager : Event: ======'slide_garen_video_removed'====== Args={}
+2023-02-27 00:08:02,084 : mpfmc : SlidePlayer: Playing slide 'garen_video' on target 'display1' (Args={'priority': 501, 'background_color': [0.0, 0.0, 0.0, 1.0], 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'transition': None, 'transition_out': None, 'direction': None})
+2023-02-27 00:08:02,088 : EventManager : Event: ======'slide_garen_video_created'====== Args={}
+2023-02-27 00:08:02,090 : EventManager : Event: ======'slide_select_garen_active'====== Args={}
+2023-02-27 00:08:02,092 : EventManager : Event: ======'slide_SMALLhud_active'====== Args={}
+2023-02-27 00:08:02,092 : EventManager : Event: ======'slide_garen_video_active'====== Args={}
+2023-02-27 00:08:02,093 : kivy : ffpyplayer: [mov,mp4,m4a,3gp,3g2,mj2 @ 0x7f3728003700] Unknown cover type: 0x1.
+2023-02-27 00:08:02,097 : Mode.jungle : Mode Start. Priority: 600
+2023-02-27 00:08:02,097 : Mode.ball_save : Mode Start. Priority: 100
+2023-02-27 00:08:02,097 : Mode.thresh_counter : Mode Start. Priority: 100
+2023-02-27 00:08:02,098 : mpfmc : Setting machine_var 'audits_switches_s_ball_jam' to: 4579, (prior: 4578, change: 1)
+2023-02-27 00:08:02,098 : EventManager : Event: ======'machine_var_audits_switches_s_ball_jam'====== Args={'value': 4579, 'prev_value': 4578, 'change': 1}
+2023-02-27 00:08:02,133 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough1&value=int:4370&prev_value=int:4369&change=int:1"
+2023-02-27 00:08:02,134 : mpfmc : Setting machine_var 'audits_switches_s_trough1' to: 4370, (prior: 4369, change: 1)
+2023-02-27 00:08:02,134 : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 4370, 'prev_value': 4369, 'change': 1}
+2023-02-27 00:08:02,189 : kivy : ffpyplayer: [ffpyplayer_abuffersink @ 0x7f36f8007b80] Removing channel layout 0x3, redundant with 2 channels
+2023-02-27 00:08:02,190 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough2&value=int:4511&prev_value=int:4510&change=int:1"
+2023-02-27 00:08:02,202 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough4&value=int:3687&prev_value=int:3686&change=int:1"
+2023-02-27 00:08:02,202 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_trough3&value=int:3785&prev_value=int:3784&change=int:1"
+2023-02-27 00:08:02,216 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_plunger&value=int:6117&prev_value=int:6116&change=int:1"
+2023-02-27 00:08:02,228 : mpfmc : Setting machine_var 'audits_switches_s_trough2' to: 4511, (prior: 4510, change: 1)
+2023-02-27 00:08:02,228 : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 4511, 'prev_value': 4510, 'change': 1}
+2023-02-27 00:08:02,228 : mpfmc : Setting machine_var 'audits_switches_s_trough4' to: 3687, (prior: 3686, change: 1)
+2023-02-27 00:08:02,228 : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 3687, 'prev_value': 3686, 'change': 1}
+2023-02-27 00:08:02,228 : mpfmc : Setting machine_var 'audits_switches_s_trough3' to: 3785, (prior: 3784, change: 1)
+2023-02-27 00:08:02,229 : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 3785, 'prev_value': 3784, 'change': 1}
+2023-02-27 00:08:02,229 : mpfmc : Setting machine_var 'audits_switches_s_plunger' to: 6117, (prior: 6116, change: 1)
+2023-02-27 00:08:02,229 : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 6117, 'prev_value': 6116, 'change': 1}
+2023-02-27 00:08:02,261 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_plunger&value=int:6118&prev_value=int:6117&change=int:1"
+2023-02-27 00:08:02,279 : mpfmc : Setting machine_var 'audits_switches_s_plunger' to: 6118, (prior: 6117, change: 1)
+2023-02-27 00:08:02,280 : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 6118, 'prev_value': 6117, 'change': 1}
+2023-02-27 00:08:03,020 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7104.033771045}"
+2023-02-27 00:08:03,043 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7104.033771045}
+2023-02-27 00:08:03,044 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:03,045 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:03,051 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7104.033771045})
+2023-02-27 00:08:03,060 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:04,084 : Track.2.TrackStandard.sfx : Processing notification message 5 for sound instance (id: 139876344205376)
+2023-02-27 00:08:04,085 : EventManager : Event: ======'sfx_welcome_about_to_finish'====== Args={'sound_instance': <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=True, Track=sfx>}
+2023-02-27 00:08:04,533 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7105.533771045}"
+2023-02-27 00:08:04,560 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7105.533771045}
+2023-02-27 00:08:04,562 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:04,563 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:04,563 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7105.533771045})
+2023-02-27 00:08:04,567 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:05,190 : MPF-MC BCP Server : Received "machine_variable?name=audits_switches_s_ab&value=int:1565&prev_value=int:1564&change=int:1"
+2023-02-27 00:08:05,205 : MPF-MC BCP Server : Received "player_variable?name=is_selected_champ&value=int:1&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:05,209 : MPF-MC BCP Server : Received "trigger?name=champ_select_item_selected"
+2023-02-27 00:08:05,209 : MPF-MC BCP Server : Received "trigger?name=slides_clear&context=champ_select"
+2023-02-27 00:08:05,209 : MPF-MC BCP Server : Received "mode_stop?name=champ_select"
+2023-02-27 00:08:05,209 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["shooter_lane", 900], ["jungle", 600], ["ball_one_champ_select", 200], ["thresh_counter", 100], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:05,220 : MPF-MC BCP Server : Received "mode_start?name=base&priority=int:600"
+2023-02-27 00:08:05,222 : MPF-MC BCP Server : Received "trigger?name=champ_select_item_selected"
+2023-02-27 00:08:05,223 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["shooter_lane", 900], ["jungle", 600], ["base", 600], ["ball_one_champ_select", 200], ["thresh_counter", 100], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:05,223 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_17", "calling_context": 0, "priority": 600, "show_tokens": {}, "start_time": 7106.235327365}"
+2023-02-27 00:08:05,223 : MPF-MC BCP Server : Received "trigger?json={"name": "sounds_play", "settings": {"music_bg1": {"action": "play", "priority": null, "block": false, "delay": null, "track": null, "volume": null, "pan": null, "loops": null, "start_at": null, "fade_in": null, "fade_out": null, "about_to_finish_time": -1.0, "max_queue_time": -1.0, "events_when_played": ["use_sound_setting"], "events_when_stopped": ["use_sound_setting"], "events_when_looping": ["use_sound_setting"], "events_when_about_to_finish": ["use_sound_setting"], "mode_end_action": "use_sound_setting", "key": "use_sound_setting"}}, "context": "_global", "calling_context": "mode_base_started", "priority": 0}"
+2023-02-27 00:08:05,223 : MPF-MC BCP Server : Received "player_variable?name=shot_skill_q_enabled&value=bool:True&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:05,228 : MPF-MC BCP Server : Received "player_variable?name=shot_skill_w_enabled&value=bool:True&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:05,229 : MPF-MC BCP Server : Received "player_variable?name=shot_skill_e_enabled&value=bool:True&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:05,233 : MPF-MC BCP Server : Received "player_variable?name=shot_skill_r_enabled&value=bool:True&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:05,233 : MPF-MC BCP Server : Received "player_variable?name=skillshot_skill_shot_timeout_tick&value=int:0&prev_value=int:0&change=int:0&player_num=int:1"
+2023-02-27 00:08:05,238 : MPF-MC BCP Server : Received "mode_start?name=skillshot&priority=int:500"
+2023-02-27 00:08:05,240 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"base_slide_main": {"target": "display2", "action": "play", "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}}, "base_slide_mini": {"target": "display3", "action": "play", "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}}}, "context": "base", "calling_context": "single_player_ball_starting", "priority": 600}"
+2023-02-27 00:08:05,241 : MPF-MC BCP Server : Received "mode_stop?name=ball_one_champ_select"
+2023-02-27 00:08:05,241 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["shooter_lane", 900], ["jungle", 600], ["base", 600], ["thresh_counter", 100], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:05,244 : MPF-MC BCP Server : Received "mode_list?json={"running_modes": [["shooter_lane", 900], ["jungle", 600], ["base", 600], ["skillshot", 500], ["thresh_counter", 100], ["base_led", 100], ["ball_save", 100], ["game", 20]]}"
+2023-02-27 00:08:05,245 : MPF-MC BCP Server : Received "player_variable?name=shot_skill_q&value=int:1&prev_value=int:0&change=int:1&player_num=int:1"
+2023-02-27 00:08:05,248 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"select_skillshot": {"target": "display3", "widgets": [{"type": "Text", "font_size": 100, "text": "Select Skillshot", "animations": {"pre_show_slide": [{"property": ["opacity"], "value": ["0"], "duration": 0.5, "relative": false, "timing": "after_previous", "repeat": false, "easing": "linear"}, {"property": ["opacity"], "value": ["1"], "duration": 0.5, "repeat": true, "relative": false, "timing": "after_previous", "easing": "linear"}]}, "x": "center", "y": "center", "_default_settings": ["type", "font_size", "text", "animations", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "bitmap_font": false, "font_kerning": true, "bold": false, "italic": false, "number_grouping": false, "min_digits": 0, "halign": "center", "valign": "middle", "rotation": 0, "scale": 1.0, "casing": null}, {"type": "Text", "text": "Use Left or Right Flipper", "font_size": 50, "color": [0.0, 0.5019607843137255, 0.0, 1], "x": "center", "y": "bottom + 20%", "_default_settings": ["type", "text", "font_size", "color", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "bitmap_font": false, "font_kerning": true, "bold": false, "italic": false, "number_grouping": false, "min_digits": 0, "halign": "center", "valign": "middle", "rotation": 0, "scale": 1.0, "casing": null, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_24", "calling_context": 0, "priority": 1400, "show_tokens": {}, "start_time": 7106.261230566}"
+2023-02-27 00:08:05,254 : mpfmc : Setting machine_var 'audits_switches_s_ab' to: 1565, (prior: 1564, change: 1)
+2023-02-27 00:08:05,254 : EventManager : Event: ======'machine_var_audits_switches_s_ab'====== Args={'value': 1565, 'prev_value': 1564, 'change': 1}
+2023-02-27 00:08:05,254 : Player : Setting 'is_selected_champ' to: 1, (prior: 0, change: 1)
+2023-02-27 00:08:05,254 : EventManager : Event: ======'player_is_selected_champ'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:05,254 : EventManager : Event: ======'champ_select_item_selected'====== Args={}
+2023-02-27 00:08:05,254 : EventManager : Event: ======'slides_clear'====== Args={'context': 'champ_select'}
+2023-02-27 00:08:05,255 : Mode.champ_select : Mode Stop.
+2023-02-27 00:08:05,255 : EventManager : Event: ======'slide_background_removed'====== Args={}
+2023-02-27 00:08:05,256 : EventManager : Event: ======'slide_select_garen_removed'====== Args={}
+2023-02-27 00:08:05,256 : EventManager : Event: ======'slide_SMALLhud_removed'====== Args={}
+2023-02-27 00:08:05,341 : EventManager : Event: ======'slide_garen_video_removed'====== Args={}
+2023-02-27 00:08:05,341 : Mode.base : Mode Start. Priority: 600
+2023-02-27 00:08:05,343 : EventManager : Event: ======'champ_select_item_selected'====== Args={}
+2023-02-27 00:08:05,344 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_17', 'calling_context': 0, 'priority': 600, 'show_tokens': {}, 'start_time': 7106.235327365}
+2023-02-27 00:08:05,344 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'music_bg1': {'action': 'play', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_base_started', 'priority': 0}
+2023-02-27 00:08:05,344 : Player : Setting 'shot_skill_q_enabled' to: True, (prior: 0, change: 1)
+2023-02-27 00:08:05,344 : EventManager : Event: ======'player_shot_skill_q_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:05,344 : Player : Setting 'shot_skill_w_enabled' to: True, (prior: 0, change: 1)
+2023-02-27 00:08:05,344 : EventManager : Event: ======'player_shot_skill_w_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:05,345 : Player : Setting 'shot_skill_e_enabled' to: True, (prior: 0, change: 1)
+2023-02-27 00:08:05,345 : EventManager : Event: ======'player_shot_skill_e_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:05,345 : Player : Setting 'shot_skill_r_enabled' to: True, (prior: 0, change: 1)
+2023-02-27 00:08:05,345 : EventManager : Event: ======'player_shot_skill_r_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:05,345 : Player : Setting 'skillshot_skill_shot_timeout_tick' to: 0, (prior: 0, change: 0)
+2023-02-27 00:08:05,345 : EventManager : Event: ======'player_skillshot_skill_shot_timeout_tick'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2023-02-27 00:08:05,345 : Mode.skillshot : Mode Start. Priority: 500
+2023-02-27 00:08:05,346 : EventManager : Event: ======'slides_play'====== Args={'settings': {'base_slide_main': {'target': 'display2', 'action': 'play', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}}, 'base_slide_mini': {'target': 'display3', 'action': 'play', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}}}, 'context': 'base', 'calling_context': 'single_player_ball_starting', 'priority': 600}
+2023-02-27 00:08:05,346 : Mode.ball_one_champ_select : Mode Stop.
+2023-02-27 00:08:05,346 : Player : Setting 'shot_skill_q' to: 1, (prior: 0, change: 1)
+2023-02-27 00:08:05,346 : EventManager : Event: ======'player_shot_skill_q'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2023-02-27 00:08:05,346 : EventManager : Event: ======'slides_play'====== Args={'settings': {'select_skillshot': {'target': 'display3', 'widgets': [{'type': 'Text', 'font_size': 100, 'text': 'Select Skillshot', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, 'x': 'center', 'y': 'center', '_default_settings': ['type', 'font_size', 'text', 'animations', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'Use Left or Right Flipper', 'font_size': 50, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'x': 'center', 'y': 'bottom + 20%', '_default_settings': ['type', 'text', 'font_size', 'color', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_24', 'calling_context': 0, 'priority': 1400, 'show_tokens': {}, 'start_time': 7106.261230566}
+2023-02-27 00:08:05,346 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:05,347 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 600, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7106.235327365})
+2023-02-27 00:08:05,347 : Track.0.TrackStandard.music : play_sound - Processing sound 'music_bg1' for playback.
+2023-02-27 00:08:05,347 : Track.0.TrackStandard.music : Queueing sound <SoundInstance: music_bg1 (139876342260832), Volume=1.0, Loops=0, Priority=100, Loaded=False, Track=music>
+2023-02-27 00:08:05,347 : SoundAsset : Sound music_bg1 loading to memory
+2023-02-27 00:08:05,348 : Track.0.TrackStandard.music : play_sound - Sound music_bg1 was not loaded and therefore has been queued for playback.
+2023-02-27 00:08:05,348 : mpfmc : SlidePlayer: Play called with settings={'base_slide_main': {'target': 'display2', 'action': 'play', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}}, 'base_slide_mini': {'target': 'display3', 'action': 'play', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}}}
+2023-02-27 00:08:05,780 : SoundMemoryFile : Loaded file: /home/league/League/sounds/music/worlds.wav Sample duration: 187.52433106575964
+2023-02-27 00:08:05,780 : mpfmc : SlidePlayer: Playing slide 'base_slide_main' on target 'display2' (Args={'action': 'play', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 600, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}})
+2023-02-27 00:08:05,795 : EventManager : Event: ======'slide_base_slide_main_created'====== Args={}
+2023-02-27 00:08:05,796 : mpfmc : SlidePlayer: Playing slide 'base_slide_mini' on target 'display3' (Args={'action': 'play', 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 600, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}})
+2023-02-27 00:08:05,803 : EventManager : Event: ======'slide_base_slide_mini_created'====== Args={}
+2023-02-27 00:08:05,805 : mpfmc : SlidePlayer: Play called with settings={'select_skillshot': {'target': 'display3', 'widgets': [{'type': 'Text', 'font_size': 100, 'text': 'Select Skillshot', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, 'x': 'center', 'y': 'center', '_default_settings': ['type', 'font_size', 'text', 'animations', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'Use Left or Right Flipper', 'font_size': 50, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'x': 'center', 'y': 'bottom + 20%', '_default_settings': ['type', 'text', 'font_size', 'color', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:05,805 : mpfmc : SlidePlayer: Playing slide 'select_skillshot' on target 'display3' (Args={'widgets': [{'type': 'Text', 'font_size': 100, 'text': 'Select Skillshot', 'animations': {'pre_show_slide': [{'property': ['opacity'], 'value': ['0'], 'duration': 0.5, 'relative': False, 'timing': 'after_previous', 'repeat': False, 'easing': 'linear'}, {'property': ['opacity'], 'value': ['1'], 'duration': 0.5, 'repeat': True, 'relative': False, 'timing': 'after_previous', 'easing': 'linear'}]}, 'x': 'center', 'y': 'center', '_default_settings': ['type', 'font_size', 'text', 'animations', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None}, {'type': 'Text', 'text': 'Use Left or Right Flipper', 'font_size': 50, 'color': [0.0, 0.5019607843137255, 0.0, 1], 'x': 'center', 'y': 'bottom + 20%', '_default_settings': ['type', 'text', 'font_size', 'color', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 1400, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7106.261230566})
+2023-02-27 00:08:05,810 : EventManager : Event: ======'slide_select_skillshot_created'====== Args={}
+2023-02-27 00:08:05,812 : EventManager : Event: ======'slide_base_slide_main_active'====== Args={}
+2023-02-27 00:08:05,812 : EventManager : Event: ======'slide_select_skillshot_active'====== Args={}
+2023-02-27 00:08:05,812 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:05,826 : Track.0.TrackStandard.music : Next pending sound in queue is still loading, re-queueing sound <SoundInstance: music_bg1 (139876342260832), Volume=1.0, Loops=0, Priority=100, Loaded=False, Track=music>
+2023-02-27 00:08:05,826 : SoundAsset : Loaded music_bg1 (Track music)
+2023-02-27 00:08:05,826 : EventManager : Event: ======'loading_assets'====== Args={'total': 1, 'loaded': 1, 'remaining': 0, 'percent': 100}
+2023-02-27 00:08:05,826 : AssetManager : Asset loading took: 15.029986381530762
+2023-02-27 00:08:05,826 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2023-02-27 00:08:05,826 : AssetManager : Loading assets: 1/1 (100%)
+2023-02-27 00:08:05,847 : Track.0.TrackStandard.music : Retrieving next pending sound from queue <SoundInstance: music_bg1 (139876342260832), Volume=1.0, Loops=0, Priority=100, Loaded=True, Track=music>
+2023-02-27 00:08:05,848 : Track.0.TrackStandard.music : Getting sound from queue <SoundInstance: music_bg1 (139876342260832), Volume=1.0, Loops=0, Priority=100, Loaded=True, Track=music>
+2023-02-27 00:08:05,848 : Track.0.TrackStandard.music : _play_sound_on_sound_player: <SoundInstance: music_bg1 (139876342260832), Volume=1.0, Loops=0, Priority=100, Loaded=True, Track=music>, 0, False
+2023-02-27 00:08:05,848 : Track.0.TrackStandard.music : Adding sound instance <SoundInstance: music_bg1 (139876342260832), Volume=1.0, Loops=0, Priority=100, Loaded=True, Track=music> to active sound dictionary
+2023-02-27 00:08:05,848 : Track.0.TrackStandard.music : Sound music_bg1 is set to begin playback on playlist track (loops=0)
+2023-02-27 00:08:05,848 : Track.0.TrackStandard.music : Sound music_bg1 is set to begin playback on standard track (loops=0)
+2023-02-27 00:08:05,848 : Track.0.TrackStandard.music : Processing notification message 1 for sound instance (id: 139876342260832)
+2023-02-27 00:08:06,020 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7107.033771045}"
+2023-02-27 00:08:06,034 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7107.033771045}
+2023-02-27 00:08:06,035 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:06,037 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:06,038 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7107.033771045})
+2023-02-27 00:08:06,042 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:06,043 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:06,068 : Track.2.TrackStandard.sfx : Processing notification message 2 for sound instance (id: 139876344205376)
+2023-02-27 00:08:06,068 : Track.2.TrackStandard.sfx : Removing sound instance <SoundInstance: sfx_welcome (139876344205376), Volume=1.0, Loops=0, Priority=300, Loaded=True, Track=sfx> from playing sound instance dictionary
+2023-02-27 00:08:07,529 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7108.533771045}"
+2023-02-27 00:08:07,531 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7108.533771045}
+2023-02-27 00:08:07,532 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:07,533 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:07,533 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7108.533771045})
+2023-02-27 00:08:07,536 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:07,538 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:09,029 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7110.033771045}"
+2023-02-27 00:08:09,031 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7110.033771045}
+2023-02-27 00:08:09,032 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:09,033 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:09,033 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7110.033771045})
+2023-02-27 00:08:09,036 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:09,038 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:10,529 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7111.533771045}"
+2023-02-27 00:08:10,531 : EventManager : Event: ======'slides_play'====== Args={'settings': {'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_7', 'calling_context': 0, 'priority': 0, 'show_tokens': {}, 'start_time': 7111.533771045}
+2023-02-27 00:08:10,532 : mpfmc : SlidePlayer: Play called with settings={'backglass': {'target': 'display1', 'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2023-02-27 00:08:10,532 : EventManager : Event: ======'slide_backglass_removed'====== Args={}
+2023-02-27 00:08:10,533 : mpfmc : SlidePlayer: Playing slide 'backglass' on target 'display1' (Args={'widgets': [{'type': 'image', 'image': 'baron_bg', 'x': 'right - 50%', 'y': 'top - 50%', '_default_settings': ['type', 'image', 'x', 'y'], 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': 0, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play', 'show_tokens': {}, 'start_time': 7111.533771045})
+2023-02-27 00:08:10,537 : EventManager : Event: ======'slide_backglass_created'====== Args={}
+2023-02-27 00:08:10,538 : EventManager : Event: ======'slide_backglass_active'====== Args={}
+2023-02-27 00:08:11,749 : Keyboard : Processing key stroke for key escape-
+2023-02-27 00:08:11,749 : kivy : Base: Leaving application in progress...
+2023-02-27 00:08:11,825 : mpfmc : Stopping...
+2023-02-27 00:08:11,825 : EventManager : Event: ======'shutdown'====== Args={}
+2023-02-27 00:08:11,825 : AudioInterface : Disabling audio playback
+2023-02-27 00:08:11,825 : Track.0.TrackStandard.music : Stopping all sounds and removing any pending sounds from queue
+2023-02-27 00:08:11,825 : Track.1.TrackStandard.voice : Stopping all sounds and removing any pending sounds from queue
+2023-02-27 00:08:11,825 : Track.2.TrackStandard.sfx : Stopping all sounds and removing any pending sounds from queue
+2023-02-27 00:08:11,922 : mpfmc : Loop rate 54.44 Hz
+2023-02-27 00:08:11,922 : kivy : MC run loop ended.
+2023-02-27 00:08:11,923 : kivy : Stopping child threads... (11 remaining)
+2023-02-27 00:08:12,019 : MPF-MC BCP Server : Received "trigger?json={"name": "slides_play", "settings": {"backglass": {"target": "display1", "widgets": [{"type": "image", "image": "baron_bg", "x": "right - 50%", "y": "top - 50%", "_default_settings": ["type", "image", "x", "y"], "anchor_x": "center", "anchor_y": "center", "round_anchor_x": null, "round_anchor_y": null, "opacity": 1.0, "z": 0, "reset_animations_events": {}, "color": [1.0, 1.0, 1.0, 1.0], "style": [], "adjust_top": 0, "adjust_bottom": 0, "adjust_left": 0, "adjust_right": 0, "expire": null, "key": null, "widget": null, "events_when_added": [], "events_when_removed": [], "fps": 10, "loops": -1, "auto_play": true, "start_frame": 0, "rotation": 0, "scale": 1.0, "animations": null}], "background_color": [0.0, 0.0, 0.0, 1.0], "priority": null, "show": true, "force": false, "expire": null, "slide": null, "tokens": {}, "action": "play"}}, "context": "show_7", "calling_context": 0, "priority": 0, "show_tokens": {}, "start_time": 7113.033771045}"
+2023-02-27 00:08:12,020 : mpfmc : Stopping...
+2023-02-27 00:08:12,020 : EventManager : Event: ======'shutdown'====== Args={}
+2023-02-27 00:08:12,020 : mpfmc : Loop rate 54.19 Hz
+2023-02-27 00:08:12,546 : MPF-MC BCP Server : Stopping BCP sending thread
